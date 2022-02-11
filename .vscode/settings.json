@@ -23,5 +23,8 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Starfall Ocean",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "editor.tabSize": 6,
+   "editor.autoClosingBrackets": "always",
+   "editor.autoClosingQuotes": "always"
 }
