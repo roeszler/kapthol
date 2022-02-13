@@ -3,21 +3,21 @@ Stuart Roeszler - Portfolio Project 1
 
 ## Strategy Essential
 ### What is our product?
-An intermediary and/or proxy for business managment services to small to medium bsuiness owners seeking a short-break from the daily operations within their business
+*An intermediary and/or proxy for business managment services to small to medium bsuiness owners seeking a short-break from the daily operations within their business*
 
 ### Who are the target users for the product being reviewed?
-Owners of small to medium sized business seeking a short break from the daily operations of their business (The 'Clients').
+*Owners of small to medium sized business seeking a short break from the daily operations of their business (The 'Clients').*
 
-Business professionals with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (The 'Providers').
+*Business professionals with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (The 'Providers').*
 
 ### Who is our target audience for this proposal?
-Stakeholder investors looking to leaver their experience in business management on a scaleable platform.
+*Stakeholder investors looking to leaver their experience in business management on a scaleable platform.*
 
 ### Is our product for businesses (B2B)? or general consumers (B2C)? 
-The product is designed to be B2B with nuances of B2C expericnes in its design. This is aimed at providing a easy, simple, enjoyable experience for those with novice to middle level web useage abilities, users are over 45 years of age, have a strong desire to find unique solutions online and financial capacity to afford them.
+*The product is designed to be B2B with nuances of B2C expericnes in its design. This is aimed at providing a easy, simple, enjoyable experience for those with novice to middle level web useage abilities, users are over 45 years of age, have a strong desire to find unique solutions online and financial capacity to afford them.*
 
 ### What’s culturally appropriate for our corporate / small / medium size business audience?
-Light and professionally delivered management services with ease and little fuss. Professional business language that reflects the interactions of a local store.
+*Light and professionally delivered management services with ease and little fuss. Professional business language that reflects the interactions of a local store.*
 ### Is the content relevant to the above target market?
 # ***
 
@@ -25,49 +25,192 @@ Light and professionally delivered management services with ease and little fuss
 # ***
 
 ### Is the technology appropriate?
-Yes. The collective coordination and automated nauture of the internet lends itself to connecting our target users through the kaptainholiday website.
+*Yes. The collective coordination and automated nauture of the internet lends itself to connecting our target users through the kaptainholiday website.*
 
 <hr>
 
 ## The Business & its goals 
-Product developers - improve or build new?
+*Product developers - improve or build new?*
 
-What is the value proposition?
-increased brand awareness?
-a monetary return on investment?
-social currency?
+### What is the value proposition?
+*increased brand awareness?*
+*a monetary return on investment?*
+*social currency?*
 
-Where is the product users (business and/or customers):
-Value?
+### Where is the product/service users:
+#### Value?
+
+#### Perceived value?
+
+### Which of these values is a need?
+
+### Which of these values is a want?
+
+#### Essential:
+
+#### Important:
+
+#### Would like:
+
+#### Would dream of if we had an unlimited resources:
+
+### What is the planned life term and/or growth of the product?
+
+### What is needed to maintain the growth or extend the life of this product?
+
+### What makes us (this product) so special?
+
+### Who else is building this?
+
+### How well are they doing it?
+
+### What resource and skills do we have to provide a better value to users in the market?
+
+### What are the tech considerations for our target user group?
+
+### Why would our defined user want this product / service?
 
 
-Perceived value?
+## Research Activities - B2B Research
+### Potential B2B User Interviews / Research
+#### What is your day-to-day role?
 
+#### What functions do you perform?
 
-Which of these values is a need?
+#### What other functions are present?
 
-Which of these values is a want?
-Essential:
+#### How do these functions interact?
 
-Important:
+#### How does the interaction of the systems functions compare with other experiences?
 
-Would like:
+#### What are examples of these other experiences?
+#### What technology and systems do you use often?
 
-Would dream of if we had an unlimited resources:
+#### What other systems are also used as part of your job?
 
+<hr>
 
-What is the planned life term and/or growth of the product?
+## Strategic Development Team Cnsiderations:
+### Improve or build new?
+### Whats worth doing?
 
-What is needed to maintain the growth or extend the life of this product?
+### What are the processes that the business currently follows to plan for a holiday?
+#### What research process does the business perform in sourcing a break?
 
-What makes us (this product) so special?
+#### How do they select this product / service?
 
-Who else is building this?
+#### How do they buy this product / service?
 
-How well are they doing it?
+#### How do they evaluate this product or service over time?
 
-What resource and skills do we have to provide a better value to users in the market?
+### What are the processes that the business follows to deliver a particular value / product / service?
 
-What are the tech considerations for our target user group?
+### What needs have been recognised that isn't available in the company at the moment?
+Capacity and availability of persons / a team outside of their immediate family unit to cover the daily operations of their business.
+### What are the manual tasks (processes) that a business user undertakes as part of their day-to-day functions?
+Office Based:
+- Stock Ordering
+- Stock Management 
+- Timesheets / payroll
+- Bookeeping
+- General business co-ordination
+- Staff co-ordination / Rotas
+- Legislative coordination 
+- Seasonal Strategies
+- Staff training
 
-WHY WOULD OUR DEFINED USER WANT THIS PRODUCT / SERVICE?
+Manual: 
+- Opening up protocols 
+- Dealing with customer queries
+- Restocking
+- Cleaning
+- Coordinating Deliveries
+- Cash / e-transations
+- Closing Protocls
+
+### Which ones can be automated that are not currently done so?
+
+### Which automated tasks can be improved?
+
+### What objective measures and outcomes can be used to show this?
+
+<hr>
+
+## Research Activities - User Experience
+
+### Stakeholder Interviews
+
+### User Interviews
+
+#### Retrospective Product Reviews 
+New business idea. No direct information on previous prducts / services sold within the buisness, however potential user inteviews.
+
+##### If provided: What would people like about this product? 
+- fghdfg
+
+##### Why would they like it?
+
+##### What don't people like about this product? 
+
+##### Why don’t they like it?
+
+##### What changes would / can we make to the product?
+
+### Compeditor Reviews
+
+<hr>
+
+## B2B Content Strategy
+### Relevant to Kaptain Holiday site:
+- Users looking for as much information as possible
+- Aknowldge that purchase will almost never be on the first visit
+- Lead nurturing important
+- Inclusion of information on compatibility and integration into business to assure
+- Case scenarios
+- Calls to actions (CTA's) Important for sense of reliability and assurance:
+(live chat, phone, text, email)
+- Content variety  
+- Testimonials
+- Frequently asked questions
+
+### Less importatnt for this site:
+- Video tutorials
+- Blogs
+- Webinars
+- White papers
+
+<hr>
+
+## Tradeoff Considerations
+### What is worth doing?
+
+### Value Roadmap (for the users and the business)
+
+- Must Address needs…
+- Should Address needs…
+- Unwise to invest time in…
+
+### What are we making?
+
+### What Value will it add?
+
+### Target users are? …not you… (research)
+
+### What experiences compels them?
+
+### How is our offer different from competitors / substitutes?
+
+### What does the user expect? 
+Best UX (intuitive) = Single Use Learning
+
+- What is this? 
+- Is this what I expected to see?
+- Does it look credible and trustworthy?
+- Does it offer what I want?
+- Does it look valuable enough for me to stay?
+- Does it look valuable enough for me to return?
+- What actions can I take now?
+- How do I learn more?
+- How do I contact someone?
+- Answers available immediately?
+
