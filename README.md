@@ -6,7 +6,7 @@ HTML and CSS Essentials Portfolio Project 1
 
  Who it's for... 
 
- Kaptain Holiday is a site that represents one of many business concepts. It is fictitious at the time of coding. Notwithstanding its theoretical in nature, it has been written as a proof of concept and invitation to treat for possible interested parties into the future. All copyright for ideas, concepts and materials belongs to Stuart Roeszler © 2022 going forward.
+ Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical in nature, it has been written as a proof of concept and invitation to treat for possible interested skillsets and poterntial stakeholders into the future. All copyright for ideas, concepts and materials belongs to Stuart Roeszler © 2022 going forward.
 
 [ami responsive](http://ami.responsivedesign.is/)...
 ### Synonyms and search phrase evaluation (strategy docs?):
@@ -114,12 +114,16 @@ _For some/all of your features, you may choose to reference the specific project
 
 _In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_
 
-### Features Left to Implement
+### Future features to consider
 
-- Another feature idea
-- Another feature idea
-- Another feature idea
-- Another feature idea
+  - Popup Q&A animations 
+  - Entry animation and smooting
+  - Option to select work / hire an assistant manager role to train and trial full services
+  - Intergation with nationall based small-business education entities
+  - Automation to connect current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
+  - Possible membership on a subscription model basis
+  - api links into CRM and project managment software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
+   
 
 ## Testing 
 ---
@@ -138,18 +142,19 @@ _If this section grows too long, you may want to split it off into a separate fi
 
 ### Bugs 
 #### Solved Bugs
-- 
+- A
+- B
 
 #### Unsolved Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- No unsolved bugs
 
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Flove-running%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froeszler.github.io%2Flove-running%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froeszler.github.io%2Flove-running%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [lighthouse](https://developers.google.com/web/tools/lighthouse/) in dev tools.
   
@@ -163,9 +168,9 @@ This section should describe the process you went through to deploy the project 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://roeszler.github.io/kapthol/index.html 
+> The live link can be found here - https://roeszler.github.io/kapthol/index.html
 
 
 ## Credits 
@@ -176,13 +181,15 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
+- The screen size for mockups and responsiveness testing was sampled from [GBK Soft](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) and based current resolutions typically found in the UK marketplace
+- 
 - The text for the Home page was taken from Wikipedia Article A
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- The photos used on the home and sign up page are from *This Open Source site*
 - The images used for the gallery page were taken from this other open source site
 
 
