@@ -1,33 +1,51 @@
-# Kaptain Holiday - UCD Plane 1 - Strategy 
+# Kaptain Holiday - UCD Strategy Plane
 Stuart Roeszler - Portfolio Project 1
 
-## Strategy Essential
-### What is our product?
-*An intermediary and/or proxy for business managment services to small to medium bsuiness owners seeking a short-break from the daily operations within their business*
+## Choosing the Kaptain : Why the ‘K’ became King.
+---
+- The translation of ‘captain’ in nordic languages is primarily ‘kaptein’, reflecting the origins of the business concept over an afternoon beer in the arguable capital of Scandinavia, Stockholm, Sweden.
 
-### Who are the target users for the product being reviewed?
-*Owners of small to medium sized business seeking a short break from the daily operations of their business (The 'Clients').*
+- The mild dissonance that occurs in the sensational spelling of ‘kaptain’ in place of either ‘kaptein’ or ‘captain’.  Nigel Ross (2006) illustrates the use of unexpected spellings (or sensational spellings) to draw attention to or trademark an otherwise common word are well know in advertising. Samples include Krispy Kreme, Mortal Kombat, Froot Loops, The Beatles, Nicks Kicks, and even Balsamiq. 
 
-*Business professionals with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (The 'Providers').*
+- Consideration was given as to how many brand instances have the consonant vocal of a “k” contained in their name: CocaCola, Microsoft, General Electric, Nokia, McDonalds, Hewlett-Packard…. the power of the ‘k’ sound in sensational spelling and branding is evident. According to [Paul Hague](https://www.b2binternational.com/publications/brand-name-research/) on writing about brand names, those beginning with the letter “K” are also fun, easier to remember and simple vocals for a vast array of languages.
+  
+- This, together with the use of the light and memorable wording of Kaptain Holiday to clearly and simply promote the core value proposition of this unique business concept: *"to help guide your business (ship/plane) while you are away for a shot break (holiday), with ease."*
 
-### Who is our target audience for this proposal?
-*Stakeholder investors looking to leaver their experience in business management on a scaleable platform.*
+- Consideration to the risk of trivialising the serious purpose of a commercial firm connecting proxy management services to clients, the memorable nature of the nomenclature has been considered valuable, and domain name ‘kaptainholiday’ was chosen.
 
-### Is our product for businesses (B2B)? or general consumers (B2C)? 
-*The product is designed to be B2B with nuances of B2C expericnes in its design. This is aimed at providing a easy, simple, enjoyable experience for those with novice to middle level web useage abilities, users are over 45 years of age, have a strong desire to find unique solutions online and financial capacity to afford them.*
+## Strategy Essentials
+---
+What is our product?
+  - Kaptain Holiday acts as intermediary between professional managers and small to medium bsuiness owners seeking a short-break from the daily operations within their business*
 
-### What’s culturally appropriate for our corporate / small / medium size business audience?
-*Light and professionally delivered management services with ease and little fuss. Professional business language that reflects the interactions of a local store.*
-### Is the content relevant to the above target market?
-# ***
+Who are the target users for the product being reviewed?
+  - Owners of small to medium sized business seeking a short break from the daily operations of their business (The 'Clients').
 
-### Can we track and catalog content in an intuitive way? Does it match up what the audience is accustom too?
-# ***
+  - Business professionals with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (The 'Providers').*
 
-### Is the technology appropriate?
-*Yes. The collective coordination and automated nauture of the internet lends itself to connecting our target users through the kaptainholiday website.*
+Who is our target audience for this proposal?
+- Stakeholder investors looking to leaver their experience in business management on a scaleable platform.
 
-<hr>
+Is our product for businesses (B2B)? or general consumers (B2C)? 
+- The product is designed to be B2B with nuances of B2C expericnes in its design. This is aimed at providing a easy, simple, enjoyable experience for those with novice to middle level web useage abilities, users are over 45 years of age, have a strong desire to find unique solutions online and financial capacity to afford them.*
+
+What’s culturally appropriate for our corporate / small / medium size business audience?
+- Light and professionally delivered management services with ease and little fuss. Professional business language that reflects the interactions of a local store.*
+
+Is the content relevant to the above target market?
+- **
+
+Can we track and catalog content in an intuitive way? 
+- **
+
+Does the content match up what the audience is accustom too?
+- **
+
+Is the technology appropriate?
+- Yes. The collective coordination and automated nauture of the internet lends itself to connecting our target users through the kaptainholiday website.*
+
+
+---
 
 ## The Business & its goals 
 *Product developers - improve or build new?*
@@ -88,7 +106,7 @@ Stuart Roeszler - Portfolio Project 1
 
 #### What other systems are also used as part of your job?
 
-<hr>
+---
 
 ## Strategic Development Team Cnsiderations:
 ### Improve or build new?
@@ -134,7 +152,7 @@ Manual:
 
 ### What objective measures and outcomes can be used to show this?
 
-<hr>
+---
 
 ## Research Activities - User Experience
 
@@ -158,7 +176,7 @@ New business idea. No direct information on previous prducts / services sold wit
 
 ### Compeditor Reviews
 
-<hr>
+---
 
 ## B2B Content Strategy
 ### Relevant to Kaptain Holiday site:
@@ -179,7 +197,7 @@ New business idea. No direct information on previous prducts / services sold wit
 - Webinars
 - White papers
 
-<hr>
+---
 
 ## Tradeoff Considerations
 ### What is worth doing?
