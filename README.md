@@ -1,45 +1,66 @@
 # Kaptain Holiday
-HTML and CSS Essentials Portfolio Project 1
- 
- Purpose... 
+## HTML and CSS Essentials Portfolio Project 1
+ Site link : https://roeszler.github.io/kapthol/index.html
+### Purpose: 
 
+Kaptain Holiday is a site that represents a 'currently' fictitious business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
 
- Who it's for... 
+- __Business owner / managers__ looking for someone to take over the daily operations of their business for a short time (_The 'Clients'_).
 
- Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical in nature, it has been written as a proof of concept and invitation to treat for possible interested skillsets and poterntial stakeholders into the future. All copyright for ideas, concepts and materials belongs to Stuart Roeszler © 2022 going forward.
+- __Business professionals__ with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (_The 'Providers'_).
 
-[ami responsive](http://ami.responsivedesign.is/)...
-### Synonyms and search phrase evaluation (strategy docs?):
-- Locum - someone (physician or clergyman) who substitutes temporarily for another member of the same profession
-- Stand-in 
-- Proxy 
-- Substitue 
-- Delegate 
+- __Business Students__ looking to gain small business management experience in an assistant manager role for a short period of time, across a variety of industries and global locations (_The 'Assistants'_).
+
+Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those looking for work flexibility, experiences, travel and/or seeking to build a relationship with a team that are able to comfortably coordinate their business operations while they take a break in the future.
+
+![aim-responsive](assets/images/aim-responsive-kapthol.png)
+
+### Main Products / Services
+
+| 3 x Primary Services | | 3 x Working Formats |
+| - |:-:| -:|
+| 1. Holday Cover | | Assistant to Manager (testing) .A|
+| 2. Management Experience | | Proxy Manager (holidays) .B|
+| 3. Service Trial | | Management Exchange (business swaps) .C|
+
+ *__Please Note__ : Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
 
 ## Features 
 ---
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+<!-- This section explains what value each of the features provides for the user,
+  - Focusing on who this website is for, 
+  - what it is that they want to achieve and 
+  - how your project is the best way to help them achieve these things. -->
 
 ### Existing Features
 
-- Head & Meta Terms
+- __Head & Meta Terms__
   - Nomenclature
-    - ...
+    - Discussed further in the [strategy.md](ucd/1-strategy.md) documentation, Kaptain Holiday name was selected for its memorable nature, sense of playfulness and meaningful connection to the core value proposition of the business.
+    - Key Terms : kaptain, holiday, holidays, captain holiday, management, proxy, stand-in, locum, business holiday, sweden, stockholm, facilitator, small business management.
 
   - Branding
-    - ...
+    - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunnny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
+    - Services and soultions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
+    - The demographic is aimed at the mid twenties (providers / assistants) to late fourties (clients) age groups. 
+    
+    <br>
 
-  - Evaluation of keyword search phrases & their synonyms:
-    - Locum - someone (physician or clergyman) who substitutes temporarily for another member of the same profession
-    - Stand-in - 
-    - Proxy - 
-    - Substitue - 
-    - Delegate - 
-
+    | Primary Color Palette | Hexadecimal Value | RGBA Value  |
+    | - |:-:| -:|
+    | Sky Blue | #70BBE7 | rgba (112,187,231,1) |
+    | Light Tan | #F2DDB2 | rgba (242,221,178,1) |
+    | Choc Brown | #52382C | rgba (82,56,44,1) |
+    | White | #FFFFFF | rgba (82,56,44,1) |
+    | Black | #000000 | rgba (253,253,253,1) |
+    | Grey | #CCCCCC | rgba (204,204,204,1) |
 
 - __Navigation Bar__
 
-  - kgfs
+  - Is featured identically on all pages in the top right hand coner with a minimal design. 
+  - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages.
+  - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as reqiured by the user. 
+  - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ![Nav Bar Pic](assets/images/readme/love_running_nav.png)
 
@@ -51,7 +72,7 @@ In this section, you should go over the different parts of your project, and des
 
 - __The Header__
 
-  - The header shows the name of the business, using the corporate colors selected from the coprorate colour scheme discussed in the [strategy.md](ucd/1-strategy.md) documents attached.
+  - The header shows the name of the business, using the corporate colors selected from the corporate colour scheme discussed in the [strategy.md](ucd/1-strategy.md) documents attached.
   - 
 
 ![Header Pic](assets/images/readme/love_running_landing.png)
@@ -59,7 +80,7 @@ In this section, you should go over the different parts of your project, and des
 - __About Us Section__
 
   - allow the user to see the benefits of... 
-  - This user will see the value of signing up for the marketing intntiatives / coffee sessions. 
+  - This user will see the value of signing up for the marketing initiatives / coffee sessions. 
 
 ![About Us Pic](assets/images/readme/love_running_ethos.png)
 
@@ -73,16 +94,16 @@ In this section, you should go over the different parts of your project, and des
 - __Sign Up Section__
 
   - This section will allow the user to get signed up as an alternative to Kaptain Holiday sign up page to start planning their next holiday with the community. 
-  - The user will be able specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
+  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
   - The user will be asked to submit their full name, email address and linkedin details. 
 
 ![Sign Up Pic](assets/images/readme/love_running_times.png)
 
 - __The Contact Us Section__
 
-  - This section will allow the user to contact us with queries and schedule sutible times for a callback 
-  - The user will be able specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
-  - The user will be asked to submit their full name, email address, contact phone number, business name, date and times avaiable to schedule a call, level of experience, linkedin details and a short enquiry message via a text field. 
+  - This section will allow the user to contact us with queries and schedule suitable times for a callback 
+  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
+  - The user will be asked to submit their full name, email address, contact phone number, business name, date and times available to schedule a call, level of experience, linkedin details and a short enquiry message via a text field. 
 
 ![Contact Us Pic](assets/images/readme/love_running_signup.png)
 
@@ -98,14 +119,14 @@ In this section, you should go over the different parts of your project, and des
 - __ABC / Gallery / User Case Studies Page__
 
   - The gallery will provide the user with supporting images and information to see what the KH onboarding process looks like. 
-  - This section is valuable to the user as they will be able to easily identify the requirements and types of businesses and professionals Kaptain Hoiday services.
+  - This section is valuable to the user as they will be able to easily identify the requirements and types of businesses and professionals Kaptain Holiday services.
 
 ![Gallery Pics](assets/images/readme/love_running_gallery.png)
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Kaptain Holiday to start pkanning their next holiday with the community. 
-  - The user will be able specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
+  - This page will allow the user to get signed up to Kaptain Holiday to start planning their next holiday with the community. 
+  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
   - The user will be asked to submit their full name, email address and linkedin details. 
 
 ![Sign Up Pic](assets/images/readme/love_running_signup.png)
@@ -117,18 +138,18 @@ _In addition, you may also use this section to discuss plans for additional feat
 ### Future features to consider
 
   - Popup Q&A animations 
-  - Entry animation and smooting
+  - Entry animation and smoothing
   - Option to select work / hire an assistant manager role to train and trial full services
-  - Intergation with nationall based small-business education entities
+  - Integration with nationally based small-business education entities
   - Automation to connect current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
   - Possible membership on a subscription model basis
-  - api links into CRM and project managment software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
+  - api links into CRM and project management software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
    
 
 ## Testing 
 ---
 - I tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
-- I confimred that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
 - I confirmed that the navigation, header, about us, sign up and contact text are all readable and easy to understand.
 - I have confirmed that the form works: requires entries in every relevant field, will only accept email in the email field, and the submit button works.
 
@@ -211,3 +232,4 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+

@@ -5,7 +5,7 @@ Stuart Roeszler - Portfolio Project 1
 ---
 - The translation of ‘captain’ in nordic languages is primarily ‘kaptein’, reflecting the origins of the business concept over an afternoon beer in the arguable capital of Scandinavia, Stockholm, Sweden.
 
-- The mild dissonance that occurs in the sensational spelling of ‘kaptain’ in place of either ‘kaptein’ or ‘captain’.  Nigel Ross (2006) illustrates the use of unexpected spellings (or sensational spellings) to draw attention to or trademark an otherwise common word are well know in advertising. Samples include Krispy Kreme, Mortal Kombat, Froot Loops, The Beatles, Nicks Kicks, and even Balsamiq. 
+- The mild dissonance that occurs in the sensational spelling of ‘kaptain’ in place of either ‘kaptein’ or ‘captain’.  [Nigel Ross (2006)](https://www.cambridge.org/core/journals/english-today/article/abs/writing-in-the-information-age/7DDD2755BBFBD88DB2E54AF3C72412D6) illustrates the use of unexpected spellings (or sensational spellings) to draw attention to or trademark an otherwise common word are well know in advertising. Samples include Krispy Kreme, Mortal Kombat, Froot Loops, The Beatles, Nicks Kicks, and even Balsamiq. 
 
 - Consideration was given as to how many brand instances have the consonant vocal of a “k” contained in their name: CocaCola, Microsoft, General Electric, Nokia, McDonalds, Hewlett-Packard…. the power of the ‘k’ sound in sensational spelling and branding is evident. According to [Paul Hague](https://www.b2binternational.com/publications/brand-name-research/) on writing about brand names, those beginning with the letter “K” are also fun, easier to remember and simple vocals for a vast array of languages.
   
@@ -16,12 +16,14 @@ Stuart Roeszler - Portfolio Project 1
 ## Strategy Essentials
 ---
 What is our product?
-  - Kaptain Holiday acts as intermediary between professional managers and small to medium bsuiness owners seeking a short-break from the daily operations within their business*
+  - Kaptain Holiday acts as intermediary between professional managers and small to medium business owners seeking a short-break from the daily operations within their business.
 
 Who are the target users for the product being reviewed?
   - Owners of small to medium sized business seeking a short break from the daily operations of their business (The 'Clients').
 
-  - Business professionals with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (The 'Providers').*
+  - Business professionals with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (The 'Providers').
+
+  - Budding business students looking to gain small busines management experience in an assitstant manager role, working in a variety of industries and global locations (The 'Assistants'). This format is great for testing out if the Kaptain Holiday business model is right for you.
 
 Who is our target audience for this proposal?
 - Stakeholder investors looking to leaver their experience in business management on a scaleable platform.
