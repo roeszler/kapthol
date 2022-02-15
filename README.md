@@ -1,8 +1,8 @@
 # Kaptain Holiday
-## HTML and CSS Essentials Portfolio Project 1
- Site link : https://roeszler.github.io/kapthol/index.html
-### Purpose: 
-
+### HTML and CSS Essentials Portfolio Project 1
+Site link : https://roeszler.github.io/kapthol/index.html
+## Purpose of the Project
+---
 Kaptain Holiday is a site that represents a 'currently' fictitious business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
 
 - __Business owner / managers__ looking for someone to take over the daily operations of their business for a short time (_The 'Clients'_).
@@ -23,14 +23,55 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 | 2. Management Experience | | Proxy Manager (holidays) .B|
 | 3. Service Trial | | Management Exchange (business swaps) .C|
 
- *__Please Note__ : Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
+## User Stories
+--- 
+__Home Page__
+- Home Button / Icon
+- Nav Bar
+- Hero Text
+- Hero Image
+
+__Gallery (Our Clients)__
+- Clients
+- Providers
+- Assistants
+
+__Contact Us__
+- Form
+- Map 
+- Footer
+
 
 ## Features 
 ---
 <!-- This section explains what value each of the features provides for the user,
   - Focusing on who this website is for, 
   - what it is that they want to achieve and 
-  - how your project is the best way to help them achieve these things. -->
+  - how your project is the best way to help them achieve these things. 
+  
+  
+1. Purpose of the project
+2. user stories
+3. Features
+4. future features
+  - popouts
+  - header bar 
+  - login / registration page
+  - animations
+5. Typography and color scheme
+6. wireframes
+7. Technology
+8. testing
+   8.1 code validation
+   8.2 test cases (user story based with screenshots)
+   8.3 fixed bugs
+   8.4 supported screens and browsers
+9. Deployment
+   9.1 via gitpod
+   9.2 via github pages
+10. credits
+
+-->
 
 ### Existing Features
 
@@ -232,4 +273,6 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+ *__Please Note__ : Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
 
