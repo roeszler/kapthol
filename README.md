@@ -1,7 +1,31 @@
 # Kaptain Holiday
 ### HTML and CSS Essentials Portfolio Project 1
 Site link : https://roeszler.github.io/kapthol/index.html
-## Purpose of the Project
+
+<!-- 
+~~1. Purpose of the project~~
+~~2. user stories~~
+~~3. Features
+~~4. future features
+  - popouts
+  - header bar 
+  - login / registration page
+  - animations
+~~5. Typography and color scheme
+6. Wireframes
+7. Technology
+8. testing
+   8.1 code validation
+   8.2 test cases (user story based with screenshots)
+   8.3 fixed bugs
+   8.4 supported screens and browsers
+9. Deployment
+   9.1 via gitpod
+   9.2 via github pages
+10. credits 
+-->
+
+## 1. Purpose of the Project
 ---
 Kaptain Holiday is a site that represents a 'currently' fictitious business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
 
@@ -23,57 +47,69 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 | 2. Management Experience | | Proxy Manager (holidays) .B|
 | 3. Service Trial | | Management Exchange (business swaps) .C|
 
-## User Stories
---- 
-__Home Page__
+## 2. User Stories
+---
+### Content
+__Entire Site__
+- As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it.
+- As a viewer of the code I can see that each .html page uses a remotely accessed CSS format so I can confirm this section follows approriate ease of styling and semantic code structuring practices.
+- As a site user I can see that every non-text element has alt text so that the website can meet accessibility guidelines.
+
+- Header
+  - As a viewer of code: 
+    - I can see the index.html page has a < header > element with corresponding id="header"
+    - I can see an image within the header element with a corresponding id="header-img"
+    - I can see that within the < header > element there is a < nav > element with corresponding id="nav-bar"
+  - So that code viewers can confirm this section follows approriate semantic code structuring practices.
+  - As a site user I can see the layout of the < header > element is always at the top of the viewport so that navigation is easy and intuitive.
+
 - Home Button / Icon
+  - As a site user I can easily identify with the style of the home button so I can intutively navigate the sections and pages of the site.
+
 - Nav Bar
+  - As a site user I can click a .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html page.
+
+__Home Page__
+
 - Hero Text
+  - As a site user I can see that the hero text on the #home section is clearly presented, appropriately colored and contrasted so that the site is introduced intuitively in an easy to read manner.
+
 - Hero Image
+  - As a site user I can identify with the hero image to relate to the core services of the business so that business value proposition can be re-inforced during my time navigating the site.
+
+- Layout
+  - As an intitial site user I can see the top of the subsequent page bleed ing up ath the bottom of the page so that I am enticed to investigate into the site further.
 
 __Gallery (Our Clients)__
-- Clients
-- Providers
-- Assistants
+- As a user of the site I can view the experiences of past clients of the business so i can better understand the experience of using these services.
+- As a potential customer of the business I can further investigate the experience of other customers so I can decide if it will work with my situation and needs.
+- As a business stakeholder I can present more detailed information to potential clients so I can convert them into long term paying customers.
 
 __Contact Us__
 - Form
+  - As a viewer of the code I can see that the index.html page has a < form > element with a corresponding id="form" so I can confirm this section follows approriate semantic code structuring practices.
+  - As a viewer of the code I can see that within the form, there is an < input > field with id="email" so I can enter an email address.
+  - As a viewer of the code I can see that the #email input field should have a label or placeholder text so that the user knows what the field is for.
+  - As a viewer of the code I can see that #email input field uses HTML5 validation so thst we can confirm that the entered text is an email address.
+  - As a viewer of the code I can see that within the form, there is a submit < input > with corresponding id="submit" to allow ease of CSS styling in the future.
+  - As a site user I can click the #submit button so that the email is submitted to a static thanyou for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
+
 - Map 
+  - As a site user I can see an embedded google map of our head office at the immedia end of the contact us section to convey a sense of permanacy in the business operations.
+
 - Footer
+  - As a site user I can see a footer section containing links to our pages popular social media sites so I can inteact with friends and follow updates from the business page. 
 
 
-## Features 
+## 3. Features 
 ---
 <!-- This section explains what value each of the features provides for the user,
   - Focusing on who this website is for, 
   - what it is that they want to achieve and 
   - how your project is the best way to help them achieve these things. 
-  
-  
-1. Purpose of the project
-2. user stories
-3. Features
-4. future features
-  - popouts
-  - header bar 
-  - login / registration page
-  - animations
-5. Typography and color scheme
-6. wireframes
-7. Technology
-8. testing
-   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
-9. Deployment
-   9.1 via gitpod
-   9.2 via github pages
-10. credits
+ -->
 
--->
-
-### Existing Features
+### 3.1 Existing Features
 
 - __Head & Meta Terms__
   - Nomenclature
@@ -96,49 +132,49 @@ __Contact Us__
     | Black | #000000 | rgba (253,253,253,1) |
     | Grey | #CCCCCC | rgba (204,204,204,1) |
 
+  - Content
+    - each .html page uses a remotely accessed CSS format so that code editors can more easily change the format of content from the one location
+
+  - Layout 
+    - All pages should have at least one media query to make the viewport responsive to different devices being used so that users can have a responsive experience across devices used to view the entire site.
+
 - __Navigation Bar__
 
-  - Is featured identically on all pages in the top right hand coner with a minimal design. 
-  - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages.
-  - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as reqiured by the user. 
+  - Is featured identically on all pages in the top right hand coner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
+  - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages to allow easy intuitive navigation.
+  - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as reqiured by the B2B user.
   - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ![Nav Bar Pic](assets/images/readme/love_running_nav.png)
 
 - __The landing page image__
 
-  - sdfa
+  - The landing section includes a format and images with text overlay to allow the user to understand what type of user this site would be applicable to.
+  - The landing section announces the core business proposition with a subtle animation to grab the users attention.
 
 ![Landing Page Pic](assets/images/readme/love_running_landing.png)
 
 - __The Header__
 
-  - The header shows the name of the business, using the corporate colors selected from the corporate colour scheme discussed in the [strategy.md](ucd/1-strategy.md) documents attached.
-  - 
+  - The header shows the name of the business, using the corporate colors selected from the corporate colour scheme discussed further in the [strategy.md](ucd/1-strategy.md) documents attached.
 
 ![Header Pic](assets/images/readme/love_running_landing.png)
 
 - __About Us Section__
 
-  - allow the user to see the benefits of... 
-  - This user will see the value of signing up for the marketing initiatives / coffee sessions. 
+  - Allow the user to see the typical process of the Kaptain Holiday product delivery in a vsiual format to better understand the services of the business.
+  - Allow the user to see the value of kaptain holiday to allow them to take a break. 
+  - Allow the user their first chance to select / investigte wich product option that may suit their particular circumstances.
+  - Allow users to intiate a contact us call to action so they may start using kaptain holiday services. 
 
 ![About Us Pic](assets/images/readme/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Gallery (our clients) section__
 
-  - This section will allow the user to see exactly ... 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to further explore the product range and experinces of model customers. It should encourage users to consider Kaptain holiday as part of their next break away from the business. 
+  - This section will be kept up to date as times and new intitiatives become available to keep the user engaged with the business. 
 
-![Meetup Times Pic](assets/images/readme/love_running_times.png)
-
-- __Sign Up Section__
-
-  - This section will allow the user to get signed up as an alternative to Kaptain Holiday sign up page to start planning their next holiday with the community. 
-  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
-  - The user will be asked to submit their full name, email address and linkedin details. 
-
-![Sign Up Pic](assets/images/readme/love_running_times.png)
+![Gallery Section Pic](assets/images/readme/love_running_times.png)
 
 - __The Contact Us Section__
 
@@ -151,7 +187,8 @@ __Contact Us__
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Kaptain Holiday. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes information for the user on the legal format and registered office address of the Kaptain Holiday business. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media and share with people / businesses they may know that may use the kaptain holiday service(s).
 
 ![Footer Pic](assets/images/readme/love_running_footer.png)
 
@@ -159,25 +196,34 @@ __Contact Us__
 
 - __ABC / Gallery / User Case Studies Page__
 
-  - The gallery will provide the user with supporting images and information to see what the KH onboarding process looks like. 
-  - This section is valuable to the user as they will be able to easily identify the requirements and types of businesses and professionals Kaptain Holiday services.
+  - This page will be the base format of three main product options provided by Kaptain Holiday to allow the user to easily investigate exactly which option is valuable to their situation. 
+  - This page provides the user with supporting images and information to see what types of professionals are avialiable to manage their business while they are away. 
+  - These pages are valuable to the user as they will be able to relate to the requirements and types of businesses and professionals that Kaptain Holiday typically helps.
 
-![Gallery Pics](assets/images/readme/love_running_gallery.png)
+![Gallery Page Pics](assets/images/readme/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __The Register / Login Page__
 
-  - This page will allow the user to get signed up to Kaptain Holiday to start planning their next holiday with the community. 
+  - This page will allow the user to either login or sign up to Kaptain Holiday to start planning their next holiday within the community. 
   - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
   - The user will be asked to submit their full name, email address and linkedin details. 
 
-![Sign Up Pic](assets/images/readme/love_running_signup.png)
+![Register / Login Pic](assets/images/readme/love_running_times.png)
 
-_For some/all of your features, you may choose to reference the specific project files that implement them._
+- __Successful Submission Page__
 
-_In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_
+  - This page indicates is displayed to the user following a successful enquiry submission and indicates a call to action to refer friends via social media, investigate further products and/or return to the site homepage. 
+  - The user will be able to specify if they would like to take part in a short survey following submission for the chance to win a sassion with a business mentor. 
 
-### Future features to consider
+![Success Pic](assets/images/readme/love_running_times.png)
 
+<!-- _For some/all of your features, you may choose to reference the specific project files that implement them._
+
+_In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_ -->
+
+### 3.2 Future Features
+
+  - Account page for logged-in users
   - Popup Q&A animations 
   - Entry animation and smoothing
   - Option to select work / hire an assistant manager role to train and trial full services
@@ -186,10 +232,66 @@ _In addition, you may also use this section to discuss plans for additional feat
   - Possible membership on a subscription model basis
   - api links into CRM and project management software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
    
-
-## Testing 
+## 5. Typography and color scheme
 ---
-- I tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
+- Typography
+    - Evaluated in line with the themes and brand aiming for a the non-corporate nature of business owner / managers.
+    - Bold main 
+    - Smooth easy to read content 
+    - Excellent contrast 
+    - Adequately portray the light, summer holiday feel for the site
+    - Slection process :
+      - .
+    
+    <br>
+- Color Scheme
+    | Primary Color Palette | Hexadecimal Value | RGBA Value  |
+    | - |:-:| -:|
+    | Sky Blue | #70BBE7 | rgba (112,187,231,1) |
+    | Light Tan | #F2DDB2 | rgba (242,221,178,1) |
+    | Choc Brown | #52382C | rgba (82,56,44,1) |
+    | White | #FFFFFF | rgba (82,56,44,1) |
+    | Black | #000000 | rgba (253,253,253,1) |
+    | Grey | #CCCCCC | rgba (204,204,204,1) |
+
+## 6. Wireframes
+--- 
+
+_See attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH_wireframes.pdf](assets/docs/KH_wireframes.pdf)._
+
+__The Landing Section__ 
+- .
+
+__What We Do (About Us)__
+- .
+
+__Our Clients__
+- .
+
+__Contact Us__
+- .
+
+__Successful Submission__
+- .
+
+__Provdier Stories__
+- .
+
+__Client Stories__
+- .
+
+__Echange Process__
+- .
+
+__Login / Register__
+- .
+
+## 7. Technology
+--- 
+
+## 8. Testing 
+---
+- I have tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
 - I confirmed that the navigation, header, about us, sign up and contact text are all readable and easy to understand.
 - I have confirmed that the form works: requires entries in every relevant field, will only accept email in the email field, and the submit button works.
