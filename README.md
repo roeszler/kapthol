@@ -7,7 +7,7 @@ Site link : https://roeszler.github.io/kapthol/index.html
 ~~2. user stories~~
 ~~3. Features
 ~~4. future features
-  - popouts
+  - pop-outs
   - header bar 
   - login / registration page
   - animations
@@ -43,16 +43,30 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 
 | 3 x Primary Services | | 3 x Working Formats |
 | - |:-:| -:|
-| 1. Holday Cover | | Assistant to Manager (testing) .A|
+| 1. Holiday Cover | | Assistant to Manager (testing) .A|
 | 2. Management Experience | | Proxy Manager (holidays) .B|
 | 3. Service Trial | | Management Exchange (business swaps) .C|
 
+## Please Note : User Centred Design 
+---
+Considering the importance of appropriate user centred design in all web / app developments, I felt the need to devote a portion of my pre-assignment time to better understanding this process. 
+
+I have attached and referred to several additional markdown documents I have used to better develop my understanding of the development design processes. They can be accessed here:
+1. [Strategy Plane](ucd/1-strategy.md) 
+2. [Sope Plane](ucd/2-scope.md)
+3. [Structure Plane](ucd/3-structure.md)
+4. [Skeleton Plane](ucd/4-skeleton.md)
+5. [Surface Plane](ucd/5-surface.md)
+
+These are primarily intended as a source of reference for the current project, with the the hope to developed my use of them further in coming challenges.
+
 ## 2. User Stories
 ---
+A woking document of possible user stories can be found here. The following stories have been arranged in accordance to the sections they are seen in this project.
 ### Content
 __Entire Site__
 - As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it.
-- As a viewer of the code I can see that each .html page uses a remotely accessed CSS format so I can confirm this section follows approriate ease of styling and semantic code structuring practices.
+- As a viewer of the code I can see that each .html page uses a remotely accessed CSS format so I can confirm this section follows appropriate ease of styling and semantic code structuring practices.
 - As a site user I can see that every non-text element has alt text so that the website can meet accessibility guidelines.
 
 - Header
@@ -60,11 +74,11 @@ __Entire Site__
     - I can see the index.html page has a < header > element with corresponding id="header"
     - I can see an image within the header element with a corresponding id="header-img"
     - I can see that within the < header > element there is a < nav > element with corresponding id="nav-bar"
-  - So that code viewers can confirm this section follows approriate semantic code structuring practices.
+  - So that code viewers can confirm this section follows appropriate semantic code structuring practices.
   - As a site user I can see the layout of the < header > element is always at the top of the viewport so that navigation is easy and intuitive.
 
 - Home Button / Icon
-  - As a site user I can easily identify with the style of the home button so I can intutively navigate the sections and pages of the site.
+  - As a site user I can easily identify with the style of the home button so I can intuitively navigate the sections and pages of the site.
 
 - Nav Bar
   - As a site user I can click a .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html page.
@@ -75,10 +89,10 @@ __Home Page__
   - As a site user I can see that the hero text on the #home section is clearly presented, appropriately colored and contrasted so that the site is introduced intuitively in an easy to read manner.
 
 - Hero Image
-  - As a site user I can identify with the hero image to relate to the core services of the business so that business value proposition can be re-inforced during my time navigating the site.
+  - As a site user I can identify with the hero image to relate to the core services of the business so that business value proposition can be reinforced during my time navigating the site.
 
 - Layout
-  - As an intitial site user I can see the top of the subsequent page bleed ing up ath the bottom of the page so that I am enticed to investigate into the site further.
+  - As an initial site user I can see the top of the subsequent page bleed ing up ath the bottom of the page so that I am enticed to investigate into the site further.
 
 __Gallery (Our Clients)__
 - As a user of the site I can view the experiences of past clients of the business so i can better understand the experience of using these services.
@@ -87,19 +101,18 @@ __Gallery (Our Clients)__
 
 __Contact Us__
 - Form
-  - As a viewer of the code I can see that the index.html page has a < form > element with a corresponding id="form" so I can confirm this section follows approriate semantic code structuring practices.
+  - As a viewer of the code I can see that the index.html page has a < form > element with a corresponding id="form" so I can confirm this section follows appropriate semantic code structuring practices.
   - As a viewer of the code I can see that within the form, there is an < input > field with id="email" so I can enter an email address.
   - As a viewer of the code I can see that the #email input field should have a label or placeholder text so that the user knows what the field is for.
-  - As a viewer of the code I can see that #email input field uses HTML5 validation so thst we can confirm that the entered text is an email address.
+  - As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
   - As a viewer of the code I can see that within the form, there is a submit < input > with corresponding id="submit" to allow ease of CSS styling in the future.
-  - As a site user I can click the #submit button so that the email is submitted to a static thanyou for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
+  - As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
 
 - Map 
-  - As a site user I can see an embedded google map of our head office at the immedia end of the contact us section to convey a sense of permanacy in the business operations.
+  - As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
 
 - Footer
-  - As a site user I can see a footer section containing links to our pages popular social media sites so I can inteact with friends and follow updates from the business page. 
-
+  - As a site user I can see a footer section containing links to our pages popular social media sites so I can interact with friends and follow updates from the business page. 
 
 ## 3. Features 
 ---
@@ -114,23 +127,7 @@ __Contact Us__
 - __Head & Meta Terms__
   - Nomenclature
     - Discussed further in the [strategy.md](ucd/1-strategy.md) documentation, Kaptain Holiday name was selected for its memorable nature, sense of playfulness and meaningful connection to the core value proposition of the business.
-    - Key Terms : kaptain, holiday, holidays, captain holiday, management, proxy, stand-in, locum, business holiday, sweden, stockholm, facilitator, small business management.
-
-  - Branding
-    - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunnny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
-    - Services and soultions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
-    - The demographic is aimed at the mid twenties (providers / assistants) to late fourties (clients) age groups. 
-    
-    <br>
-
-    | Primary Color Palette | Hexadecimal Value | RGBA Value  |
-    | - |:-:| -:|
-    | Sky Blue | #70BBE7 | rgba (112,187,231,1) |
-    | Light Tan | #F2DDB2 | rgba (242,221,178,1) |
-    | Choc Brown | #52382C | rgba (82,56,44,1) |
-    | White | #FFFFFF | rgba (82,56,44,1) |
-    | Black | #000000 | rgba (253,253,253,1) |
-    | Grey | #CCCCCC | rgba (204,204,204,1) |
+    - Key Terms : kaptain, holiday, holidays, captain holiday, management, proxy, stand-in, locum, business holiday, Sweden, Stockholm, facilitator, small business management.
 
   - Content
     - each .html page uses a remotely accessed CSS format so that code editors can more easily change the format of content from the one location
@@ -138,18 +135,20 @@ __Contact Us__
   - Layout 
     - All pages should have at least one media query to make the viewport responsive to different devices being used so that users can have a responsive experience across devices used to view the entire site.
 
+<br>
+
 - __Navigation Bar__
 
-  - Is featured identically on all pages in the top right hand coner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
+  - Is featured identically on all pages in the top right hand corner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
   - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages to allow easy intuitive navigation.
-  - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as reqiured by the B2B user.
+  - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as required by the B2B user.
   - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ![Nav Bar Pic](assets/images/readme/love_running_nav.png)
 
 - __The landing page image__
 
-  - The landing section includes a format and images with text overlay to allow the user to understand what type of user this site would be applicable to.
+  - The landing section includes a format and images with text overlay to allow the user to understand what type of user this site would be applicable too.
   - The landing section announces the core business proposition with a subtle animation to grab the users attention.
 
 ![Landing Page Pic](assets/images/readme/love_running_landing.png)
@@ -162,17 +161,17 @@ __Contact Us__
 
 - __About Us Section__
 
-  - Allow the user to see the typical process of the Kaptain Holiday product delivery in a vsiual format to better understand the services of the business.
+  - Allow the user to see the typical process of the Kaptain Holiday product delivery in a visual format to better understand the services of the business.
   - Allow the user to see the value of kaptain holiday to allow them to take a break. 
-  - Allow the user their first chance to select / investigte wich product option that may suit their particular circumstances.
-  - Allow users to intiate a contact us call to action so they may start using kaptain holiday services. 
+  - Allow the user their first chance to select / investigate which product option that may suit their particular circumstances.
+  - Allow users to initiate a contact us call to action so they may start using kaptain holiday services. 
 
 ![About Us Pic](assets/images/readme/love_running_ethos.png)
 
 - __Gallery (our clients) section__
 
-  - This section will allow the user to further explore the product range and experinces of model customers. It should encourage users to consider Kaptain holiday as part of their next break away from the business. 
-  - This section will be kept up to date as times and new intitiatives become available to keep the user engaged with the business. 
+  - This section will allow the user to further explore the product range and experiences of model customers. It should encourage users to consider Kaptain holiday as part of their next break away from the business. 
+  - This section will be kept up to date as times and new initiatives become available to keep the user engaged with the business. 
 
 ![Gallery Section Pic](assets/images/readme/love_running_times.png)
 
@@ -180,7 +179,7 @@ __Contact Us__
 
   - This section will allow the user to contact us with queries and schedule suitable times for a callback 
   - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
-  - The user will be asked to submit their full name, email address, contact phone number, business name, date and times available to schedule a call, level of experience, linkedin details and a short enquiry message via a text field. 
+  - The user will be asked to submit their full name, email address, contact phone number, business name, date and times available to schedule a call, level of experience, LinkedIn details and a short enquiry message via a text field. 
 
 ![Contact Us Pic](assets/images/readme/love_running_signup.png)
 
@@ -194,10 +193,10 @@ __Contact Us__
 
 ### Subsequent HTML Pages
 
-- __ABC / Gallery / User Case Studies Page__
+- __Gallery / User Case Studies Page__
 
   - This page will be the base format of three main product options provided by Kaptain Holiday to allow the user to easily investigate exactly which option is valuable to their situation. 
-  - This page provides the user with supporting images and information to see what types of professionals are avialiable to manage their business while they are away. 
+  - This page provides the user with supporting images and information to see what types of professionals are available to manage their business while they are away. 
   - These pages are valuable to the user as they will be able to relate to the requirements and types of businesses and professionals that Kaptain Holiday typically helps.
 
 ![Gallery Page Pics](assets/images/readme/love_running_gallery.png)
@@ -206,14 +205,14 @@ __Contact Us__
 
   - This page will allow the user to either login or sign up to Kaptain Holiday to start planning their next holiday within the community. 
   - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
-  - The user will be asked to submit their full name, email address and linkedin details. 
+  - The user will be asked to submit their full name, email address and LinkedIn details. 
 
 ![Register / Login Pic](assets/images/readme/love_running_times.png)
 
 - __Successful Submission Page__
 
   - This page indicates is displayed to the user following a successful enquiry submission and indicates a call to action to refer friends via social media, investigate further products and/or return to the site homepage. 
-  - The user will be able to specify if they would like to take part in a short survey following submission for the chance to win a sassion with a business mentor. 
+  - The user will be able to specify if they would like to take part in a short survey following submission for the chance to win a session with a business mentor. 
 
 ![Success Pic](assets/images/readme/love_running_times.png)
 
@@ -240,7 +239,7 @@ _In addition, you may also use this section to discuss plans for additional feat
     - Smooth easy to read content 
     - Excellent contrast 
     - Adequately portray the light, summer holiday feel for the site
-    - Slection process :
+    - Selection process :
       - .
     
     <br>
@@ -250,41 +249,70 @@ _In addition, you may also use this section to discuss plans for additional feat
     | Sky Blue | #70BBE7 | rgba (112,187,231,1) |
     | Light Tan | #F2DDB2 | rgba (242,221,178,1) |
     | Choc Brown | #52382C | rgba (82,56,44,1) |
+    | Red | #FF0000 | rgba (253,0,0,1) |
     | White | #FFFFFF | rgba (82,56,44,1) |
     | Black | #000000 | rgba (253,253,253,1) |
     | Grey | #CCCCCC | rgba (204,204,204,1) |
 
+ - Branding
+    - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
+    - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
+    - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
+    
 ## 6. Wireframes
 --- 
+A simple visualisation of the layout and colouring intended for the site, it conveys the to the user as they experience the site. The feel and function of the site is intended to be light, summery with an air of simple effective service delivery. 
 
-_See attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH_wireframes.pdf](assets/docs/KH_wireframes.pdf)._
+The media sizes employed in the wireframes, that will eventually be intended for the responsive transitions seen on the site, has been based on future popular sizes seen in the UK. This information has been sourced from [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
 
-__The Landing Section__ 
-- .
+Gbksoft also indicates the typical use of media used to browse webpages is predominantly mobile, seen in the table below : 
+
+| Desktop vs. mobile vs tablet worldwide ||
+| - | -:|
+| Mobile | 55.73% |
+| Desktop | 41.46% |
+| Tablet | 2.81% |
+
+Acknowledging the scope of the project and beginner nature of my skills as a coder of html / css, I intend to start the design with reference to a mobile interface, and scale it up with media queries in due course.
+
+__The Landing Sections__ 
+
+Desktop 
+![1920 x 1080 Desktop - Home](assets/docs/1920x1080-desktop-home.png)
+
+Tablet
+![1024 x 768 Tablet - Home](assets/docs/1024x768-index.html-tablet.png)
+
+Mobile
+<img src="assets/docs/414x896-index.html-mobile.png" alt="html-mobile" width="414"/>
 
 __What We Do (About Us)__
-- .
+
+Desktop
+![1920 x 1080 Desktop - About](assets/docs/1920x1080-desktop-about.png)
 
 __Our Clients__
-- .
+![1920 x 1080 Desktop - Gallery](assets/docs/1920x1080-desktop-gallery.png)
 
 __Contact Us__
-- .
+![1920 x 1080 Desktop - Contact](assets/docs/1920x1080-desktop-contact.png)
 
 __Successful Submission__
-- .
+![1920 x 1080 Desktop - Success](assets/docs/1920x1080-success-desktop.png)
 
-__Provdier Stories__
-- .
+__Provider Stories__
+![1920 x 1080 Desktop - Experience](assets/docs/1920x1080-exp.html-desktop.png)
 
 __Client Stories__
-- .
+![1920 x 1080 Desktop - Holiday](assets/docs/1920x1080-hol.html-desktop.png)
 
-__Echange Process__
-- .
+__Exchange Process__
+![1920 x 1080 Desktop - Exchange](assets/docs/1920x1080-exch.html-desktop.png)
 
 __Login / Register__
-- .
+![1920 x 1080 Desktop - Login](assets/docs/1920x1080-login-desktop.png)
+
+_Please see attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH_wireframes.pdf](assets/docs/KH_wireframes.pdf)._
 
 ## 7. Technology
 --- 
@@ -377,4 +405,5 @@ Below you will find a couple of extra tips that may be helpful when completing y
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
 
  *__Please Note__ : Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
+
 
