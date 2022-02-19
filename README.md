@@ -27,7 +27,7 @@ Site link : https://roeszler.github.io/kapthol/index.html
 
 ## 1. Purpose of the Project
 ---
-Kaptain Holiday is a site that represents a 'currently' fictitious business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
+Kaptain Holiday is a site that represents a 'currently' theroetical business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
 
 - __Business owner / managers__ looking for someone to take over the daily operations of their business for a short time (_The 'Clients'_).
 
@@ -47,18 +47,18 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 | 2. Management Experience | | Proxy Manager (holidays) .B|
 | 3. Service Trial | | Management Exchange (business swaps) .C|
 
-## Please Note : User Centred Design 
+## Note : User Centred Design 
 ---
-Considering the importance of appropriate user centred design in all web / app developments, I felt the need to devote a portion of my pre-assignment time to better understanding this process. 
+Considering the importance of user experience (UX) in any given project, and the role user centred design (UCD) in all web / app developments, I have included a mock-up of the reserach and information that may be gleaned from such a process. This has been done to let me devlop a to better understanding of this process early in my studies and hopefully useful as a tool as I progress in my studies and carreer. 
 
-I have attached and referred to several additional markdown documents I have used to better develop my understanding of the development design processes. They can be accessed here:
+I have attached and referred to several additional markdown documents I have used to assist my understanding of the development design processes as it would relate to the Kaptain Holiday site, its users and stakeholders. The mockup documents will be referred to as required within the text and/or you can be accessed them all here:
+
 1. [Strategy Plane](ucd/1-strategy.md) 
 2. [Sope Plane](ucd/2-scope.md)
 3. [Structure Plane](ucd/3-structure.md)
 4. [Skeleton Plane](ucd/4-skeleton.md)
 5. [Surface Plane](ucd/5-surface.md)
 
-These are primarily intended as a source of reference for the current project, with the the hope to developed my use of them further in coming challenges.
 
 ## 2. User Stories
 ---
@@ -220,7 +220,7 @@ __Contact Us__
 
 _In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_ -->
 
-### 3.2 Future Features
+### 3.2 Possible Future Features
 
   - Account page for logged-in users
   - Popup Q&A animations 
@@ -230,6 +230,8 @@ _In addition, you may also use this section to discuss plans for additional feat
   - Automation to connect current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
   - Possible membership on a subscription model basis
   - api links into CRM and project management software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
+  - Intuitive tracking and cataloging of content
+  - Possible intergration into exsisting accounting software (api?)
    
 ## 5. Typography and color scheme
 ---
