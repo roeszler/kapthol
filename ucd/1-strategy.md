@@ -242,7 +242,6 @@ Industry Segment :
     - Stakeholder 1.A 
       - Code: _(sample only)_
       - Key Messages: _(sample only)_
-    
     - Stakeholder 1.B
 
 2. Directors
