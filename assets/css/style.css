@@ -29,5 +29,31 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
-    padding: 10px 20px;
+    padding: 0px 20px 20px;
+}
+
+/* Navigation links */
+
+#menu {
+    font-size: 90%;
+    text-transform: uppercase;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    margin-right: 20px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #70BBE7;
 }
