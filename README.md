@@ -3,31 +3,40 @@
 Site link : https://roeszler.github.io/kapthol/index.html
 
 <!-- 
-~~1. Purpose of the project~~
-~~2. user stories~~
-~~3. Features
-~~4. future features
+ ### Table of Contents
+1. Purpose of the project
+2. User stories
+3. Features
+4. Future features
   - pop-outs
   - header bar 
   - login / registration page
   - animations
-~~5. Typography and color scheme
+5. Typography and color scheme
 6. Wireframes
 7. Technology
-8. testing
-   8.1 code validation
-   8.2 test cases (user story based with screenshots)
-   8.3 fixed bugs
-   8.4 supported screens and browsers
+8. <a href="#testing">Testing</a>
+   8.2 Test cases (user story based with screenshots)
+   8.3 Solved bugs
+   8.4 Unsolved bugs
+   8.1 Validator Testing & Accessibility
+    8.1.1 WC html
+    8.1.2 WC CSS
+    8.1.3 Lighthouse
+   8.4 Supported screens and browsers
 9. Deployment
    9.1 via gitpod
    9.2 via github pages
-10. credits 
+10. Credits
+  10.1 Code Content
+  10.2 Media
+
+---
 -->
 
 ## 1. Purpose of the Project
 ---
-Kaptain Holiday is a site that represents a 'currently' theroetical business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
+Kaptain Holiday is a site that represents a theroetical business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
 
 - __Business owner / managers__ looking for someone to take over the daily operations of their business for a short time (_The 'Clients'_).
 
@@ -319,7 +328,7 @@ _Please see attached link to view the entire proposed early layout of the site i
 ## 7. Technology
 --- 
 
-## 8. Testing 
+## <p id="testing">8. Testing</p>
 ---
 - I have tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
