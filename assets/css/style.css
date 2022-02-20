@@ -24,12 +24,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: -2px;
     color: #70BBE7;
+    /* color: #fff; */
 }
 
 #logo {
     float: left;
     font-size: 250%;
-    padding: 0px 20px 20px;
+    padding: 0px 20px;
 }
 
 /* Navigation links */
@@ -60,4 +61,36 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #70BBE7;
+}
+
+/* Hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/kapthol-hero-image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+/* Hero Zoom - 'Transitions and Transformations' Animation  */
+    /* Animates zoom effect */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Hero Image level of zoom */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.15);
+    }
 }
