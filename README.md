@@ -263,7 +263,7 @@ _In addition, you may also use this section to discuss plans for additional feat
     | Red | #FF0000 | rgba (253,0,0,1) |
     | White | #FFFFFF | rgba (82,56,44,1) |
     | Black | #000000 | rgba (253,253,253,1) |
-    | Grey | #CCCCCC | rgba (204,204,204,1) |
+    | Grey | #3a3a3a | rgba (58,58,58,1) |
 
  - Branding
     - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.

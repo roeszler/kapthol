@@ -10,12 +10,24 @@
     border: none;
 }
 
-h1 {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 900;
-}
-
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* Headings, subheadings and logo */
+
+h1, h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    color: #70BBE7;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    padding: 10px 20px;
 }
