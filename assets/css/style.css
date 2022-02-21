@@ -82,7 +82,7 @@ header {
 /* Hero section */
 
 #hero-outer {
-    height: 600px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -100,7 +100,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    /* background-color: rgba(241, 109, 107, .7); */
     position: absolute;
 }
 
@@ -139,6 +138,38 @@ header {
     width: 100%;
 }
 
+/* Hero palm */
+
+#hero-palm {
+    width: 350px;
+    height: auto;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 15px;
+    right: 35px;
+    position: absolute;
+}
+#hero-palm-image {  
+    max-width: 100%;  
+    height: auto;
+    /* transform: rotate(350deg); */
+    
+
+    animation-name: hero-palm-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Hero palm level of zoom */
+@keyframes hero-palm-zoom {
+    from{
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 /* Hero penguin */
 
 #hero-penguin {
@@ -152,9 +183,9 @@ header {
     position: absolute;
 }
 #hero-penguin-image {  
-    max-width: 75%;  
+    max-width: 50%;  
     height: auto;
-    /* transform: rotate(350deg); */
+    z-index: 2;
 
     animation-name: hero-penguin-zoom;
     animation-duration: 1.5s;
@@ -215,7 +246,7 @@ header {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     text-align: center;
 }
 
@@ -224,6 +255,6 @@ header {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     text-align: center;
 }
