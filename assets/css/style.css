@@ -83,7 +83,7 @@ header {
     width: 100%;
     background-image: url(../images/kapthol-hero-image.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;
 
 /* Hero Zoom - 'Transitions and Transformations' Animation  */
     /* Animates zoom effect */
@@ -109,13 +109,11 @@ header {
     font-family: 'Nunito', sans-serif;
     color: #fff;
     text-align: center;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     width: 100%;
     /* background-color: rgba(241, 109, 107, .7); */
-    
     position: absolute;
 }
 
@@ -126,8 +124,8 @@ header {
 
 #hero-text h3 {
     text-decoration: none;
-    color: rgba(242,221,178,1);
-    /* color: rgba(0, 0, 0, 1); */
+    /* color: rgba(242,221,178,1); */
+    color: rgba(0, 0, 0, 1);
     /* color: rgba(82,56,44,1); */
     font-size: 180%;
 }
@@ -137,4 +135,18 @@ header {
     text-transform: lowercase;
     text-size-adjust: 90%;
     color: rgba(255, 255, 255, 0.7);
+}
+
+/* Hero top and bottom colors */
+
+#hero-top {
+    background-color: #70BBE7;
+    height: 66%;
+    width: 100%;
+}
+
+#hero-bottom {
+    background-color: #F2DDB2;
+    height: 33%;
+    width: 100%;
 }

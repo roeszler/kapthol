@@ -392,8 +392,8 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from *This Open Source site*
-- The images used for the gallery page were taken from this other open source site
+- The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/)
+- The images used for the gallery page were taken from [pexels.com](https://www.pexels.com/collections/kapthol-wqxkprh/)
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
