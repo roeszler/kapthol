@@ -75,6 +75,7 @@ header {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -99,4 +100,41 @@ header {
     to {
         transform: scale(1.15);
     }
+}
+
+/* Hero image cover text */
+
+#hero-text {
+    font-size: 130%;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    /* background-color: rgba(241, 109, 107, .7); */
+    
+    position: absolute;
+}
+
+#hero-text h1 {
+    font-size: 500%;
+    color: rgba(255, 255, 255, 1);
+}
+
+#hero-text h3 {
+    text-decoration: none;
+    color: rgba(242,221,178,1);
+    /* color: rgba(0, 0, 0, 1); */
+    /* color: rgba(82,56,44,1); */
+    font-size: 180%;
+}
+
+#hero-text p {
+    letter-spacing: 15px;
+    text-transform: lowercase;
+    text-size-adjust: 90%;
+    color: rgba(255, 255, 255, 0.7);
 }
