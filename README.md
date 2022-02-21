@@ -392,7 +392,8 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/)
+- The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/) and [freepik.com](https://www.freepik.com/home)
+  - sandcastle.png - sourced from [Kids nature vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/kids-nature)
 - The images used for the gallery page were taken from [pexels.com](https://www.pexels.com/collections/kapthol-wqxkprh/)
 
 

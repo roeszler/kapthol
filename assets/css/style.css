@@ -169,7 +169,7 @@ header {
     /* transform: rotate(350deg); */
 
     animation-name: hero-penguin-zoom;
-    animation-duration: 5s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
