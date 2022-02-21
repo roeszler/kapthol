@@ -18,7 +18,7 @@ body {
 
 /* Headings, subheadings and logo */
 
-h1, h2 {
+h1 {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
@@ -26,17 +26,26 @@ h1, h2 {
     color: #70BBE7;
 }
 
+h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* letter-spacing: -2px; */
+    color: #000;
+}
+
 header {
+    background-color: rgba(255, 255, 255, 0.750);
     top: 0;
     width: 100%;
     position: sticky;
-    background-color: rgba(255, 255, 255, 0.750);
+    z-index: 1;
 }
 
 #logo {
     float: left;
     font-size: 250%;
-    padding: 0px 20px;
+    margin-left: 20px;
 }
 
 /* Navigation links */
@@ -69,40 +78,17 @@ header {
     border-bottom: 1px solid #70BBE7;
 }
 
-/* Hero image */
+/* Hero section */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    z-index: 0;
 }
 
-/* #hero-image {
-    height: 600px;
-    width: 100%;
-    background-image: url(../images/kapthol-hero-image.png);
-    background-repeat: no-repeat;
-    background-position: left center; */
-
-/* Hero Zoom - 'Transitions and Transformations' Animation  */
-    /* Animates zoom effect */
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
-/* } */
-
-/* Hero Image level of zoom */
-/* @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.15);
-    }
-} */
-
-/* Hero image cover text */
+/* Hero cover text */
 
 #hero-text {
     font-size: 130%;
@@ -147,7 +133,7 @@ header {
 
 #hero-bottom {
     /* background-color: #F2DDB2; */
-    background-image: linear-gradient(rgba(242, 221, 178, 1), rgba(190, 170, 140, 1));
+    background-image: linear-gradient(rgba(242, 221, 178, 1), rgba(200, 180, 150, 1));
     height: 33%;
     width: 100%;
 }
@@ -184,4 +170,31 @@ header {
         transform: scale(1.10) rotate(-10deg);
     }
 }
-    
+
+/* About us section */
+
+#about {
+    height: 100%;
+
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: blueviolet;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: greenyellow;
+}
