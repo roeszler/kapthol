@@ -24,7 +24,13 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: -2px;
     color: #70BBE7;
-    /* color: #fff; */
+}
+
+header {
+    top: 0;
+    width: 100%;
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.750);
 }
 
 #logo {
@@ -35,27 +41,27 @@ h1, h2 {
 
 /* Navigation links */
 
-#menu {
+#navbar {
     font-size: 90%;
     text-transform: uppercase;
     float: right;
 }
 
-#menu, #logo {
+#navbar, #logo {
     line-height: 75px;
 }
 
-#menu li {
+#navbar li {
     margin-right: 20px;
     display: inline;
 }
 
-#menu a {
+#navbar a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+#navbar a:hover {
     border-bottom: 1px solid #70BBE7;
 }
 
