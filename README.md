@@ -257,13 +257,13 @@ _In addition, you may also use this section to discuss plans for additional feat
 - Color Scheme
     | Primary Color Palette | Hexadecimal Value | RGBA Value  |
     | - |:-:| -:|
-    | Sky Blue | #70BBE7 | rgba (112,187,231,1) |
-    | Light Tan | #F2DDB2 | rgba (242,221,178,1) |
-    | Choc Brown | #52382C | rgba (82,56,44,1) |
-    | Red | #FF0000 | rgba (253,0,0,1) |
-    | White | #FFFFFF | rgba (82,56,44,1) |
-    | Black | #000000 | rgba (253,253,253,1) |
-    | Grey | #3a3a3a | rgba (58,58,58,1) |
+    | Sky Blue | #70BBE7 | rgba(112,187,231,1) |
+    | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
+    | Choc Brown | #52382C | rgba(82,56,44,1) |
+    | Red | #FF0000 | rgba(253,0,0,1) |
+    | White | #FFFFFF | rgba(82,56,44,1) |
+    | Black | #000000 | rgba(253,253,253,1) |
+    | Grey | #3a3a3a | rgba(58,58,58,1) |
 
  - Branding
     - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.

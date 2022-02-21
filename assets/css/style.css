@@ -146,7 +146,8 @@ header {
 }
 
 #hero-bottom {
-    background-color: #F2DDB2;
+    /* background-color: #F2DDB2; */
+    background-image: linear-gradient(rgba(242, 221, 178, 1), rgba(190, 170, 140, 1));
     height: 33%;
     width: 100%;
 }
