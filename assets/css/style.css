@@ -78,29 +78,29 @@ header {
     position: relative;
 }
 
-#hero-image {
+/* #hero-image {
     height: 600px;
     width: 100%;
     background-image: url(../images/kapthol-hero-image.png);
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left center; */
 
 /* Hero Zoom - 'Transitions and Transformations' Animation  */
     /* Animates zoom effect */
-    animation-name: hero-zoom;
+    /* animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
+    animation-fill-mode: forwards; */
+/* } */
 
 /* Hero Image level of zoom */
-@keyframes hero-zoom {
+/* @keyframes hero-zoom {
     from{
         transform: scale(1);
     }
     to {
         transform: scale(1.15);
     }
-}
+} */
 
 /* Hero image cover text */
 
@@ -150,3 +150,37 @@ header {
     height: 33%;
     width: 100%;
 }
+
+/* Hero penguin */
+
+#hero-penguin {
+    width: 300px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    bottom: 30px;
+    left: 10%;
+    position: absolute;
+}
+#hero-penguin-image {  
+    max-width: 75%;  
+    height: auto;
+    /* transform: rotate(350deg); */
+
+    animation-name: hero-penguin-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Hero pengion level of zoom */
+@keyframes hero-penguin-zoom {
+    from{
+        transform: scale(1);
+        /* transform: rotate(350deg); */
+    }
+    to {
+        transform: scale(1.10) rotate(-10deg);
+    }
+}
+    
