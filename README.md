@@ -258,6 +258,7 @@ _In addition, you may also use this section to discuss plans for additional feat
     | Primary Color Palette | Hexadecimal Value | RGBA Value  |
     | - |:-:| -:|
     | Sky Blue | #70BBE7 | rgba(112,187,231,1) |
+    | Sailor Blue | #232361 | rgba(35,35,97, 1) |
     | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
     | Choc Brown | #52382C | rgba(82,56,44,1) |
     | Red | #FF0000 | rgba(253,0,0,1) |
@@ -345,7 +346,7 @@ _If this section grows too long, you may want to split it off into a separate fi
 
 ### Bugs 
 #### Solved Bugs
-- A
+1. About secion not lining up as desired with single section. Included second section to correct issues.
 - B
 
 #### Unsolved Bugs
