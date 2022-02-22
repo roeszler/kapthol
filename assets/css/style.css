@@ -278,6 +278,7 @@ header {
 }
 
 /* fade on hover image */
+
 .left-about-client:hover {
     opacity: 0.7;
     transition: .5s ease;
@@ -329,4 +330,21 @@ header {
     font-size: 20px;
     text-align: right;
     padding-left: 50%;
+}
+
+/* Our Clients Grid  - technique sourced from <a https://www.w3schools.com/css/tryit.asp?filename=trycss_grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 10px; */
+    column-gap: 20px;
+    padding: 0 20px;
+}
+
+.grid-item {
+    border: 1px solid #3a3a3a;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }
