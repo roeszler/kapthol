@@ -339,6 +339,7 @@ header {
     grid-template-columns: auto auto auto;
     gap: 20px;
     padding: 0 20px;
+    padding-bottom: 75px;
 }
 
 .grid-item {
