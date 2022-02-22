@@ -210,11 +210,11 @@ header {
 
 /* About us section */
 
-#about {
+.about {
     height: 100%;
 }
 
-#about h1 {
+.about h1 {
     text-align: center;
     margin-top: 60px;
     color: #000;
@@ -222,32 +222,32 @@ header {
     font-size: 225%;
 }
 
-#about h2 {
+.about h2 {
     margin-top: 2px;
     font-size: 22px;
 }
 
-#about hr {
+.about hr {
     border-top: 1px solid #70BBE7;
     width: 25%;
     margin: 25px auto;
 }
 
-#left-about {
+.left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
     background-color: red;
 }
 
-#right-about {
+.right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
     background-color: blueviolet;
 }
 
-#center-about {
+.center-about {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
@@ -315,12 +315,12 @@ header {
     opacity: 0.7;
     transition: .5s ease;
 }
-.about-top {
+/* .about-top {
     margin-bottom: 75%;
-}
+} */
 
-.about-bottom {
-    margin-top: 10%;
-}
+/* .about-bottom {
+    margin-top: 11%;
+} */
 /* fade on hover image */
 
