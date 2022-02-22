@@ -350,7 +350,7 @@ _If this section grows too long, you may want to split it off into a separate fi
 
 #### Unsolved Bugs
 
-- No unsolved bugs
+- About section alignment
 
 ### Validator Testing 
 

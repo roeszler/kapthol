@@ -35,6 +35,10 @@ h2 {
     color: #000;
 }
 
+p {
+    margin-top: 2px;
+}
+
 header {
     top: 0;
     width: 100%;
@@ -218,6 +222,11 @@ header {
     font-size: 225%;
 }
 
+#about h2 {
+    margin-top: 2px;
+    font-size: 22px;
+}
+
 #about hr {
     border-top: 1px solid #70BBE7;
     width: 25%;
@@ -242,7 +251,7 @@ header {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    /* background-color: greenyellow; */
+    background-color: greenyellow;
 }
 
 #circle-container {
@@ -254,10 +263,11 @@ header {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+    margin-top: 180px;
 }
 
 #circle-cover-background {
-    background-image: url(../images/400x400-pic.png);
+    background: url(../images/400x400-pic.png);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
@@ -269,8 +279,14 @@ header {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 250px;
+    /* margin-bottom: 180px; */
     text-align: center;
+}
+
+/* fade on hover image */
+.left-about-client:hover {
+    opacity: 0.7;
+    transition: .5s ease;
 }
 
 .right-about-client {
@@ -278,9 +294,33 @@ header {
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom: 250px;
+    /* margin-bottom: 60%; */
     text-align: center;
 }
 
-/* grid container */
+.right-about-client:hover {
+    opacity: 0.7;
+    transition: .5s ease;
+}
+
+.center-about-client {
+    width: 66%;
+    margin: 0 auto;
+    line-height: 20px;
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+.center-about-client:hover {
+    opacity: 0.7;
+    transition: .5s ease;
+}
+.about-top {
+    margin-bottom: 75%;
+}
+
+.about-bottom {
+    margin-top: 10%;
+}
+/* fade on hover image */
 
