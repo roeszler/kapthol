@@ -206,19 +206,22 @@ header {
 
 /* About us section */
 
-#about hr {
-    border-top: 1px solid #70BBE7;
-    width: 25%;
-    margin: 25px auto;
-}
-
 #about {
     height: 100%;
 }
 
-#about h2 {
+#about h1 {
     text-align: center;
-    margin-top: 75px;
+    margin-top: 60px;
+    color: #000;
+    letter-spacing: 0px;
+    font-size: 225%;
+}
+
+#about hr {
+    border-top: 1px solid #70BBE7;
+    width: 25%;
+    margin: 25px auto;
 }
 
 #left-about {
@@ -239,7 +242,26 @@ header {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-background {
+    background-image: url(../images/400x400-pic.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .left-about-client {
