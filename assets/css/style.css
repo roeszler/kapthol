@@ -231,22 +231,22 @@ header {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .center-about {
     padding-top: 30px;
-    padding-bottom: 75px;
+    padding-bottom: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
 
 #circle-container {
@@ -327,7 +327,7 @@ header {
 .testator {
     font-style: italic;
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     text-align: right;
     padding-left: 50%;
 }
@@ -337,14 +337,22 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* padding: 10px; */
-    column-gap: 20px;
+    gap: 20px;
     padding: 0 20px;
 }
 
 .grid-item {
-    border: 1px solid #3a3a3a;
+    border: 1px solid #3a3a3a30;
     padding: 20px;
     font-size: 30px;
     text-align: center;
+}
+
+.grid-item:hover {
+    opacity: 0.7;
+    transition: .5s ease;
+}
+
+.grid-item p {
+    font-size: 20px;
 }
