@@ -85,7 +85,7 @@ header {
 
 /* Hero section */
 
-#hero-outer {
+#hero-container {
     height: 650px;
     width: 100%;
     overflow: hidden;
@@ -208,7 +208,7 @@ header {
     height: 100%;
 }
 
-.about h1 {
+.sect-heading h1 {
     text-align: center;
     margin-top: 60px;
     color: #232361;
@@ -216,12 +216,12 @@ header {
     font-size: 225%;
 }
 
-.about h2 {
+.sect-heading h2 {
     margin-top: 2px;
     font-size: 22px;
 }
 
-.about hr {
+.sect-heading hr {
     border-top: 1px solid #70BBE7;
     width: 25%;
     margin: 25px auto;
@@ -311,13 +311,16 @@ header {
 /* testimonials */
 
 .testimonial {
-    background-color: #70BBE7;
+    background-color: rgba(112,187,231,1);
+    /* background-color: rgba(242,221,178,1); */
     width: 100%;
-    height: 150px;
+    height: 135px;
     color: #000;
+    font-weight: 600;
     font-size: 200%;
     text-align: center;
     padding-top: 5%;
+    border-bottom: 15px solid #F2DDB2;
 }
 
 .testator {
