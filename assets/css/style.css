@@ -219,6 +219,7 @@ header {
 .sect-heading h2 {
     margin-top: 2px;
     font-size: 22px;
+    color: #232361;
 }
 
 .sect-heading hr {
@@ -356,4 +357,12 @@ header {
 
 .grid-item p {
     font-size: 20px;
+}
+
+/* Font Awesome Styling */
+
+.icon {
+    color: #70BBE7;
+    font-size: 1200%;
+    padding-bottom: 30px;
 }
