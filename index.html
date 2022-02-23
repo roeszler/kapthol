@@ -160,12 +160,45 @@
     </section> 
     <section class="testimonial">
         <div>
-            <p>" Kaptain Holiday consitently gives me the confidence and security to travel and work in amazing places "<br><span class="testator">Adam Venturer</span></p>
+            <p>" Kaptain Holiday consitently gives me the confidence and security to travel and work in amazing places "<br><span class="testator">A. Venturer</span></p>
         </div>
     </section>
     <section id="contact" class="sect-heading">
         <h1>Contact Us</h1>
         <hr>
+        <form id="contact-form" method="get" action="success.html" class="input-forms">
+            <fieldset>
+                <legend>Your Details</legend>
+                <div class="float-left">
+                    <label for="fname" class="text-input">First Name</label>
+                    <input id="fname" type="text" name="first_name" required>
+
+                    <label for="lname" class="text-input">Last Name</label>
+                    <input id="lname" type="text" name="last_name" required>
+
+                    <label for="email" class="text-input">Email Address</label>
+                    <input id="email" type="email" name="email_address" required>
+                    
+                    <label for="client">Holidays</label>
+                    <input id="client" type="radio" name="enquiry_interest" value="client">
+                    <label for="provider">Work</label>
+                    <input id="provider" type="radio" name="enquiry_interest" value="provider">
+                    <label for="trial">Trials</label>
+                    <input id="trial" type="radio" name="enquiry_interest" value="trial">
+                    <label for="all">All Services</label>
+                    <input id="all" type="radio" name="enquiry_interest" value="all_services">
+
+                    <legend>Your Message</legend>
+                    <label for="site-message" class="text-input"></label>
+                    <textarea name="enquiry-message" id="site-message" cols="30" rows="10"></textarea>
+
+                    <input type="submit" class="submit-button" value="Contact Us!">
+                </div>
+                <div>
+
+                </div>
+            </fieldset>
+        </form>
     </section>
     <footer id="footer">
         <div>
