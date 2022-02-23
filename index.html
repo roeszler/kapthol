@@ -57,7 +57,7 @@
         <hr>
         <div class="left-about">
             <div class="left-about-client about-top">
-                <a href="holiday.html" target="_blank">
+                <a href="holiday.html">
                     <img src="assets/images/250x250-pic.png" alt="a portait picture of an owner manager: our 'clients'">
                 </a>
                 <h2>Owner Manager</h2>
@@ -66,7 +66,7 @@
         </div>
         <div class="right-about">
             <div class="right-about-client about-top">
-                <a href="experience.html" target="_blank">
+                <a href="experience.html">
                     <img src="assets/images/250x250-pic.png" alt="portait picture of a proxy manager: our 'providers'">
                 </a>
                 <h2>Proxy Manager</h2>
@@ -164,38 +164,45 @@
         </div>
     </section>
     <section id="contact" class="sect-heading">
-        <h1>Contact Us</h1>
-        <hr>
-        <form id="contact-form" method="get" action="success.html" class="input-forms">
-            <fieldset>
-                <legend>Your Details</legend>
-                <div class="float-left">
-                    <label for="fname" class="text-input">First Name</label>
-                    <input id="fname" type="text" name="first_name" required>
+        
+        <div id="contact-form-section">
+            <h1>Contact Us</h1>
+            <hr>
+            <form id="contact-form" method="get" action="success.html" class="input-forms">
+                <fieldset>
+                    <h2>Your Details</h2>
+                    <div class="contact-float-left">
+                        <label for="fname">First Name</label>
+                        <input id="fname" class="text-input" type="text" name="first_name" required>
 
-                    <label for="lname" class="text-input">Last Name</label>
-                    <input id="lname" type="text" name="last_name" required>
+                        <label for="lname">Last Name</label>
+                        <input id="lname" class="text-input" type="text" name="last_name" required>
 
-                    <label for="email" class="text-input">Email Address</label>
-                    <input id="email" type="email" name="email_address" required>
-                    
-                    <label for="client">Holidays</label>
-                    <input id="client" type="radio" name="enquiry_interest" value="client" required>
-                    <label for="provider">Work</label>
-                    <input id="provider" type="radio" name="enquiry_interest" value="provider">
-                    <label for="trial">Trials</label>
-                    <input id="trial" type="radio" name="enquiry_interest" value="trial">
-                    <label for="all">All Services</label>
-                    <input id="all" type="radio" name="enquiry_interest" value="all_services">
+                        <label for="email">Email Address</label>
+                        <input id="email" class="text-input" type="email" name="email_address" required>
+                        
+                        <label for="client">Holidays</label>
+                        <input id="client" type="radio" name="enquiry_interest" value="client" required>
+                        <label for="provider">Work</label>
+                        <input id="provider" type="radio" name="enquiry_interest" value="provider">
+                        <label for="trial">Trials</label>
+                        <input id="trial" type="radio" name="enquiry_interest" value="trial">
+                        <label for="all">All Services</label>
+                        <input id="all" type="radio" name="enquiry_interest" value="all_services">
 
-                    <legend>Your Message</legend>
-                    <label for="site-message" class="text-input"></label>
-                    <textarea name="enquiry-message" id="site-message" cols="30" rows="10"></textarea>
+                        <h2>Your Message</h2>
+                        <label for="site-message"></label>
+                        <textarea class="text-input" name="enquiry-message" id="site-message" cols="30" rows="10"></textarea>
 
-                    <input type="submit" class="submit-button" value="Contact Us!">
-                </div>
-            </fieldset>
-        </form>
+                        <input type="submit" class="submit-button" value="Contact Us!">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <!-- <div id="right-contact">right
+            <img src="assets/images/400x400-pic.png" alt="picture of a contact us penguin">
+        </div> -->
+        <div id="map-section">map</div>
     </section>
     <footer id="footer">
         <div>
@@ -218,7 +225,6 @@
             <p><span class="separator">©</span> kaptainholiday.com <span class="separator">|</span> built on good coffee and pepparkakors <br><span id="address"> easy street <span class="separator">|</span> holiday cove <span class="separator">|</span> earth 4567</span></p>
         </div>
     </footer>
-    
     <!-- Font Awesome script  -->
     <script src="https://kit.fontawesome.com/c2dc8de795.js" crossorigin="anonymous"></script>
 </body>

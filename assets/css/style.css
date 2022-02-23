@@ -369,11 +369,69 @@ header {
     padding-bottom: 50px;
 }
 
+/* Contact Us Section */
+
+#contact-form-section {
+    clear: left;
+    /* background-color: greenyellow; */
+    background-image: url(../images/contact-us.jpeg);
+    background-size: cover;
+    background-position: center no-repeat;
+    height: 700px;
+}
+
+.input-forms {
+    margin: 50px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 40%;
+    position: absolute;
+    left: 10%;
+    padding: 10px 30px 30px;
+    border-radius: 5px;
+}
+
+.input-forms h2 {
+    color: rgba(255,255,255,0.6);
+    margin: 15px 0 5px;
+}
+
+form label {
+    color: rgba(255,255,255,0.8);
+    /* font-style: italic; */
+}
+
+.text-input {
+    background: transparent;
+    color: rgba(255,255,255, 1);
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 15px 0;
+    border: 1px solid rgba(255,255,255,0.7);
+    border-radius: 3px;
+    padding-left: 12px;
+    /* font-size: 110%; */
+}
+
+textarea {
+    padding: 12px;
+    padding-right: 0px;
+    height: 20px;
+    resize: vertical;
+}
+
+#map {
+    background-color: rgba(242,221,178,1);
+    height: 100px;
+}
+
 /* footer */
 
 footer {
     height: 120px;
+    width: 100%;
     background-color: #000;
+    bottom: 0px;
 }
 
 .social {

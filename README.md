@@ -397,6 +397,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/), upsplash and [freepik.com](https://www.freepik.com/home)
   - palmtree.png - sourced from [Palm tree icon vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/palm-tree-icon)
   - about-boss.png - sourced from [unsplash.com](https://unsplash.com/photos/nMffL1zjbw4)
+  - contact-us.jpeg - sourced from [unsplash.com](https://unsplash.com/photos/4SNUcHPiC8c)
 - The images used for the gallery page were taken from [pexels.com](https://www.pexels.com/collections/kapthol-wqxkprh/)
 
 
