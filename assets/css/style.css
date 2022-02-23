@@ -494,38 +494,76 @@ footer p {
     padding-left: 16px;
 }
 
-/* Success Pages */
+/* Success Page */
 
-.left-align-success {
+.success-icon {
     padding-top: 30px;
-    width: 10%;
-    float: left;
+    padding-bottom: 30px;
+    width: 100%;
+    margin: 0px auto;
     text-align: center;
-    background-color: greenyellow;
+    /* background-color: blueviolet; */
+    /* display: inline; */
+    font-size: 400%;
+    color: rgba(58,58,58,1);
+}
+
+.success-icon i {
+    color: rgba(58,58,58, 0.3);
+}
+
+.success-icon i:hover {
+    color: #70BBE7;
 }
 
 .right-align-success {
     padding-top: 30px;
-    width: 10%;
+    width: 50%;
     float: right;
-    text-align: center;
+    text-align: left;
     background-color: aquamarine;
 }
 
 .center-align-success {
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 80%;
+    width: 100%;
+    height: 400px;
     margin: 0 auto;
     text-align: center;
-    background-color: blueviolet;
+    background-image: url(../images/success.png);
+    background-size: cover;
+    background-position: center no-repeat;
+    border-radius: 50%;
 }
 
-.bottom-align-success {
+.center-align-success i {
+    color: #fff;
+}
+
+.center-align-success .separator {
+    color: #fff;
+}
+
+#quote-success {
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #70BBE7;
+    font-size: 250%;
+}
+.center-align-success p {
+    color: #fff;
+    font-size: 120%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* .bottom-align-success {
     padding-top: 30px;
     width: 100%;
     background-color: #F2DDB2;
-}
+} */
 
 /* Standard alignment pages - Wide Middle */
 
