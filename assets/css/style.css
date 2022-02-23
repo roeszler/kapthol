@@ -373,11 +373,10 @@ header {
 
 #contact-form-section {
     clear: left;
-    /* background-color: greenyellow; */
     background-image: url(../images/contact-us.jpeg);
     background-size: cover;
     background-position: center no-repeat;
-    height: 700px;
+    height: 750px;
 }
 
 .input-forms {
@@ -398,7 +397,6 @@ header {
 
 form label {
     color: rgba(255,255,255,0.8);
-    /* font-style: italic; */
 }
 
 .text-input {
@@ -410,7 +408,27 @@ form label {
     border: 1px solid rgba(255,255,255,0.7);
     border-radius: 3px;
     padding-left: 12px;
-    /* font-size: 110%; */
+}
+
+.text-input:hover {
+    border-color: #70BBE7;
+}
+
+.submit-button {
+    margin-top: 10px;
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-size: 120%;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000;
+    background-color: #70BBE7;
+}
+
+.submit-button:hover {
+    color: #70BBE7;
+    background-color: #fff;
 }
 
 textarea {
@@ -418,11 +436,6 @@ textarea {
     padding-right: 0px;
     height: 20px;
     resize: vertical;
-}
-
-#map {
-    background-color: rgba(242,221,178,1);
-    height: 100px;
 }
 
 /* footer */
