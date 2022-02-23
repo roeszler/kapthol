@@ -363,6 +363,10 @@ header {
 
 .icon {
     color: #70BBE7;
-    font-size: 1200%;
+    font-size: 1000%;
     padding-bottom: 30px;
+}
+
+.sect {
+    padding-bottom: 50px;
 }
