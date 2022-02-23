@@ -351,7 +351,7 @@ _If this section grows too long, you may want to split it off into a separate fi
 
 #### Unsolved Bugs
 
-- About section alignment
+- Use JavaScript to make relative nav bar section appear active on page id selection. Ie #contact us selection, should make contact in nav bar be underlined.
 
 ### Validator Testing 
 
