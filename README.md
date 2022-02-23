@@ -399,6 +399,7 @@ You can break the credits section up into Content and Media, depending on what y
   - about-boss.png - sourced from [unsplash.com](https://unsplash.com/photos/nMffL1zjbw4)
   - contact-us.jpeg - sourced from [unsplash.com](https://unsplash.com/photos/4SNUcHPiC8c)
   - success.jpeg - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
+  - sally-provider.jpeg - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
 - The images used for the gallery page were taken from [pexels.com](https://www.pexels.com/collections/kapthol-wqxkprh/)
 
 
