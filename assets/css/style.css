@@ -493,3 +493,33 @@ footer p {
     color: #fff;
     padding-left: 16px;
 }
+
+/* Standard alignment pages */
+
+.left-align {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: greenyellow;
+}
+
+.right-align {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: aquamarine;
+}
+
+.center-align {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+
+.bottom-align {
+    padding-top: 30px;
+    width: 100%;
+    background-color: #F2DDB2;
+}
