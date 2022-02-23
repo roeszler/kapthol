@@ -261,11 +261,22 @@ header {
 }
 
 #circle-cover-background {
-    background: url(../images/400x400-pic.png);
+    background: url(../images/about-boss.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: bottom center;
     height: 100%;
     border-radius: 50%;
+}
+
+.center-about-text {
+    text-align: center;
+}
+
+.center-about-text h2 {
+    color: #70BBE7;
+    font-size: 300%;
+    letter-spacing: -2px;
+    text-align: center;
 }
 
 .left-about-client {
@@ -383,7 +394,7 @@ header {
     margin: 50px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 40%;
+    max-width: 45%;
     position: absolute;
     left: 10%;
     padding: 10px 30px 30px;
