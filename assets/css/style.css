@@ -494,31 +494,67 @@ footer p {
     padding-left: 16px;
 }
 
-/* Standard alignment pages */
+/* Success Pages */
 
-.left-align {
+.left-align-success {
     padding-top: 30px;
-    width: 33%;
+    width: 10%;
     float: left;
+    text-align: center;
     background-color: greenyellow;
 }
 
-.right-align {
+.right-align-success {
     padding-top: 30px;
-    width: 33%;
+    width: 10%;
     float: right;
+    text-align: center;
     background-color: aquamarine;
 }
 
-.center-align {
+.center-align-success {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.bottom-align-success {
+    padding-top: 30px;
+    width: 100%;
+    background-color: #F2DDB2;
+}
+
+/* Standard alignment pages - Wide Middle */
+
+.left-align-standard {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.right-align-standard {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.center-align-standard {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 33%;
     margin: 0 auto;
+    text-align: center;
     background-color: blueviolet;
 }
 
-.bottom-align {
+.bottom-align-standard {
     padding-top: 30px;
     width: 100%;
     background-color: #F2DDB2;
