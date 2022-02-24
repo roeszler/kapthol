@@ -253,14 +253,14 @@ header {
     width: 300px;
     height: 300px;
     padding: 30px;
-    border-style: solid;
-    border-color: rgba(112,187,231,0.5);
-    border-width: 1px;
+    /* border-style: solid; */
+    /* border-color: rgba(112,187,231,0.5); */
+    /* border-w?idth: 1px; */
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 180px;
+    margin-top: 200px;
 }
-
+/* 
 .circle-cover-background {
     background: url(../images/kapthol-hero-image-300.png);
     background-repeat: no-repeat;
@@ -269,10 +269,21 @@ header {
     border-radius: 50%;
     width: 300px; 
     height: 300px;
+} */
+
+.circle-cover-background img {
+    width: 100%;
+    height: auto;
+}
+
+.circle-cover-background img:hover {
+    opacity: 0.7;
+    transition: .5s ease;
 }
 
 .center-about-text {
     text-align: center;
+    width: 100%;
 }
 
 .center-about-text h2 {
@@ -320,9 +331,11 @@ header {
 } */
 
 .about-top img {
-    width: 250px; 
-    height: 250px; 
-    border-radius: 50%;
+    width: 100%; 
+    height: auto;
+    padding: 5px;
+    border: 1px solid rgba(112,187,231,0.3);
+    border-radius: 5px;
 }
 
 
@@ -344,21 +357,29 @@ header {
     background-color: rgba(112,187,231,1);
     /* background-color: rgba(242,221,178,1); */
     width: 100%;
-    height: 135px;
-    color: #000;
+    /* height: 150px; */
+    color: #232361;
     font-weight: 600;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
     padding-top: 5%;
-    border-bottom: 15px solid #F2DDB2;
+    /* border-bottom: 75px solid #F2DDB2; */
+}
+
+.testiominal-beach {
+    height: 33%;
+    width: 100%;
+    background-color: #F2DDB2;
+    /* bottom: 0px; */
 }
 
 .testator {
     font-style: italic;
-    color: #fff;
-    font-size: 22px;
+    color: rgba(82,56,44,1);
+    font-size: 18px;
+    font-weight: bold;
     text-align: right;
-    padding-left: 50%;
+    padding: 10px 10% 10px 50%;
 }
 
 /* Our Clients Grid  - technique sourced from <a https://www.w3schools.com/css/tryit.asp?filename=trycss_grid */
