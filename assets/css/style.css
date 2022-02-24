@@ -478,7 +478,7 @@ footer {
 
 .social {
     text-align: right;
-    width: 66%;
+    width: 50%;
     float: right;
     padding-top: 30px;
 }
@@ -506,7 +506,7 @@ footer {
 
 footer p {
     display: inline;
-    width: 33%;
+    width: 50%;
     float: right;
     padding-top: 30px;
     color: #F2DDB2;
@@ -588,20 +588,17 @@ footer p {
     margin: 0 auto;
 }
 
-/* .bottom-align-success {
-    padding-top: 30px;
-    width: 100%;
-    background-color: #F2DDB2;
-} */
-
 /* Experience alignment pages - Narrow Middle */
 
 .left-align-experience {
     padding: 30px 0 0 20px;
     width: 45%;
+    height: auto;
     float: left;
     text-align: center;
     background-color: greenyellow;
+    /* position: absolute; */
+    /* top: 0; */
 }
 
 .left-align-experience hr {
@@ -610,6 +607,17 @@ footer p {
     width: 100px;
     margin: 5px 0 0 20px;
     padding: 10px 0 10px 75px;
+}
+
+.left-align-experience img {
+    width: 75%;
+    height: auto;
+    /* position: relative; */
+}
+
+.left-align-experience h2, h3, h4, ul {
+    list-style: none;
+    text-align: left;
 }
 
 .right-align-experience {
