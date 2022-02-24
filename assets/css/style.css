@@ -186,7 +186,7 @@ header {
     max-width: 50%;  
     height: auto;
     z-index: 2;
-
+    
     animation-name: hero-penguin-zoom;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
@@ -253,7 +253,7 @@ header {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: #ccc;
+    border-color: rgba(112,187,231,0.5);
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
@@ -261,7 +261,7 @@ header {
 }
 
 .circle-cover-background {
-    background: url(../images/kapthol-hero-image.png);
+    background: url(../images/kapthol-hero-image-300.png);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
@@ -275,7 +275,7 @@ header {
 }
 
 .center-about-text h2 {
-    color: #70BBE7;
+    color: rgba(112,187,231,1);
     font-size: 300%;
     letter-spacing: -2px;
     text-align: center;
@@ -389,14 +389,14 @@ header {
 /* Font Awesome Styling */
 
 .icon {
-    color: #70BBE7;
-    font-size: 1000%;
+    color: rgba(112,187,231,1);
+    font-size: 800%;
     padding-bottom: 30px;
 }
 
-.sect {
-    padding-bottom: 50px;
-}
+/* .bottom-about-sect {
+    padding-bottom: 750px;
+} */
 
 /* Contact Us Section */
 
@@ -412,10 +412,10 @@ header {
     margin: 50px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 45%;
+    max-width: 40%;
     position: absolute;
     left: 10%;
-    padding: 10px 30px 30px;
+    padding: 10px 30px 30px 30px;
     border-radius: 5px;
 }
 
@@ -593,6 +593,51 @@ footer p {
     width: 100%;
     background-color: #F2DDB2;
 } */
+
+/* Experience alignment pages - Narrow Middle */
+
+.left-align-experience {
+    padding: 30px 0 0 20px;
+    width: 45%;
+    float: left;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.left-align-experience hr {
+    border: 0;
+    border-top: 1px solid blue;
+    width: 100px;
+    margin: 5px 0 0 20px;
+    padding: 10px 0 10px 75px;
+}
+
+.right-align-experience {
+    padding-top: 30px;
+    width: 45%;
+    float: right;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.center-align-experience {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 10%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.bottom-align-experience {
+    padding-top: 30px;
+    width: 100%;
+    background-color: #F2DDB2;
+}
+
+.sally {
+    text-align: left;
+}
 
 /* Standard alignment pages - Wide Middle */
 
