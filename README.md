@@ -401,6 +401,8 @@ You can break the credits section up into Content and Media, depending on what y
   - success.jpeg - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
   - sally-provider.jpeg - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
 - The images used for the gallery page were taken from [pexels.com](https://www.pexels.com/collections/kapthol-wqxkprh/)
+- Cafe photos taken from [www.pexels.com](https://www.pexels.com/search/cafe/)
+
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 

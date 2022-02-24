@@ -626,7 +626,16 @@ footer p {
     padding-top: 2.5%;
     width: 75%;
     height: auto;
+    margin-bottom: 50px;
+    padding: 5px;
+    border: 1px solid rgba(112,187,231,0.3);
+    border-radius: 5px;
     /* position: relative; */
+}
+
+.left-align-experience img:hover {
+    opacity: 0.7;
+    transition: .5s ease;
 }
 
 .left-align-experience h2, h3, h4, ul {
@@ -663,7 +672,10 @@ footer p {
 .right-align-experience img {
     width: 75%;
     height: auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border: 1px solid rgba(112,187,231,0.3);
+    border-radius: 5px;
 }
 
 .right-align-experience img:hover {
@@ -690,7 +702,10 @@ footer p {
 .center-align-experience img {
     width: 75%;
     height: auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+    border: 1px solid rgba(112,187,231,0.3);
+    border-radius: 5px;
 }
 
 .center-align-experience img:hover {
