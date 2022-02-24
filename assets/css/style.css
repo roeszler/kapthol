@@ -479,7 +479,6 @@ footer p {
     background-color: #000;
     bottom: 0px;
     margin: 0;
-    display: inline-block;
     float: right;
     padding-top: 30px;
     color: #F2DDB2;
@@ -494,7 +493,6 @@ footer p {
     float: right;
     padding-top: 30px;
     background-color: #000;
-    display: inline-block;
 }
 
 .social li {
