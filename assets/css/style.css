@@ -372,7 +372,7 @@ header {
 }
 
 .grid-item {
-    border: 1px solid #3a3a3a30;
+    /* border: 1px solid #3a3a3a30; */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -385,6 +385,14 @@ header {
 
 .grid-item p {
     font-size: 20px;
+}
+
+.grid-item img {
+    width: 75%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid rgba(112,187,231,0.3);
+    border-radius: 5px;
 }
 
 /* Font Awesome Styling */
