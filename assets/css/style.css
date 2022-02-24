@@ -666,6 +666,11 @@ footer p {
     padding-bottom: 50px;
 }
 
+.right-align-experience img:hover {
+    opacity: 0.7;
+    transition: .5s ease;
+}
+
 .center-align-experience {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -686,6 +691,11 @@ footer p {
     width: 75%;
     height: auto;
     padding-bottom: 50px;
+}
+
+.center-align-experience img:hover {
+    opacity: 0.7;
+    transition: .5s ease;
 }
 
 .bottom-align-experience {
