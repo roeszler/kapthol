@@ -116,6 +116,7 @@ header {
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
     font-size: 180%;
+    text-align: center;
 }
 
 #hero-text p {
@@ -468,19 +469,32 @@ textarea {
 }
 
 /* footer */
-
 footer {
-    height: 120px;
-    width: 100%;
+    margin: 0;
+}
+
+footer p {
+    height: 75px;
+    width: 50%;
     background-color: #000;
     bottom: 0px;
+    margin: 0;
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+    color: #F2DDB2;
+    font-size: 90%;
+    /* position: absolute; */
 }
 
 .social {
     text-align: right;
     width: 50%;
+    height: 75px;
     float: right;
     padding-top: 30px;
+    background-color: #000;
+    display: inline-block;
 }
 
 .social li {
@@ -504,18 +518,19 @@ footer {
     color: #70BBE7;
 }
 
-footer p {
+/* footer p {
     display: inline;
     width: 50%;
     float: right;
     padding-top: 30px;
     color: #F2DDB2;
     font-size: 90%;
-}
+} */
 
 .separator {
     color: rgba(255,255,255,0.3);
     font-size: 110%;
+    padding-left: 10px;
 }
 
 #address {
@@ -620,31 +635,54 @@ footer p {
     text-align: left;
 }
 
+.left-align-experience li {
+    font-size: 90%;
+}
+
 .right-align-experience {
     padding-top: 30px;
-    width: 45%;
+    width: 25%;
+    height: 600px;
     float: right;
     text-align: center;
     background-color: aquamarine;
 }
 
+.right-align-experience img {
+    width: 75%;
+    height: auto;
+}
+
 .center-align-experience {
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 10%;
+    width: 25%;
     margin: 0 auto;
     text-align: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+
+    /* Vertical line  */
+    border-left: 1px solid rgba(58,58,58, 0.3);
+    /* height: 300px; */
+    position: relative;
+    /* left: 50%; */
+    margin-left: 50%;
+    top: 50%;
+    /* padding: 25% 0; */
+    margin: 75px 50% 0px;
+}
+
+.center-align-experience img {
+    width: 75%;
+    height: auto;
+    padding-bottom: 50px;
 }
 
 .bottom-align-experience {
     padding-top: 30px;
     width: 100%;
+    height: auto;
     background-color: #F2DDB2;
-}
-
-.sally {
-    text-align: left;
 }
 
 /* Standard alignment pages - Wide Middle */
