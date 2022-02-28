@@ -229,8 +229,9 @@ __Contact Us__
 
 _In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_ -->
 
-### 3.2 Possible Future Features
+### 3.2 Future Features
 
+  - Underline underline in nav header on active status on single page. Possibly JS / JQuery function: window.location.href
   - Account page for logged-in users
   - Popup Q&A animations 
   - Entry animation and smoothing
