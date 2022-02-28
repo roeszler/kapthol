@@ -424,10 +424,6 @@ header {
     padding-bottom: 30px;
 }
 
-/* .bottom-about-sect {
-    padding-bottom: 750px;
-} */
-
 /* Contact Us Section */
 
 #contact-form-section {
@@ -825,5 +821,16 @@ footer p {
 
     .social {
         font-size: 8px;
+    }
+}
+
+/* For medium to smaller screens size from 950px wide and down */
+@media screen and (max-width: 950px){
+    #navbar {
+        clear: left;
+        float: left;
+        margin: 0 0 10px 30px;
+        line-height: 25px;
+        /* text-align: center; */
     }
 }
