@@ -781,3 +781,16 @@ footer p {
     width: 100%;
     background-color: #F2DDB2;
 }
+
+/* Gallery Photos  */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery > img {
+    width: 100%;
+}
