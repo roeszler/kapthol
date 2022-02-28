@@ -271,10 +271,11 @@ header {
     height: 300px;
 } */
 
-.circle-cover-background img {
+/* .circle-cover-background img {
     width: 100%;
     height: auto;
-}
+    border: none;
+} */
 
 .circle-cover-background img:hover {
     opacity: 0.7;
@@ -338,6 +339,11 @@ header {
     border-radius: 5px;
 }
 
+.circle-cover-background img {
+    width: 100%;
+    height: auto;
+    border: none;
+}
 
 .center-about-client {
     width: 66%;
