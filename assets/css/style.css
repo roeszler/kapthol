@@ -439,7 +439,8 @@ header {
     clear: left;
     background-image: url(../images/contact-us.jpeg);
     background-size: cover;
-    background-position: center no-repeat;
+    background-position: bottom no-repeat;
+    /* background-attachment: fixed; */
     height: 750px;
 }
 
@@ -798,6 +799,17 @@ footer p {
 
 #gallery > img {
     width: 100%;
+}
+
+/* Login Page */
+
+.login {
+    background-image: url(../images/buz-hol-8.jpg);
+    background-size: cover;
+    background-position: center no-repeat;
+    background-attachment: fixed;
+    height: 750px;
+    /* padding-top: 75px; */
 }
 
 /* Media Queries */
