@@ -837,7 +837,6 @@ footer p {
         float: left;
         margin: 0 0 10px 30px;
         line-height: 25px;
-        /* text-align: center; */
     }
 
     .left-about, .left-about-client, .right-about, .right-about-client, .center-about, .center-about-client {
@@ -847,10 +846,6 @@ footer p {
         float: none;
         padding: 0px;
     }
-
-    /* .sect-heading h1 {
-        margin-bottom: 75px;
-    } */
 
     .testimonial {
         display: none;
@@ -883,13 +878,7 @@ footer p {
         padding: 0;
         top: 50px;
         left: 0;
-        /* margin: 0 auto; */
         display: block;
-        /* margin-left: auto;
-        margin-right: auto; */
-        /* align-items: center; */
-        /* height: 25%; */
-        
     }
 
     #hero-penguin-image {
@@ -913,5 +902,18 @@ footer p {
 
     #hero-text {
         top: 75%;
+    }
+
+    .left-align-experience {
+        width: 100%;
+    }
+
+    .right-align-experience {
+        width: 100%;
+    }
+
+    .center-align-experience {
+        width: 100%;
+        margin-left: 0;
     }
 }
