@@ -360,7 +360,7 @@ header {
 /* testimonials */
 
 .testimonial {
-    background-color: rgba(112,187,231,1);
+    background-color: rgba(112,187,231,0.7);
     /* background-color: rgba(242,221,178,1); */
     width: 100%;
     /* height: 150px; */
@@ -375,17 +375,20 @@ header {
 .testiominal-beach {
     height: 33%;
     width: 100%;
-    background-color: #F2DDB2;
+    /* background-color: #F2DDB2; */
+    /* background-color: rgba(112,187,231,.7); */
+    /* color: rgba(35,35,97, 0.7); */
     /* bottom: 0px; */
 }
 
 .testator {
     font-style: italic;
-    color: rgba(82,56,44,1);
+    /* color: rgba(82,56,44,1); */
+    color: #fff;
     font-size: 18px;
     font-weight: bold;
     text-align: right;
-    padding: 10px 10% 10px 50%;
+    padding: 10px 10% 40px 50%;
 }
 
 /* Our Clients Grid  - technique sourced from <a https://www.w3schools.com/css/tryit.asp?filename=trycss_grid */
