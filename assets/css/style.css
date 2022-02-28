@@ -244,7 +244,7 @@ header {
 
 .center-about {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 75px;
     width: 33%;
     margin: 0 auto;
 }
@@ -387,7 +387,7 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 0px;
     padding: 0 20px;
     padding-bottom: 75px;
 }
@@ -793,4 +793,33 @@ footer p {
 
 #gallery > img {
     width: 100%;
+}
+
+/* Media Queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .about-top {
+        /* width: 65%;
+        height: 1200px;
+        margin: 0 auto; */
+        display: none;
+    }
+
+    #hero-text h1 {
+        font-size: 250%;
+    }
+
+    #hero-text h3 {
+        font-size: 100%;
+    }
+
+    #hero-text p {
+        font-size: 80%;
+        letter-spacing: 0;
+    }
+
+    .sect-heading {
+        padding-bottom: 75px;
+    }
 }
