@@ -819,7 +819,12 @@ footer p {
         letter-spacing: 0;
     }
 
-    .sect-heading {
-        padding-bottom: 75px;
+    .input-forms {
+        max-width: 100%;
+    }
+
+    .social {
+        font-size: 8px;
+
     }
 }
