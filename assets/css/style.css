@@ -843,6 +843,10 @@ footer p {
     .social {
         font-size: 8px;
     }
+
+    #gallery {
+        column-count: 3;
+    }
 }
 
 /* For medium to smaller screens size from 950px wide and down */
@@ -930,5 +934,9 @@ footer p {
     .center-align-experience {
         width: 100%;
         margin-left: 0;
+    }
+
+    #gallery {
+        column-count: 2;
     }
 }
