@@ -833,4 +833,79 @@ footer p {
         line-height: 25px;
         /* text-align: center; */
     }
+
+    .left-about, .left-about-client, .right-about, .right-about-client, .center-about, .center-about-client {
+        margin-bottom: 75px;
+        width: 100%;
+        text-align: center;
+        float: none;
+        padding: 0px;
+    }
+
+    /* .sect-heading h1 {
+        margin-bottom: 75px;
+    } */
+
+    .testimonial {
+        display: none;
+    }
+
+    .icon {
+        font-size: 1500%;
+    }
+
+    .grid-container {
+        display: contents;
+    }
+
+    .social {
+        width: 100%;
+        text-align: center;
+        font-size: 100%;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    header {
+        height: 120px;
+    }
+
+    #hero-penguin {
+        width: 100%;
+        padding: 0;
+        top: 50px;
+        left: 0;
+        /* margin: 0 auto; */
+        display: block;
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* align-items: center; */
+        /* height: 25%; */
+        
+    }
+
+    #hero-penguin-image {
+        animation: none;
+        margin: 0 auto;
+        display: block;
+        width: 150px;
+        max-width: none;
+    }
+
+    #hero-palm-image, #hero-bottom {
+        display: none;
+    }
+
+    #hero-top {
+        height: 400px;    }
+
+    #hero-container {
+        height: auto;
+    }
+
+    #hero-text {
+        top: 75%;
+    }
 }
