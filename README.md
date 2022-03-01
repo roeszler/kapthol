@@ -75,7 +75,7 @@ The mockup documents will be referred to as required within the text and/or you 
 ## 2. User Stories
 ---
 A woking document of sample user stories can be found [here](ucd/stories.md). The following stories have been arranged in accordance to the sections they are seen in this project.
-### Content
+
 __Entire Site__
 - As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it.
 - As a viewer of the code I can see that each .html page uses a remotely accessed CSS format so I can confirm this section follows appropriate ease of styling and semantic code structuring practices.
@@ -95,8 +95,6 @@ __Entire Site__
 - Nav Bar
   - As a site user I can click any given .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html and/or login.html pages.
 
-![header-nav-bar](assets/docs/nav-bar-kaptain.png)
-
 __Home Page__
 
 - Hero Text
@@ -108,14 +106,10 @@ __Home Page__
 - Layout
   - As an initial site user I can see the top of the subsequent page bleed ing up ath the bottom of the page so that I am enticed to investigate into the site further.
 
-![hero-page](assets/docs/home-hero-kaptain.png)
-
 __Gallery (Our Clients)__
 - Accessed through further investigation into the holiday service as a business owner, as a user of the site I can view the experiences of past clients of the business so i can better understand the experience of using these services.
 - As a potential customer of the business I can further investigate the experience of other customers so I can decide if it will work with my situation and needs.
 - As a business stakeholder I can present more detailed information to potential clients so I can convert them into long term paying customers.
-
-![gallery.html](assets/docs/gallery-kaptain.png)
 
 __Contact Us__
 - Form
@@ -125,8 +119,6 @@ __Contact Us__
   - As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
   - As a viewer of the code I can see that within the form, there is a submit < input > with corresponding id="submit" to allow ease of CSS styling in the future.
   - As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
-
-![contact-section]()
 
 - Map 
   - As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
@@ -157,61 +149,67 @@ __Contact Us__
 
 <br>
 
-- __Navigation Bar__
+__Navigation Bar__
+
+![header-nav-bar](assets/docs/nav-bar-kaptain.png)
+
 
   - Is featured identically on all pages in the top right hand corner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
   - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages to allow easy intuitive navigation.
   - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as required by the B2B user.
   - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar Pic](assets/images/readme/love_running_nav.png)
 
-- __The landing page image__
+__The landing page image__
+
+![hero-page](assets/docs/home-hero-kaptain.png)
 
   - The landing section includes a format and images with text overlay to allow the user to understand what type of user this site would be applicable too.
   - The landing section announces the core business proposition with a subtle animation to grab the users attention.
 
-![Landing Page Pic](assets/images/readme/love_running_landing.png)
+__The Header__
 
-- __The Header__
+![header-nav-bar](assets/docs/header-opacity-kaptain.png)
 
   - The header shows the name of the business, using the corporate colors selected from the corporate colour scheme discussed further in the [strategy.md](ucd/1-strategy.md) documents attached.
+  - It has been styled to stick to the top of the viewing window as the user scrolls down each page with a 85% opacity to enhance the modern professional feel of the site.
 
-![Header Pic](assets/images/readme/love_running_landing.png)
 
-- __About Us Section__
+__About Us Section__
+
+![about-us](assets/docs/about-kaptain.png)
+![about-us-2](assets/docs/about-kaptain-2.png)
 
   - Allow the user to see the typical process of the Kaptain Holiday product delivery in a visual format to better understand the services of the business.
   - Allow the user to see the value of kaptain holiday to allow them to take a break. 
   - Allow the user their first chance to select / investigate which product option that may suit their particular circumstances.
   - Allow users to initiate a contact us call to action so they may start using kaptain holiday services. 
 
-![About Us Pic](assets/images/readme/love_running_ethos.png)
+__Gallery (our clients) section__
 
-- __Gallery (our clients) section__
+![clients section](assets/docs/clients-kaptain.png)
 
   - This section will allow the user to further explore the product range and experiences of model customers. It should encourage users to consider Kaptain holiday as part of their next break away from the business. 
   - This section will be kept up to date as times and new initiatives become available to keep the user engaged with the business. 
 
-![Gallery Section Pic](assets/images/readme/love_running_times.png)
+__The Contact Us Section__
 
-- __The Contact Us Section__
+![contact-section](assets/docs/contact-kapthol.png)
 
-  - This section will allow the user to contact us with queries and schedule suitable times for a callback 
+  - This section will allow the user to contact us with queries
   - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
-  - The user will be asked to submit their full name, email address, contact phone number, business name, date and times available to schedule a call, level of experience, LinkedIn details and a short enquiry message via a text field. 
+  - The user will be asked to submit their full name, email address (required) and a small enquiry message.
 
-![Contact Us Pic](assets/images/readme/love_running_signup.png)
-
-- __The Footer__ 
+__The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Kaptain Holiday. The links will open to a new tab to allow easy navigation for the user. 
   - The footer section includes information for the user on the legal format and registered office address of the Kaptain Holiday business. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and share with people / businesses they may know that may use the kaptain holiday service(s).
+  - On the conatct section of the index.html page only, there is a map immediately preceeding the form to promote a sense of business location and permanancy should users wish to investigate further.
 
-![Footer Pic](assets/images/readme/love_running_footer.png)
+![map-and-footer](assets/docs/map-footer-aptain.png)
 
-### Subsequent HTML Pages
+## Subsequent HTML Pages
 
 - __Gallery / User Case Studies Page__
 
@@ -219,7 +217,8 @@ __Contact Us__
   - This page provides the user with supporting images and information to see what types of professionals are available to manage their business while they are away. 
   - These pages are valuable to the user as they will be able to relate to the requirements and types of businesses and professionals that Kaptain Holiday typically helps.
 
-![Gallery Page Pics](assets/images/readme/love_running_gallery.png)
+![gallery.html](assets/docs/gallery-kaptain.png)
+![experinces](assets/docs/user-kaptain.png)
 
 - __The Register / Login Page__
 
@@ -227,7 +226,7 @@ __Contact Us__
   - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
   - The user will be asked to submit their full name, email address and LinkedIn details. 
 
-![Register / Login Pic](assets/images/readme/love_running_times.png)
+![Register / Login Pic](assets/docs/login-page.png)
 
 - __Successful Submission Page__
 
