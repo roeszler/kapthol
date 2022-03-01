@@ -36,7 +36,7 @@ Site link : https://roeszler.github.io/kapthol/index.html
 
 ## 1. Purpose of the Project
 ---
-Kaptain Holiday is a site that represents a theroetical business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business.
+Kaptain Holiday is a site that represents a theroetical business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business:
 
 - __Business owner / managers__ looking for someone to take over the daily operations of their business for a short time (_The 'Clients'_).
 
@@ -44,7 +44,7 @@ Kaptain Holiday is a site that represents a theroetical business that facilitate
 
 - __Business Students__ looking to gain small business management experience in an assistant manager role for a short period of time, across a variety of industries and global locations (_The 'Assistants'_).
 
-Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those looking for work flexibility, experiences, travel and/or seeking to build a relationship with a team that are able to comfortably coordinate their business operations while they take a break in the future.
+Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those looking for work flexibility, experiences, travel and/or comfortably coordinate their business operations while they take a break.
 
 ![aim-responsive](assets/images/aim-responsive-kapthol.png)
 

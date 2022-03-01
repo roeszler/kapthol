@@ -870,6 +870,11 @@ footer p {
 
 /* For medium to smaller screens size from 950px wide and down */
 @media screen and (max-width: 950px){
+    
+    #logo {
+        font-size: 220%;
+    }
+
     #navbar {
         clear: left;
         float: left;
