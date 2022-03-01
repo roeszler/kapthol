@@ -263,8 +263,8 @@ _In addition, you may also use this section to discuss plans for additional feat
     | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
     | Choc Brown | #52382C | rgba(82,56,44,1) |
     | Red | #FF0000 | rgba(253,0,0,1) |
-    | White | #FFFFFF | rgba(82,56,44,1) |
-    | Black | #000000 | rgba(253,253,253,1) |
+    | White | #FFFFFF | rgba(255,255,255,1) |
+    | Black | #000000 | rgba(0,0,0,1) |
     | Grey | #3a3a3a | rgba(58,58,58,1) |
 
  - Branding

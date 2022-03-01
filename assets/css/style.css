@@ -503,6 +503,11 @@ textarea {
     resize: vertical;
 }
 
+#register-form {
+    margin: 400px 10% 0 0;
+}
+
+
 /* footer */
 footer {
     margin: 0;
@@ -804,12 +809,25 @@ footer p {
 /* Login Page */
 
 .login {
-    background-image: url(../images/buz-hol-8.jpg);
+    background-image: url(../images/login-robot.png);
     background-size: cover;
-    background-position: center no-repeat;
+    background-position: left no-repeat;
     background-attachment: fixed;
-    height: 750px;
+    height: 1200px;
     /* padding-top: 75px; */
+}
+
+#country {
+    width: 32%;
+}
+
+#mobile #business {
+    width: 64%;
+    /* margin-left: 1%; */
+}
+
+::placeholder {
+    color: rgba(255,255,255,0.3);
 }
 
 /* Media Queries */
