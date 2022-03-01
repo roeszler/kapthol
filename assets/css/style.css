@@ -813,22 +813,22 @@ footer p {
     background-size: cover;
     background-position: left no-repeat;
     background-attachment: fixed;
-    height: 1200px;
+    height: 1500px;
     /* padding-top: 75px; */
 }
 
 #country {
-    width: 32%;
-}
-
-#mobile #business {
-    width: 64%;
-    /* margin-left: 1%; */
+    width: 33%;
 }
 
 ::placeholder {
     color: rgba(255,255,255,0.3);
 }
+
+.time {
+    width: auto;
+}
+
 
 /* Media Queries */
 
@@ -952,6 +952,7 @@ footer p {
     .center-align-experience {
         width: 100%;
         margin-left: 0;
+        position: unset;
     }
 
     #gallery {

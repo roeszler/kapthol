@@ -45,7 +45,6 @@
     </section>
     <section id="login">
         <div id="login-form-section" class="login">
-            Login
             <form id="login-form" method="get" action="success.html" class="input-forms">
                 <fieldset>
                     <h2>Login Here</h2>
@@ -71,12 +70,12 @@
                         <input id="fname" class="text-input" type="text" name="first_name" required>
 
                         <label for="lname">Last Name</label>
-                        <input id="lname" class="text-input" type="text" name="last_name" required>
+                        <input id="lname" class="text-input" type="text" name="last_name">
 
                         <label for="email">Email Address</label>
                         <input id="email" class="text-input" type="email" name="email_address" required>
 
-                        <label for="mobile">Contact Numbers</label>
+                        <label for="mobile">How to phone you</label>
                         <br>
                         <select id="country" name="country_code" class="text-input"  type="text" required>
                             <option value="_blank"></option>
@@ -332,33 +331,40 @@
                             <option value="967">Yemen +967</option>
                             <option value="260">Zambia +260</option>
                             <option value="263">Zimbabwe +263</option>
-                        <input id="mobile" type="tel" name="mobile_number" placeholder="Mobile 1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" class="text-input" required>
+                        <input id="mobile" type="tel" name="mobile_number" placeholder="Mobile 1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" class="text-input">
                         <br>
-                        <input id="business" type="tel" name="business_number" placeholder="Business Telephone" class="text-input">
+                        <input id="business-tel" type="tel" name="business_number" placeholder="Business Telephone" class="text-input">
                         <br>
+                        <label for="availability"></label>
+                        <input id="availability" type="datetime-local" class="text-input time">
+                        <br>
+                        <label for="interest" name="enquiry_interest">I am interested in :</label>
+                        <br>
+                        <select id="interest" type="text" class="text-input time">
+                            <option value="_blank"></option>
+                            <option value="holiday">Holidays</option>
+                            <option value="work">Working</option>
+                            <option value="trial">Trialing a Manager</option>
+                            <option value="all">All Services</option>
+                        </select>
 
+                        <h2>Your Business</h2>
+                        <label for="tname">Trading Name</label>
+                        <input id="tname" class="text-input" type="text" name="trading_name">
+
+                        <label for="legal-name">Legal name of business (required)</label>
+                        <input id="legal-name" class="text-input" type="text" name="legal_name" required>
+
+                        <label for="address">Correspondence Address</label>
+                        <textarea id="adress" class="text-input" type="text" rows="20" cols="30" name="corr_address"></textarea>
                         
-                        <label for="client">Holidays</label>
-                        <input id="client" type="radio" name="enquiry_interest" value="client" required>
-                        <label for="provider">Work</label>
-                        <input id="provider" type="radio" name="enquiry_interest" value="provider">
-                        <label for="trial">Trials</label>
-                        <input id="trial" type="radio" name="enquiry_interest" value="trial">
-                        <label for="all">All Services</label>
-                        <input id="all" type="radio" name="enquiry_interest" value="all_services">
-
-                        <h2>Your Message</h2>
-                        <label for="site-message"></label>
-                        <textarea class="text-input" name="enquiry-message" id="site-message" cols="30" rows="10"></textarea>
+                        <input id="register-accept" type="checkbox" name="register_accept_terms" value="register_terms">
+                        <label for="accept">I have understood and agree to the Terms and Conditions</label>
+                        <br>
 
                         <input type="submit" class="submit-button" value="Register">
                     </div>
                 </fieldset>
-            </form>
-        </div>
-        <div>
-            <form action="push">
-                
             </form>
         </div>
     </section>
@@ -383,7 +389,6 @@
             <p><span class="separator">©</span> kaptainholiday.com<span class="separator">|</span> built on Good Coffee and Pepparkakors<br><span id="address"> 123 Easy street<span class="separator">|</span> Holiday cove<span class="separator">|</span> Planet Earth<span class="separator">|</span> 4567</span></p>
         </div>
     </footer>
-    
     <!-- Font Awesome script  -->
     <script src="https://kit.fontawesome.com/c2dc8de795.js" crossorigin="anonymous"></script>
 </body>
