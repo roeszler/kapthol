@@ -211,29 +211,30 @@ __The Footer__
 
 ## Subsequent HTML Pages
 
-- __Gallery / User Case Studies Page__
-
-  - This page will be the base format of three main product options provided by Kaptain Holiday to allow the user to easily investigate exactly which option is valuable to their situation. 
-  - This page provides the user with supporting images and information to see what types of professionals are available to manage their business while they are away. 
-  - These pages are valuable to the user as they will be able to relate to the requirements and types of businesses and professionals that Kaptain Holiday typically helps.
+__Gallery / User Case Studies Pages__
 
 ![gallery.html](assets/docs/gallery-kaptain.png)
 ![experinces](assets/docs/user-kaptain.png)
 
-- __The Register / Login Page__
+  - The experience and client pages are designed to be the base format of three main product options (business holidays, working flexibility and testing services with assistant managers)> The pages are designed to allow the user to investigate further which option is valuable to their situation. 
+  - This page provides the user with supporting images and information to see what types of professionals are available to manage their business while they are away. 
+  - These pages are valuable to the user as they will be able to relate to the requirements and types of businesses and professionals that Kaptain Holiday typically helps.
+
+__The Register / Login Page__
+
+![Register / Login Pic](assets/docs/login-page.png)
 
   - This page will allow the user to either login or sign up to Kaptain Holiday to start planning their next holiday within the community. 
   - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
   - The user will be asked to submit their full name, email address and LinkedIn details. 
 
-![Register / Login Pic](assets/docs/login-page.png)
+__Successful Submission Page__
 
-- __Successful Submission Page__
+![Success Pic](assets/docs/success-kaptain.png)
 
-  - This page indicates is displayed to the user following a successful enquiry submission and indicates a call to action to refer friends via social media, investigate further products and/or return to the site homepage. 
-  - The user will be able to specify if they would like to take part in a short survey following submission for the chance to win a session with a business mentor. 
+  - This page indicates is displayed to the user following a successful enquiry submission and indicates a call to action to refer friends via social media and/or return to the site homepage.
+  - it is a slight deviation away from the sites penguin logo, however the light, fun feel of the action is maintained.
 
-![Success Pic](assets/images/readme/love_running_times.png)
 
 <!-- _For some/all of your features, you may choose to reference the specific project files that implement them._
 
@@ -262,7 +263,17 @@ _In addition, you may also use this section to discuss plans for additional feat
     - Excellent contrast 
     - Adequately portray the light, summer holiday feel for the site
     - Selection process :
-      - .
+      - Review of similar and complementary fonts from variety of internet based sources
+      - Selection of those that seem appropriate to the business profile summarised in the [strategy.md](ucd/1-strategy.md) process.
+      - Shortlist of fonts:
+        - Anton / Roboto
+        - Alfa Slab / Open Sans
+        - Alegreya Sans / Roboto
+        - Lobster / Open Sans
+        - Quicksand / Ubentu
+        - Nunito / Roboto
+        - Oswald / Nunito 
+      - On evaluation of the look, feel, and summer time feel sought for the project, a combination of [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) / [Nunito](https://fonts.google.com/specimen/Nunito) was chosen. 
     
     <br>
 - Color Scheme
@@ -271,11 +282,14 @@ _In addition, you may also use this section to discuss plans for additional feat
     | Sky Blue | #70BBE7 | rgba(112,187,231,1) |
     | Sailor Blue | #232361 | rgba(35,35,97, 1) |
     | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
-    | Choc Brown | #52382C | rgba(82,56,44,1) |
     | Red | #FF0000 | rgba(253,0,0,1) |
     | White | #FFFFFF | rgba(255,255,255,1) |
     | Black | #000000 | rgba(0,0,0,1) |
     | Grey | #3a3a3a | rgba(58,58,58,1) |
+
+    - The above color combinations (and opacity variations) were chosen based partly on :
+      - The summer feel sought for the site 
+      - Access to the hero image 'penguin' discovered at Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
 
  - Branding
     - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
@@ -362,7 +376,7 @@ _If this section grows too long, you may want to split it off into a separate fi
 
 #### Unsolved Bugs
 
-- Use JavaScript to make relative nav bar section appear active on page id selection. Ie #contact us selection, should make contact in nav bar be underlined.
+- Once I have progressed in the learning modules, I plan to use JavaScript to make relative nav bar section appear active on page id selection. For example: the 'contact us' (/index.html#contact) selection, should make contact underline in nav bar when selected, even though it is on the same index.html page.
 
 ### Validator Testing 
 

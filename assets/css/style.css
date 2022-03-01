@@ -519,7 +519,7 @@ footer p {
     width: 50%;
     background-color: #000;
     bottom: 0px;
-    margin: 0;
+    margin: 0 auto;
     float: right;
     padding-top: 30px;
     color: #F2DDB2;
