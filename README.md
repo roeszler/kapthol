@@ -46,7 +46,7 @@ Kaptain Holiday is a site that represents a theroetical business that facilitate
 
 Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those looking for work flexibility, experiences, travel and/or comfortably coordinate their business operations while they take a break.
 
-![aim-responsive](assets/images/aim-responsive-kapthol.png)
+![aim-responsive](assets/docs/aim-responsive-kapthol.png)
 
 ### Main Products / Services
 
@@ -58,20 +58,23 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 
 ## Note : User Centred Design 
 ---
-Considering the importance of user experience (UX) in any given project, and the role user centred design (UCD) in all web / app developments, I have included a mock-up of the reserach and information that may be gleaned from such a process. This has been done to let me devlop a to better understanding of this process early in my studies and hopefully useful as a tool as I progress in my studies and carreer. 
+Considering the importance of user experience (UX) and user centred design (UCD) in all web / app developments, and to better devlop my understanding, I have spent a portion of my time to include a mock-up of the reserach and information that may be gleaned from such a process. 
 
-I have attached and referred to several additional markdown documents I have used to assist my understanding of the development design processes as it would relate to the Kaptain Holiday site, its users and stakeholders. The mockup documents will be referred to as required within the text and/or you can be accessed them all here:
+I gave attention to this process in the knowledge that this will be an invaluable tool as I progress in my studies and working life. 
 
-1. [Strategy Plane](ucd/1-strategy.md) 
-2. [Sope Plane](ucd/2-scope.md)
-3. [Structure Plane](ucd/3-structure.md)
-4. [Skeleton Plane](ucd/4-skeleton.md)
-5. [Surface Plane](ucd/5-surface.md)
+Below is links to the markdown documents I have created to assist my understanding of the development design processes as it would relate to a live project. 
 
+The mockup documents will be referred to as required within the text and/or you can be accessed them all here:
+
+1. [Strategy Plane](ucd/1-strategy.md) (working example)
+2. [Sope Plane](ucd/2-scope.md) (framework only)
+3. [Structure Plane](ucd/3-structure.md) (framework only)
+4. [Skeleton Plane](ucd/4-skeleton.md) (framework only)
+5. [Surface Plane](ucd/5-surface.md) (framework only)
 
 ## 2. User Stories
 ---
-A woking document of possible user stories can be found here. The following stories have been arranged in accordance to the sections they are seen in this project.
+A woking document of sample user stories can be found [here](ucd/stories.md). The following stories have been arranged in accordance to the sections they are seen in this project.
 ### Content
 __Entire Site__
 - As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it.
@@ -87,10 +90,12 @@ __Entire Site__
   - As a site user I can see the layout of the < header > element is always at the top of the viewport so that navigation is easy and intuitive.
 
 - Home Button / Icon
-  - As a site user I can easily identify with the style of the home button so I can intuitively navigate the sections and pages of the site.
+  - As a site user I can easily identify with the style and location of the home button in the nav bar or the left header text so as to intuitively navigate the sections and pages of the site.
 
 - Nav Bar
-  - As a site user I can click a .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html page.
+  - As a site user I can click any given .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html and/or login.html pages.
+
+![header-nav-bar](assets/docs/nav-bar-kaptain.png)
 
 __Home Page__
 
@@ -103,10 +108,14 @@ __Home Page__
 - Layout
   - As an initial site user I can see the top of the subsequent page bleed ing up ath the bottom of the page so that I am enticed to investigate into the site further.
 
+![hero-page](assets/docs/home-hero-kaptain.png)
+
 __Gallery (Our Clients)__
-- As a user of the site I can view the experiences of past clients of the business so i can better understand the experience of using these services.
+- Accessed through further investigation into the holiday service as a business owner, as a user of the site I can view the experiences of past clients of the business so i can better understand the experience of using these services.
 - As a potential customer of the business I can further investigate the experience of other customers so I can decide if it will work with my situation and needs.
 - As a business stakeholder I can present more detailed information to potential clients so I can convert them into long term paying customers.
+
+![gallery.html](assets/docs/gallery-kaptain.png)
 
 __Contact Us__
 - Form
@@ -116,6 +125,8 @@ __Contact Us__
   - As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
   - As a viewer of the code I can see that within the form, there is a submit < input > with corresponding id="submit" to allow ease of CSS styling in the future.
   - As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
+
+![contact-section]()
 
 - Map 
   - As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
@@ -139,10 +150,10 @@ __Contact Us__
     - Key Terms : kaptain, holiday, holidays, captain holiday, management, proxy, stand-in, locum, business holiday, Sweden, Stockholm, facilitator, small business management.
 
   - Content
-    - each .html page uses a remotely accessed CSS format so that code editors can more easily change the format of content from the one location
+    - Each .html page uses a remotely accessed CSS format so that code editors can more easily change the format of content from the one location
 
   - Layout 
-    - All pages should have at least one media query to make the viewport responsive to different devices being used so that users can have a responsive experience across devices used to view the entire site.
+    - All pages should have at least one media query to make the viewport responsive to different popular devices being used so that users can have a responsive experience across devices used to view the entire site.
 
 <br>
 
@@ -396,15 +407,15 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/), upsplash and [freepik.com](https://www.freepik.com/home)
-  - Penguin images - sorced from Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
+  - all penguin images - sorced from Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
   - palmtree.png - sourced from [Palm tree icon vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/palm-tree-icon)
   - contact-us.jpeg - sourced from [unsplash.com](https://unsplash.com/photos/4SNUcHPiC8c)
   - success.jpeg - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
   - sally-provider.jpeg - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
-  - Bus on holiday images were sourced from []
-- The images used for the gallery page were taken from [pexels.com](https://www.pexels.com/collections/kapthol-wqxkprh/)
-- Cafe photos taken from [www.pexels.com](https://www.pexels.com/search/cafe/)
+  - all bus images were sourced from pexels user [@nubikini](https://www.pexels.com/@nubikini)
+- The images used for the gallery page were taken from a pexels.com collection curated [here](https://www.pexels.com/collections/kapthol-wqxkprh/) and [here](https://www.pexels.com/search/cafe/).
 
+---
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
