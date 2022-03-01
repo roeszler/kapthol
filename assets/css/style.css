@@ -568,7 +568,7 @@ footer p {
 .separator {
     color: rgba(255,255,255,0.3);
     font-size: 110%;
-    padding-left: 10px;
+    /* padding-left: 1px; */
 }
 
 #address {
@@ -957,5 +957,17 @@ footer p {
 
     #gallery {
         column-count: 2;
+    }
+
+    .center-align-success i {
+        font-size: 600%;
+    }
+
+    #quote-success {
+        font-size: 200%;
+    }
+
+    .center-align-success p {
+        font-size: 100%;
     }
 }
