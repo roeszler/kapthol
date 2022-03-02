@@ -53,6 +53,10 @@ header {
     margin-left: 20px;
 }
 
+#hero-text h2 {
+    display: none;
+}
+
 /* Navigation links */
 
 #navbar {
