@@ -160,7 +160,7 @@ __Navigation Bar__
   - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 
-__The landing page image__
+__The Landing Page & Image__
 
 ![hero-page](assets/docs/home-hero-kaptain.png)
 
@@ -209,8 +209,8 @@ __The Footer__
 
 ![map-and-footer](assets/docs/map-footer-aptain.png)
 
-## Subsequent HTML Pages
-
+### Subsequent HTML Pages
+___
 __Gallery / User Case Studies Pages__
 
 ![gallery.html](assets/docs/gallery-kaptain.png)
@@ -241,62 +241,70 @@ __Successful Submission Page__
 _In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_ -->
 
 ### 3.2 Future Features
-
+___
   - Underline underline in nav header on active status on single page. Possibly JS / JQuery function: window.location.href
-  - Account page for logged-in users
+  - Include a description of the exchange process in more visual detail
+  - Hamburger Icon for menu navigation on mobile devices
+  - Functional database, interaction and account page for logged-in users
   - Popup Q&A animations 
-  - Entry animation and smoothing
-  - Option to select work / hire an assistant manager role to train and trial full services
-  - Integration with nationally based small-business education entities
-  - Automation to connect current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
+  - Automated connecting of current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
   - Possible membership on a subscription model basis
   - api links into CRM and project management software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
   - Intuitive tracking and cataloging of content
-  - Possible intergration into exsisting accounting software (api?)
-   
-## 5. Typography and color scheme
+  - Further entry animation and smoothing
+  - Synergy with ongoing content from small-business education providers 
+
+<br>
+
+## 4. Typography and color scheme
 ---
-- Typography
-    - Evaluated in line with the themes and brand aiming for a the non-corporate nature of business owner / managers.
-    - Bold main 
-    - Smooth easy to read content 
-    - Excellent contrast 
-    - Adequately portray the light, summer holiday feel for the site
-    - Selection process :
-      - Review of similar and complementary fonts from variety of internet based sources
-      - Selection of those that seem appropriate to the business profile summarised in the [strategy.md](ucd/1-strategy.md) process.
-      - Shortlist of fonts:
-        - Anton / Roboto
-        - Alfa Slab / Open Sans
-        - Alegreya Sans / Roboto
-        - Lobster / Open Sans
-        - Quicksand / Ubentu
-        - Nunito / Roboto
-        - Oswald / Nunito 
-      - On evaluation of the look, feel, and summer time feel sought for the project, a combination of [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) / [Nunito](https://fonts.google.com/specimen/Nunito) was chosen. 
-    
-    <br>
-- Color Scheme
-    | Primary Color Palette | Hexadecimal Value | RGBA Value  |
-    | - |:-:| -:|
-    | Sky Blue | #70BBE7 | rgba(112,187,231,1) |
-    | Sailor Blue | #232361 | rgba(35,35,97, 1) |
-    | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
-    | Red | #FF0000 | rgba(253,0,0,1) |
-    | White | #FFFFFF | rgba(255,255,255,1) |
-    | Black | #000000 | rgba(0,0,0,1) |
-    | Grey | #3a3a3a | rgba(58,58,58,1) |
+__Typography__
 
-    - The above color combinations (and opacity variations) were chosen based partly on :
-      - The summer feel sought for the site 
-      - Access to the hero image 'penguin' discovered at Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
-
- - Branding
-    - The themes and branding associated with Kaptain Holiday is aimed at associating a  - light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
-    - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
-    - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
+Typograohy was evaluated in line with the themes and brand aiming for a the non-corporate nature of business owner / managers.
+  - Bold main 
+  - Smooth easy to read content 
+  - Excellent contrast 
+  - Adequately portray the light, summer holiday feel for the site
+  
+Selection process :
+  - Review of similar and complementary fonts from variety of internet based sources
+  - Selection of those that seem appropriate to the business profile summarised in the [strategy.md](ucd/1-strategy.md) process.
+    - Shortlist of fonts:
+      - Anton / Roboto
+      - Alfa Slab / Open Sans
+      - Alegreya Sans / Roboto
+      - Lobster / Open Sans
+      - Quicksand / Ubentu
+      - Nunito / Roboto
+      - Oswald / Nunito 
+  
+  On evaluation of the look, feel, and summer time feel sought for the project, a combination of [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) / [Nunito](https://fonts.google.com/specimen/Nunito) was chosen. 
     
-## 6. Wireframes
+
+__Color Scheme__ 
+
+  | Primary Color Palette | Hexadecimal Value | RGBA Value  |
+  | - |:-:| -:|
+  | Sky Blue | #70BBE7 | rgba(112,187,231,1) |
+  | Sailor Blue | #232361 | rgba(35,35,97, 1) |
+  | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
+  | Red | #FF0000 | rgba(253,0,0,1) |
+  | White | #FFFFFF | rgba(255,255,255,1) |
+  | Black | #000000 | rgba(0,0,0,1) |
+  | Grey | #3a3a3a | rgba(58,58,58,1) |
+
+The above color combinations (and opacity variations) were chosen based partly on :
+  - The summer feel sought for the site 
+  - Access to the hero image 'penguin' discovered at Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
+
+__Branding__
+
+The themes and branding associated with Kaptain Holiday is aimed at associating a  
+  - Light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
+  - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
+  - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
+    
+## 5. Wireframes
 --- 
 A simple visualisation of the layout and colouring intended for the site, it conveys the to the user as they experience the site. The feel and function of the site is intended to be light, summery with an air of simple effective service delivery. 
 
@@ -315,15 +323,19 @@ Acknowledging the scope of the project and beginner nature of my skills as a cod
 __The Landing Sections__ 
 
 Desktop 
+
 ![1920 x 1080 Desktop - Home](assets/docs/1920x1080-desktop-home.png)
 
 Tablet
+
 ![1024 x 768 Tablet - Home](assets/docs/1024x768-index.html-tablet.png)
 
 Mobile
+
 <img src="assets/docs/414x896-index.html-mobile.png" alt="html-mobile" width="414"/>
 
 __What We Do (About Us)__
+___
 
 Desktop
 ![1920 x 1080 Desktop - About](assets/docs/1920x1080-desktop-about.png)
@@ -343,43 +355,70 @@ __Provider Stories__
 __Client Stories__
 ![1920 x 1080 Desktop - Holiday](assets/docs/1920x1080-hol.html-desktop.png)
 
-__Exchange Process__
-![1920 x 1080 Desktop - Exchange](assets/docs/1920x1080-exch.html-desktop.png)
+<!-- __Exchange Process__
+![1920 x 1080 Desktop - Exchange](assets/docs/1920x1080-exch.html-desktop.png) -->
 
 __Login / Register__
 ![1920 x 1080 Desktop - Login](assets/docs/1920x1080-login-desktop.png)
 
-_Please see attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH_wireframes.pdf](assets/docs/KH_wireframes.pdf)._
+_Please see attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH-wireframes.pdf](assets/docs/KH_wireframes.pdf). The exchange process deatiled in the KH-wireframes.pdf was reserved for future releases due to the scope of this as an initial project._
 
-## 7. Technology
+## 6. Technology
 --- 
-
-## <p id="testing">8. Testing</p>
+8. <a href="#testing">Testing</a>
+   8.2 Test cases (user story based with screenshots)
+   8.3 Solved bugs
+   8.4 Unsolved bugs
+   8.1 Validator Testing & Accessibility
+    8.1.1 WC html
+    8.1.2 WC CSS
+    8.1.3 Lighthouse
+   8.4 Supported screens and browsers
+## 7. Testing
 ---
+Overall I am very satisfied that the included features all work as intended using HTML / CSS coding only. The project provides an easy and straightforward way for the users to achieve their goals (Holiday cover / Management Assistance / Sales of Services).
+
 - I have tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
 - I confirmed that the navigation, header, about us, sign up and contact text are all readable and easy to understand.
 - I have confirmed that the form works: requires entries in every relevant field, will only accept email in the email field, and the submit button works.
+- I have set aech form ([contact](https://roeszler.github.io/kapthol/index.html#contact) and [login / register](https://roeszler.github.io/kapthol/login.html)) to method="get" to allow the interaction of each to return a positive response to the [success.html](https://roeszler.github.io/kapthol/success.html) page as indication of a successful submission. This is for testing purposes, and the final site would interact with a database / CRM messaging system a live scenario.
+- I have confirmed the nav bar sticks to the top of the page with a transparency that elicits content to be seen, however still allows the header text to be seen clearly.
+- Animation of the header penguin to slightly enlarge and roatate to portray a sense of activity, with the palm tree to enlarge at a slightly slower rate. All for visual effect.
+- White opaque overlya on mouse hover on images (and social links) with hyperlinks. This has been included to create a subtle interactivity to the desktop user and promote links to further information / opportunity to connect with potential clients.
+- Hover of form fields changing to slight blue border
+- Centralised form sections on screen widths less than 1200 pixels
+- Map section created that inherits and intergrates appropriately with google maps
 
-_In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals._
+__Size / Responsivitiy Considerations__
 
-_In addition, you should mention in this section how your project looks and works on different browsers and screen sizes._
+The site functions with the primary light blue, white and black/grey interactions on all sites. 
+
+The mobile site has been designed to reduce the amount of information available and better direct the user to a message / contact us outcome. It has been designed to reflect that mobile users are literally mobile. They are in a form that predomidantly looks to satisfying an immediate need, such as researching directions in a new city or looking up a phone number or an address. 
+
+In contrast, people using a destop (such as business users ready to commit) may be more likely to use the desktop format when they want to read several pages or conduct in-depth research.
+
+
 
 _You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet._
 
 _If this section grows too long, you may want to split it off into a separate file and link to it from here._
 
-### Bugs 
-#### Solved Bugs
-1. About secion not lining up as desired with single section. Included second section to correct issues.
-- B
+## 8. Bugs
+___
+### Solved Bugs
 
-#### Unsolved Bugs
+Most problems seem to revolve around formatting and alignment of ```<div>``` sections with each other and centralising content within them. Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratio's) has caused a few problems
+
+1. About secion not lining up as desired with single section. Included second section to correct issues.
+2. 
+
+### Unsolved Bugs
 
 - Once I have progressed in the learning modules, I plan to use JavaScript to make relative nav bar section appear active on page id selection. For example: the 'contact us' (/index.html#contact) selection, should make contact underline in nav bar when selected, even though it is on the same index.html page.
 
-### Validator Testing 
-
+## 9. Validator Testing 
+___
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Flove-running%2Findex.html)
 - CSS
