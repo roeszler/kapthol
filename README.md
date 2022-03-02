@@ -405,16 +405,18 @@ _You should also mention in this section any interesting bugs or problems you di
 _If this section grows too long, you may want to split it off into a separate file and link to it from here._
 
 ## 8. Bugs
-___
 ### Solved Bugs
-
+___
 Most problems seem to revolve around formatting and alignment of ```<div>``` sections with each other and centralising content within them. Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratio's) has caused a few problems
 
-1. About secion not lining up as desired with single section. Included second section to correct issues.
-2. 
+1. Content alignment and the use of elements as detailed above.
+2. About secion not lining up as desired with single section. Included second section to correct issues.
+3. Centralisation of [kapthol-hero-image-400.png](assets/images/kapthol-hero-image-400.png) to the cetral Kpatain Holiday text in the "what we do" section while changing screen sizes.
+4. Image hover on the mobile section was influenced by the ```<div>``` containing the ```class="center-align-experience"``` class. It seemed to overide the height of the entire content. Fixed with toggling the ```positon:;``` element between the two in mobile width screen formats
+5. Padding on right side of ```class="input-forms"``` does not seem to be evenly spaced. Included ```padding-right: 45px;``` in the ```.input-forms``` css to adapt.
 
 ### Unsolved Bugs
-
+___
 - Once I have progressed in the learning modules, I plan to use JavaScript to make relative nav bar section appear active on page id selection. For example: the 'contact us' (/index.html#contact) selection, should make contact underline in nav bar when selected, even though it is on the same index.html page.
 
 ## 9. Validator Testing 
