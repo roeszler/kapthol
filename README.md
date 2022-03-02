@@ -242,7 +242,7 @@ _In addition, you may also use this section to discuss plans for additional feat
 
 ### 3.2 Future Features
 ___
-  - Underline underline in nav header on active status on single page. Possibly JS / JQuery function: window.location.href
+  - Underline in nav header on active status on single page. Possibly JS / JQuery function: ```window.location.href```.
   - Include a description of the exchange process in more visual detail
   - Hamburger Icon for menu navigation on mobile devices
   - Functional database, interaction and account page for logged-in users
@@ -414,10 +414,17 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 3. Centralisation of [kapthol-hero-image-400.png](assets/images/kapthol-hero-image-400.png) to the cetral Kpatain Holiday text in the "what we do" section while changing screen sizes.
 4. Image hover on the mobile section was influenced by the ```<div>``` containing the ```class="center-align-experience"``` class. It seemed to overide the height of the entire content. Fixed with toggling the ```positon:;``` element between the two in mobile width screen formats
 5. Padding on right side of ```class="input-forms"``` does not seem to be evenly spaced. Included ```padding-right: 45px;``` in the ```.input-forms``` css to adapt.
+6. Fix grey styling to ```<hr>``` on experience.html and holiday.html
+7. Remove unwanted border around hero image in about us section
+8. Remove inline-block command conflict in the footer p styling
+9. Alignment of footer section interupted by height not equalling auto
+10. Add appropriate ```index.html#id's``` to sections on each of the html pages
+11. Correct about us alignment by including separate secion and chane ```id=""``` refrences to ```class=""```.
 
 ### Unsolved Bugs
 ___
-- Once I have progressed in the learning modules, I plan to use JavaScript to make relative nav bar section appear active on page id selection. For example: the 'contact us' (/index.html#contact) selection, should make contact underline in nav bar when selected, even though it is on the same index.html page.
+- The 'contact us' (```/index.html#contact```) selection, should make contact underline in nav bar when selected, even though it is on the same index.html page.
+  - Once I have progressed in the learning modules, I plan to use some form of JavaScript / JQuery to make relative nav bar section appear active on page id selection. This will likely involve the use of a element like : ```window.location.href```.
 
 ## 9. Validator Testing 
 ___
