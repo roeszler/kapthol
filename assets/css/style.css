@@ -403,6 +403,10 @@ header {
     padding: 10px 10% 40px 50%;
 }
 
+ .testimonial h1 {
+    display: none;
+}
+
 /* Our Clients Grid  - technique sourced from <a https://www.w3schools.com/css/tryit.asp?filename=trycss_grid */
 
 .grid-container {
@@ -911,10 +915,6 @@ footer p {
 
     .testimonial {
         display: none;
-    }
-
-    .testimonial h1 {
-        height: 0px;
     }
 
     .icon {
