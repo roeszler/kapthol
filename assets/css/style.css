@@ -913,6 +913,10 @@ footer p {
         display: none;
     }
 
+    .testimonial h1 {
+        height: 0px;
+    }
+
     .icon {
         font-size: 1500%;
     }
