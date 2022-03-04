@@ -40,7 +40,7 @@
     </header>
     <section class="sect-heading">
         <div>
-            <h1>Login | Register</h1>
+            <h2>Login | Register</h2>
             <hr>
         </div>
     </section>
@@ -79,7 +79,7 @@
                         <label for="mobile">How to phone you</label>
                         <br>
                         <select id="country" name="country_code" class="text-input" required>
-                            <option value="_blank">Country Code</option>
+                            <option value="_blank"></option>
                             <option value="93">Afghanistan +93</option>
                             <option value="358">Aland Islands +358</option>
                             <option value="355">Albania +355</option>
@@ -340,11 +340,12 @@
                         <label for="availability"></label>
                         <input id="availability" type="datetime-local" class="text-input time">
                         <br>
-                        <label for="interest" name="enquiry_interest">I am interested in :</label>
+                        <label for="interest">I am interested in :</label>
                         <br>
-                        <select id="interest" type="text" class="text-input time">
+                        <label for="interest"></label>
+                        <select id="interest" name="enquiry_interest" class="text-input time">
                             <option value="_blank"></option>
-                            <option value="holiday">Holidays</option>
+                            <option value="holiday">Taking a Holiday</option>
                             <option value="work">Working</option>
                             <option value="trial">Trialing a Manager</option>
                             <option value="all">All Services</option>
@@ -358,7 +359,7 @@
                         <input id="legal-name" class="text-input" type="text" name="legal_name" required>
 
                         <label for="address">Correspondence Address</label>
-                        <textarea id="adress" class="text-input" type="text" rows="20" cols="30" name="corr_address"></textarea>
+                        <textarea id="address" class="text-input" rows="5" cols="30" name="corr_address"></textarea>
                         
                         <input id="register-accept" type="checkbox" name="register_accept_terms" value="register_terms" required>
                         <label for="accept">I have understood and agree to the Terms and Conditions</label>
