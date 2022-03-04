@@ -394,7 +394,9 @@ __Size / Responsivitiy Considerations__
 
 The site functions with the primary light blue, white and black/grey interactions on all sites. 
 
-The mobile site has been designed to reduce the amount of information available and better direct the user to a message / contact us outcome. It has been designed to reflect that mobile users are literally mobile. They are in a form that predomidantly looks to satisfying an immediate need, such as researching directions in a new city or looking up a phone number or an address. 
+The mobile site has been designed to reduce the amount of information available and better direct the user to a message / contact us outcome. 
+
+It has been designed to reflect that mobile users are mobile when accessing the site and in so, look to satisfying an immediate need, such as researching directions in a new city or looking up a phone number or an address. 
 
 In contrast, people using a destop (such as business users ready to commit) may be more likely to use the desktop format when they want to read several pages or conduct in-depth research.
 

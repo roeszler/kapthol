@@ -53,9 +53,9 @@ header {
     margin-left: 20px;
 }
 
-#hero-text h2 {
+/* #hero-text h2 {
     display: none;
-}
+} */
 
 /* Navigation links */
 
@@ -111,7 +111,7 @@ header {
     position: absolute;
 }
 
-#hero-text h1 {
+#hero-text h2 {
     font-size: 500%;
     color: rgba(255, 255, 255, 1);
 }
@@ -878,8 +878,8 @@ footer p {
         display: none;
     }
 
-    #hero-text h1 {
-        font-size: 250%;
+    #hero-text h2 {
+        font-size: 350%;
     }
 
     #hero-text h3 {
@@ -981,6 +981,10 @@ footer p {
 
     #hero-text {
         top: 75%;
+    }
+
+    #hero-text h2 {
+        font-size: 200%;
     }
 
     .left-align-experience {
