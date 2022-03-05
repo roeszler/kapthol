@@ -435,7 +435,7 @@ ___
   - index.html = No errors were returned when passing through the official W3C validator on each of the following pages :
     - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Findex.html)
     - [success.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Fsuccess.html)
-    - login.html
+    - [login.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Flogin.html)
     - holiday.html
     - gallery.html
     - experience.html

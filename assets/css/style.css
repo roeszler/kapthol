@@ -718,6 +718,7 @@ footer p {
 .left-align-experience h2, h3, h4, ul {
     list-style: none;
     text-align: left;
+    margin-top: 0px;
 }
 
 .left-align-experience li {
