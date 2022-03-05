@@ -866,6 +866,10 @@ footer p {
     width: auto;
 }
 
+.first-dropdown {
+    display: none;
+}
+
 
 /* Media Queries */
 

@@ -422,6 +422,7 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 9. Alignment of footer section interupted by height not equalling auto
 10. Add appropriate ```index.html#id's``` to sections on each of the html pages
 11. Correct about us alignment by including separate secion and chane ```id=""``` refrences to ```class=""```.
+12. Select element error in validation testing login.html needing ```value=""``` when using ```required``` feature.
 
 ### Unsolved Bugs
 ___
