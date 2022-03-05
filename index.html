@@ -45,25 +45,25 @@
         <div id="hero-palm">
             <img id="hero-palm-image" src="assets/images/palm-tree.png" alt="vecotr graphic of Kaptain Holiday palm tree">
         </div>
-        <div id="hero-text">
+        <div id="hero-text" aria-labelledby="hero-title hero-tagline">
             <h2 id="hero-title">Kaptain <span style="color: #232361">Holiday</span></h2>
             <!-- <h2>blank space</h2> -->
-            <h3>we run the ship while you're away</h3>
+            <h3 id="hero-tagline">we run the ship while you're away</h3>
             <p>Stockholm | Sweden</p>
         </div>
         <div id="hero-top"></div>
         <div id="hero-bottom"></div>
     </section>
     <div id="about"></div>
-    <section class="about sect-heading about-top">
-        <h2>What we do</h2>
+    <section class="about sect-heading about-top" aria-labelledby="what-about owner-about manager-about services-about holiday-about work-about trial-about">
+        <h2 id="what-about">What we do</h2>
         <hr>
         <div class="left-about">
             <div class="left-about-client about-top">
                 <a href="holiday.html">
                     <img src="assets/images/owner-client.png" alt="a portait picture of an owner manager: our 'clients'" aria-label="Link to a Kaptain Holiday client holiday experiences section">
                 </a>
-                <h3>Owner Managers</h3>
+                <h3 id="owner-about">Owner Managers</h3>
                 <p>explore their profile</p>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 <a href="experience.html">
                     <img src="assets/images/sally-provider.png" alt="portait picture of a proxy manager: our 'providers'" aria-label="Link to a Kaptain Holiday employee work experiences">
                 </a>
-                <h3>Surrogate Managers</h3>
+                <h3 id="manager-about">Surrogate Managers</h3>
                 <p>explore their experiences</p>
             </div>
         </div>
@@ -92,7 +92,7 @@
     </section>
     <section class="about sect-heading">
         <div class="sect-heading">
-            <h2>our services</h2>
+            <h2 id="services-about">our services</h2>
             <hr>
         </div>
         <div class="left-about">
@@ -101,7 +101,7 @@
                     <i class="fas fa-plane-departure icon"></i>
                     <!-- <img src="assets/images/250x250-pic.png" alt="portait picture of an owner manager: 'hoilday cover'"> -->
                 </a>
-                <h3>Holiday Cover</h3>
+                <h3 id="holiday-about">Holiday Cover</h3>
                 <p>keep things going</p>
             </div>
         </div>
@@ -111,7 +111,7 @@
                     <i class="fas fa-tachometer-alt icon"></i>
                     <!-- <img src="assets/images/250x250-pic.png" alt="product picture of an assistant to manager: 'trial services''"> -->
                 </a>
-                <h3>Trial Services</h3>
+                <h3 id="trial-about">Trial Services</h3>
                 <p>employ assistants</p>
             </div>
         </div>
@@ -121,7 +121,7 @@
                     <i class="fas fa-tasks icon"></i>
                     <!-- <img src="assets/images/250x250-pic.png" alt="product picture of an assistant to manager: 'trial services''"> -->
                 </a>
-                <h3>Management Roles</h3>
+                <h3 id="work-about">Management Roles</h3>
                 <p>travel the world</p>
             </div>
         </div>
@@ -187,12 +187,12 @@
         </div>
     </section>
     <section id="contact" class="sect-heading">
-        <div id="contact-form-section">
+        <div id="contact-form-section" aria-labelledby="contact-details contact-message">
             <h2>Contact Us</h2>
             <hr>
             <form id="contact-form" method="get" action="success.html" class="input-forms">
                 <fieldset>
-                    <h3>Your Details</h3>
+                    <h3 id="contact-details">Your Details</h3>
                     <div class="contact-float-left">
                         <label for="fname">First Name</label>
                         <input id="fname" class="text-input" type="text" name="first_name" required>
@@ -212,7 +212,7 @@
                         <label for="all">All Services</label>
                         <input id="all" type="radio" name="enquiry_interest" value="all_services">
 
-                        <h3>Your Message</h3>
+                        <h3 id="contact-message">Your Message</h3>
                         <label for="site-message"></label>
                         <textarea class="text-input" name="enquiry-message" id="site-message" cols="30" rows="10"></textarea>
 
