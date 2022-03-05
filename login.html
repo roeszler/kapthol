@@ -45,10 +45,10 @@
         </div>
     </section>
     <section id="login">
-        <div id="login-form-section" class="login">
+        <div id="login-form-section" class="login" aria-labelledby="login-heading register-heading">
             <form id="login-form" method="get" action="success.html" class="input-forms">
                 <fieldset>
-                    <h3>Login Here</h3>
+                    <h3 id="login-heading">Login Here</h3>
                     <div class="contact-float-left">
                         <label for="email-login">Email Address</label>
                         <input id="email-login" class="text-input" type="email" name="email_address" required>
@@ -65,7 +65,7 @@
             </form>
             <form id="register-form" method="get" action="success.html" class="input-forms">
                 <fieldset>
-                    <h3>Register Here</h3>
+                    <h3 id="register-heading">Register Here</h3>
                     <div class="contact-float-left">
                         <label for="fname">First Name</label>
                         <input id="fname" class="text-input" type="text" name="first_name" required>
