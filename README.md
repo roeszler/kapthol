@@ -444,9 +444,9 @@ ___
   - No errors were found when passing through the official [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Accessibility
-  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [lighthouse](https://developers.google.com/web/tools/lighthouse/) in dev tools.
+  - I confirmed that the colors, contrast and fonts chosen are easy to read and accessible by running it through [lighthouse](https://developers.google.com/web/tools/lighthouse/) in dev tools.
   
-![Accessibility Pic](assets/images/readme/love_running_signup.webp)
+![Accessibility Pic](assets/docs/accessibillity-score-kapthol.webp)
 
 
 ## Deployment
@@ -463,9 +463,6 @@ This section should describe the process you went through to deploy the project 
 
 ## Credits 
 ---
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
