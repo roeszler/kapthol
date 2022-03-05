@@ -469,10 +469,11 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
+- Primary and additional CSS and hmtl coding was studied and reworked from moduels provided through the Code Institute's [Diploma in Full Stack Software Devlopment](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/) and [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background).
 - The screen size for mockups and responsiveness testing was sampled from [GBK Soft](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) and based current resolutions typically found in the UK marketplace
 - Country codes for dropdown list in contact us section - [html-code-generator.com](https://www.html-code-generator.com/html/drop-down/country-names)
 
-- The text for the Home page was taken from Wikipedia Article A
+- The text for the Home page was sourced from [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) by Juan Pablo del Peral, Huerta Tipográfica and [Nunito](https://fonts.google.com/specimen/Nunito) by Vernon Adams, Cyreal, Jacques Le Bailly imprted via google fonts. 
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
@@ -481,7 +482,7 @@ You can break the credits section up into Content and Media, depending on what y
 - The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/), upsplash and [freepik.com](https://www.freepik.com/home)
   - all penguin images - sorced from Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
   - palmtree.webp - sourced from [Palm tree icon vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/palm-tree-icon)
-  - contact-us.jpeg - sourced from [unsplash.com](https://unsplash.com/photos/4SNUcHPiC8c)
+  - contact-us.webp - sourced from [unsplash.com](https://unsplash.com/photos/4SNUcHPiC8c)
   - success.webp - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
   - sally-provider.webp - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
   - all bus images were sourced from pexels user [@nubikini](https://www.pexels.com/@nubikini)
