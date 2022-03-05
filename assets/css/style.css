@@ -283,7 +283,7 @@ header {
 }
 /* 
 .circle-cover-background {
-    background: url(../images/kapthol-hero-image-300.png);
+    background: url(../images/kapthol-hero-image-300.webp);
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
@@ -463,7 +463,7 @@ header {
 
 #contact-form-section {
     clear: left;
-    background-image: url(../images/contact-us.jpeg);
+    background-image: url(../images/contact-us.webp);
     background-size: cover;
     height: 750px;
 }
@@ -653,7 +653,7 @@ footer p {
     height: 400px;
     margin: 0 auto;
     text-align: center;
-    background-image: url(../images/success.png);
+    background-image: url(../images/success.webp);
     background-size: cover;
     /* background-position: center no-repeat; */
     border-radius: 50%;
@@ -850,7 +850,7 @@ footer p {
 /* Login Page */
 
 .login {
-    background-image: url(../images/login-penguin.png);
+    background-image: url(../images/login-penguin.webp);
     background-size: cover;
     background-attachment: fixed;
     height: 1500px;
