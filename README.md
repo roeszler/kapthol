@@ -436,9 +436,9 @@ ___
     - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Findex.html)
     - [success.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Fsuccess.html)
     - [login.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Flogin.html)
-    - holiday.html
+    - [holiday.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Fholiday.html)
     - gallery.html
-    - experience.html
+    - [experience.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Fexperience.html)
 - CSS
   - No errors were found when passing through the official [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froeszler.github.io%2Flove-running%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
