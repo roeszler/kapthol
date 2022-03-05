@@ -852,10 +852,8 @@ footer p {
 .login {
     background-image: url(../images/login-penguin.png);
     background-size: cover;
-    background-position: right no-repeat;
     background-attachment: fixed;
     height: 1500px;
-    /* padding-top: 75px; */
 }
 
 #country {
