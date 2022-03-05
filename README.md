@@ -413,7 +413,7 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 
 1. Content alignment and the use of elements as detailed above.
 2. About secion not lining up as desired with single section. Included second section to correct issues.
-3. Centralisation of [kapthol-hero-image-400.png](assets/images/kapthol-hero-image-400.png) to the cetral Kpatain Holiday text in the "what we do" section while changing screen sizes.
+3. Centralisation of [kapthol-hero-image-400.webp](assets/images/kapthol-hero-image-400.webp) to the cetral Kpatain Holiday text in the "what we do" section while changing screen sizes.
 4. Image hover on the mobile section was influenced by the ```<div>``` containing the ```class="center-align-experience"``` class. It seemed to overide the height of the entire content. Fixed with toggling the ```positon:;``` element between the two in mobile width screen formats
 5. Padding on right side of ```class="input-forms"``` does not seem to be evenly spaced. Included ```padding-right: 45px;``` in the ```.input-forms``` css to adapt.
 6. Fix grey styling to ```<hr>``` on experience.html and holiday.html
@@ -442,11 +442,11 @@ ___
 
 - CSS
   - No errors were found when passing through the official [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Froeszler.github.io%2Fkapthol%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  
+
 - Accessibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [lighthouse](https://developers.google.com/web/tools/lighthouse/) in dev tools.
   
-![Accessibility Pic](assets/images/readme/love_running_signup.png)
+![Accessibility Pic](assets/images/readme/love_running_signup.webp)
 
 
 ## Deployment
@@ -480,10 +480,10 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/), upsplash and [freepik.com](https://www.freepik.com/home)
   - all penguin images - sorced from Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
-  - palmtree.png - sourced from [Palm tree icon vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/palm-tree-icon)
+  - palmtree.webp - sourced from [Palm tree icon vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/palm-tree-icon)
   - contact-us.jpeg - sourced from [unsplash.com](https://unsplash.com/photos/4SNUcHPiC8c)
-  - success.jpeg - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
-  - sally-provider.jpeg - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
+  - success.webp - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
+  - sally-provider.webp - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
   - all bus images were sourced from pexels user [@nubikini](https://www.pexels.com/@nubikini)
 - The images used for the gallery page were taken from a pexels.com collection curated [here](https://www.pexels.com/collections/kapthol-wqxkprh/) and [here](https://www.pexels.com/search/cafe/).
 
