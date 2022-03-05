@@ -465,8 +465,6 @@ header {
     clear: left;
     background-image: url(../images/contact-us.jpeg);
     background-size: cover;
-    background-position: bottom no-repeat;
-    /* background-attachment: fixed; */
     height: 750px;
 }
 
@@ -650,15 +648,14 @@ footer p {
 }
 
 .center-align-success {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 0px;
     width: 100%;
     height: 400px;
     margin: 0 auto;
     text-align: center;
     background-image: url(../images/success.png);
     background-size: cover;
-    background-position: center no-repeat;
+    /* background-position: center no-repeat; */
     border-radius: 50%;
 }
 
