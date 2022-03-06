@@ -279,7 +279,7 @@ __Color Scheme__
 
   | Primary Color Palette | Hexadecimal Value | RGBA Value  |
   | - |:-:| -:|
-  | Sky Blue | #70BBE7 | rgba(112,187,231,1) |
+  | Sky Blue | #3AADFB | rgba(58,173,251, 1) |
   | Sailor Blue | #232361 | rgba(35,35,97, 1) |
   | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
   | Red | #FF0000 | rgba(253,0,0,1) |

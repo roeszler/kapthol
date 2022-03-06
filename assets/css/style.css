@@ -1,6 +1,6 @@
 /* Import Statements */
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Nunito:wght@200;300;400&display=swap');
 
 /* Sitewide CSS */
 
@@ -23,7 +23,7 @@ h1 {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -2px;
-    color: #70BBE7;
+    color: rgba(58,173,251, 1);
 }
 
 h2 {
@@ -52,8 +52,8 @@ header {
     font-size: 250%;
     margin-left: 20px;
     /* color: rgba(35,35,97, 1); */
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 1);
-    /* color: rgba(112,187,231,1); */
+    /* text-shadow: 2px 1px 2px rgba(0, 0, 0, 1); */
+    /* color: rgba(58,173,251,1); */
 }
 
 /* general class to make element hidden */
@@ -89,11 +89,11 @@ header {
 }
 
 #navbar a:hover {
-    border-bottom: 1px solid rgba(112,187,231,1);
+    border-bottom: 1px solid rgba(58,173,251,1);
 }
 
 .active {
-    border-bottom: 1px solid rgba(112,187,231,1);
+    border-bottom: 1px solid rgba(58,173,251,1);
 }
 
 /* Hero section */
@@ -143,7 +143,7 @@ header {
 /* Hero top and bottom colors */
 
 #hero-top {
-    background-color: #70BBE7;
+    background-color: rgba(58,173,251, 1);
     height: 66%;
     width: 100%;
 }
@@ -250,7 +250,7 @@ header {
 }
 
 .sect-heading hr {
-    border-top: 1px solid #70BBE7;
+    border-top: 1px solid rgba(58,173,251, 1);
     width: 25%;
     margin: 25px auto;
 }
@@ -279,7 +279,7 @@ header {
     height: 300px;
     padding: 30px;
     /* border-style: solid; */
-    /* border-color: rgba(112,187,231,0.5); */
+    /* border-color: rgba(58,173,251,0.5); */
     /* border-w?idth: 1px; */
     border-radius: 50%;
     margin: 0 auto;
@@ -313,7 +313,7 @@ header {
 }
 
 .center-about-text h2 {
-    color: rgba(112,187,231,1);
+    color: rgba(58,173,251,1);
     font-size: 300%;
     letter-spacing: -2px;
     text-align: center;
@@ -360,7 +360,7 @@ header {
     width: 100%; 
     height: auto;
     padding: 5px;
-    border: 1px solid rgba(112,187,231,0.3);
+    border: 1px solid rgba(58,173,251,0.3);
     border-radius: 5px;
 }
 
@@ -385,7 +385,7 @@ header {
 /* testimonials */
 
 .testimonial {
-    /* background-color: rgba(112,187,231,0.1); */
+    /* background-color: rgba(58,173,251,0.1); */
     background-color: rgba(242,221,178,0.7);
     /* background-color: rgba(242,221,178,1); */
     width: 100%;
@@ -402,7 +402,7 @@ header {
     height: 33%;
     width: 100%;
     /* background-color: #F2DDB2; */
-    /* background-color: rgba(112,187,231,.7); */
+    /* background-color: rgba(58,173,251,.7); */
     /* color: rgba(35,35,97, 0.7); */
     /* bottom: 0px; */
 }
@@ -444,21 +444,23 @@ header {
 }
 
 .grid-item p {
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 200;
 }
 
 .grid-item img {
     width: 75%;
     height: auto;
     padding: 5px;
-    border: 1px solid rgba(112,187,231,0.3);
+    border: 1px solid rgba(58,173,251,0.3);
     border-radius: 5px;
 }
 
 /* Font Awesome Styling */
 
 .icon {
-    color: rgba(112,187,231,1);
+    color: rgba(58,173,251,1);
     font-size: 800%;
     padding-bottom: 30px;
 }
@@ -514,7 +516,7 @@ form label {
 }
 
 .text-input:hover {
-    border-color: #70BBE7;
+    border-color: rgba(58,173,251, 1);
 }
 
 .submit-button {
@@ -526,11 +528,11 @@ form label {
     text-transform: uppercase;
     font-weight: 900;
     color: #000;
-    background-color: #70BBE7;
+    background-color: rgba(58,173,251, 1);
 }
 
 .submit-button:hover {
-    color: #70BBE7;
+    color: rgba(58,173,251, 1);
     background-color: #fff;
 }
 
@@ -594,11 +596,11 @@ footer p {
 .social i:hover {
     opacity: 0.7;
     transition: .5s ease;
-    color: #70BBE7;
+    color: rgba(58,173,251, 1);
 }
 
 .social a {
-    color: #70BBE7;
+    color: rgba(58,173,251, 1);
 }
 
 /* footer p {
@@ -640,7 +642,7 @@ footer p {
 }
 
 .success-icon i:hover {
-    color: #70BBE7;
+    color: rgba(58,173,251, 1);
 }
 
 .right-align-success {
@@ -675,7 +677,7 @@ footer p {
     font-family: 'Alegreya Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-    color: #70BBE7;
+    color: rgba(58,173,251, 1);
     font-size: 250%;
 }
 .center-align-success p {
@@ -712,7 +714,7 @@ footer p {
     height: auto;
     margin-bottom: 50px;
     padding: 5px;
-    border: 1px solid rgba(112,187,231,0.3);
+    border: 1px solid rgba(58,173,251,0.3);
     border-radius: 5px;
     /* position: relative; */
 }
@@ -759,7 +761,7 @@ footer p {
     height: auto;
     margin-bottom: 50px;
     padding: 5px;
-    border: 1px solid rgba(112,187,231,0.3);
+    border: 1px solid rgba(58,173,251,0.3);
     border-radius: 5px;
 }
 
@@ -789,7 +791,7 @@ footer p {
     height: auto;
     margin-bottom: 50px;
     padding: 5px;
-    border: 1px solid rgba(112,187,231,0.3);
+    border: 1px solid rgba(58,173,251,0.3);
     border-radius: 5px;
 }
 
