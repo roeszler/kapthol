@@ -145,14 +145,13 @@ __Contact Us__
     - Each .html page uses a remotely accessed CSS format so that code editors can more easily change the format of content from the one location
 
   - Layout 
-    - All pages should have at least one media query to make the viewport responsive to different popular devices being used so that users can have a responsive experience across devices used to view the entire site.
+    - All pages have at least one media query to make the viewport responsive to different popular devices. This is so users can have a responsive experience across devices used to view the entire site.
 
 <br>
 
 __Navigation Bar__
 
 ![header-nav-bar](assets/docs/nav-bar-kaptain.png)
-
 
   - Is featured identically on all pages in the top right hand corner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
   - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages to allow easy intuitive navigation.
@@ -165,7 +164,7 @@ __The Landing Page & Image__
 ![hero-page](assets/docs/home-hero-kaptain.png)
 
   - The landing section includes a format and images with text overlay to allow the user to understand what type of user this site would be applicable too.
-  - The landing section announces the core business proposition with a subtle animation to grab the users attention.
+  - The landing section announces the core business proposition with a subtle grow and rotate animation to grab the users attention toward the site mascott image ([Sailor Penguin](assets/images/kapthol-hero-image.png)).
 
 __The Header__
 
@@ -189,15 +188,15 @@ __Gallery (our clients) section__
 
 ![clients section](assets/docs/clients-kaptain.png)
 
-  - This section will allow the user to further explore the product range and experiences of model customers. It should encourage users to consider Kaptain holiday as part of their next break away from the business. 
+  - This section allows the user to further explore the product range and experiences of model customers. It is aimed to encourage users in considering Kaptain holiday as part of their next planned break away from their business. 
   - This section will be kept up to date as times and new initiatives become available to keep the user engaged with the business. 
 
 __The Contact Us Section__
 
 ![contact-section](assets/docs/contact-kapthol.png)
 
-  - This section will allow the user to contact us with queries
-  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with us. 
+  - This section will allow the user to contact Kaptain Holiday with queries
+  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to becoming a manager with Kaptain Holiday. 
   - The user will be asked to submit their full name, email address (required) and a small enquiry message.
 
 __The Footer__ 
@@ -233,18 +232,13 @@ __Successful Submission Page__
 ![Success Pic](assets/docs/success-kaptain.png)
 
   - This page indicates is displayed to the user following a successful enquiry submission and indicates a call to action to refer friends via social media and/or return to the site homepage.
-  - it is a slight deviation away from the sites penguin logo, however the light, fun feel of the action is maintained.
-
-
-<!-- _For some/all of your features, you may choose to reference the specific project files that implement them._
-
-_In addition, you may also use this section to discuss plans for additional features to be implemented in the future:_ -->
+  - The success image is a slight deviation away from the sites penguin logo, however the light, fun feel of the action of the site is maintained.
 
 ### 3.2 Future Features
 ___
   - Underline in nav header on active status on single page. Possibly JS / JQuery function: ```window.location.href```.
   - Include a description of the exchange process in more visual detail
-  - Hamburger Icon for menu navigation on mobile devices
+  - Hamburger icon for menu navigation on mobile devices
   - Functional database, interaction and account page for logged-in users
   - Popup Q&A animations 
   - Automated connecting of current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
@@ -299,7 +293,7 @@ The above color combinations (and opacity variations) were chosen based partly o
 
 __Branding__
 
-The themes and branding associated with Kaptain Holiday is aimed at associating a  
+The themes and branding associated with Kaptain Holiday is aimed at associating a :
   - Light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
   - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
   - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
@@ -318,7 +312,7 @@ Gbksoft also indicates the typical use of media used to browse webpages is predo
 | Desktop | 41.46% |
 | Tablet | 2.81% |
 
-Acknowledging the scope of the project and beginner nature of my skills as a coder of html / css, I intend to start the design with reference to a mobile interface, and scale it up with media queries in due course.
+Acknowledging the scope of the project and beginner nature of my skills as a coder of html / css, I originally intended to start the design with reference to a mobile interface, and scale it up with media queries in due course. This changed with my learning to focus on the fundamentals of the project and getting a desktop version in place and simplifying the mobile interface to a more immediate / simple direction to contacting Kaptain Holiday for more information.
 
 __The Landing Sections__ 
 
@@ -365,36 +359,29 @@ _Please see attached link to view the entire proposed early layout of the site i
 
 ## 6. Technology
 --- 
-8. <a href="#testing">Testing</a>
-   8.2 Test cases (user story based with screenshots)
-   8.3 Solved bugs
-   8.4 Unsolved bugs
-   8.1 Validator Testing & Accessibility
-    8.1.1 WC html
-    8.1.2 WC CSS
-    8.1.3 Lighthouse
-   8.4 Supported screens and browsers
+
+The technology used in this project...
 ## 7. Testing
 ---
-Overall I am very satisfied that the included features all work as intended using HTML / CSS coding only. The project provides an easy and straightforward way for the users to achieve their goals (Holiday cover / Management Assistance / Sales of Services).
+Overall I am satisfied that the included features all work as intended, employing HTML / CSS coding only. The project provides an easy and intuitive path for users to achieve their goals (Holiday cover / Management Assistance / Sales of Services).
 
 - I have tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
 - I confirmed that the navigation, header, about us, sign up and contact text are all readable and easy to understand.
 - I have confirmed that the form works: requires entries in every relevant field, will only accept email in the email field, and the submit button works.
-- I have set aech form ([contact](https://roeszler.github.io/kapthol/index.html#contact) and [login / register](https://roeszler.github.io/kapthol/login.html)) to method="get" to allow the interaction of each to return a positive response to the [success.html](https://roeszler.github.io/kapthol/success.html) page as indication of a successful submission. This is for testing purposes, and the final site would interact with a database / CRM messaging system a live scenario.
-- I have confirmed the nav bar sticks to the top of the page with a transparency that elicits content to be seen, however still allows the header text to be seen clearly.
-- Animation of the header penguin to slightly enlarge and roatate to portray a sense of activity, with the palm tree to enlarge at a slightly slower rate. All for visual effect.
-- White opaque overlya on mouse hover on images (and social links) with hyperlinks. This has been included to create a subtle interactivity to the desktop user and promote links to further information / opportunity to connect with potential clients.
+- I have set each form ([contact](https://roeszler.github.io/kapthol/index.html#contact) and [login / register](https://roeszler.github.io/kapthol/login.html)) to method="get" to allow the interaction of each to return a positive response to the [success.html](https://roeszler.github.io/kapthol/success.html) page as indication of a successful submission. This is for testing purposes, and the final site would interact with a database / CRM messaging system a live scenario.
+- I have confirmed the nav bar sticks to the top of the page with a 0.85 transparency that elicits content to be seen, however still allows the header text to be seen clearly.
+- Animation of the header penguin to slightly enlarge and roatate to portray a sense of activity, with the palm tree to enlarge at a slightly slower rate for user interest and visual effect.
+- White opaque overlay on mouse hover on images (and social links) that contain hyperlinks internal and external to the site. This has been included to create a subtle interactivity to the desktop user and promote links to further information or opportunity to connect with potential clients.
 - Hover of form fields changing to slight blue border
 - Centralised form sections on screen widths less than 1200 pixels
 - Map section created that inherits and intergrates appropriately with google maps
 
 __Size / Responsivitiy Considerations__
 
-The site functions with the primary light blue, white and black/grey interactions on all sites. 
+The site functions with the primary light blue, sailor blue, white and black/grey interactions on subsequent elements. 
 
-The mobile site has been designed to reduce the amount of information available and better direct the user to a message / contact us outcome. 
+The mobile site has been designed to reduce the amount of information available and better direct the user to a message and/or contact us outcome. 
 
 It has been designed to reflect that mobile users are mobile when accessing the site and in so, look to satisfying an immediate need, such as researching directions in a new city or looking up a phone number or an address. 
 
@@ -422,7 +409,7 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 9. Alignment of footer section interupted by height not equalling auto
 10. Add appropriate ```index.html#id's``` to sections on each of the html pages
 11. Correct about us alignment by including separate secion and chane ```id=""``` refrences to ```class=""```.
-12. Select element error in validation testing login.html needing ```value=""``` when using ```required``` feature.
+12. Select element error in validation testing login.html needing a ```value=""``` to have content when using ```required``` feature. I would like to remove this into the future.
 
 ### Unsolved Bugs
 ___
@@ -453,12 +440,14 @@ ___
 ---
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The site has been deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, I navigated to the "settings" tab, that displays the general title.
+  - On the left hand navigation menu, I selected the "pages" option midway down the menu.
+  - At the top of the pages tab, the source section drop-down menu changed to select the branch: "main" with the folder selected as "/(root)"
+  - Commited to the save and waited a few moments for the settings to coordinate with the server. 
+  - On refresh of the browser, the dedicated ribbon changed to the selected web address, indicating a successful deployment.
 
-> The live link can be found here - https://roeszler.github.io/kapthol/index.html
+> The live link can be found at - https://roeszler.github.io/kapthol/index.html
 
 
 ## Credits 
@@ -466,7 +455,14 @@ This section should describe the process you went through to deploy the project 
 
 ### Content 
 
-- Primary and additional CSS and hmtl coding was studied and reworked from moduels provided through the Code Institute's [Diploma in Full Stack Software Devlopment](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/) and [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background).
+- Primary and additional CSS and hmtl coding was studied and reworked from moduels provided through the Code Institute's [Diploma in Full Stack Software Devlopment](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/), [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background) and [GeeksforGeeks](https://www.geeksforgeeks.org/). These included reserch and implemataion of: 
+  - position: sticky;
+  - z-index: ;
+  - opacity: ;
+  - text-shadow: ;
+  - background-image: linear-gradient();
+  - embed a map in iframes using [google cloud console](https://developers.google.com/maps/documentation/embed/cloud-setup)
+
 - The screen size for mockups and responsiveness testing was sampled from [GBK Soft](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) and based current resolutions typically found in the UK marketplace
 - Country codes for dropdown list in contact us section - [html-code-generator.com](https://www.html-code-generator.com/html/drop-down/country-names)
 
@@ -486,7 +482,7 @@ This section should describe the process you went through to deploy the project 
 - The images used for the gallery page were taken from a pexels.com collection curated [here](https://www.pexels.com/collections/kapthol-wqxkprh/) and [here](https://www.pexels.com/search/cafe/).
 
 ---
-
+<!-- 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
@@ -505,7 +501,7 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!  -->
 
  *__Please Note__ : Kaptain Holiday is a fictitious site at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
 
