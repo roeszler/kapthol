@@ -312,7 +312,9 @@ Gbksoft also indicates the typical use of media used to browse webpages is predo
 | Desktop | 41.46% |
 | Tablet | 2.81% |
 
-Acknowledging the scope of the project and beginner nature of my skills as a coder of html / css, I originally intended to start the design with reference to a mobile interface, and scale it up with media queries in due course. This changed with my learning to focus on the fundamentals of the project and getting a desktop version in place and simplifying the mobile interface to a more immediate / simple direction to contacting Kaptain Holiday for more information.
+Acknowledging the scope of the project and beginner nature of my skills as a coder in html / css, I originally considered starting the design with a mobile interface and scaling it up with media queries to a desktop version.
+
+With my focus to learn the process of html / css design, and the innate relative simplicity of mobile sites, I found it easier to focus build on a desktop version intitially, then simplifying it into a mobile interface using media queries.
 
 __The Landing Sections__ 
 
@@ -389,9 +391,9 @@ In contrast, people using a destop (such as business users ready to commit) may 
 
 
 
-_You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet._
+<!-- _You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet._
 
-_If this section grows too long, you may want to split it off into a separate file and link to it from here._
+_If this section grows too long, you may want to split it off into a separate file and link to it from here._ -->
 
 ## 8. Bugs
 ### Solved Bugs
@@ -413,8 +415,9 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 
 ### Unsolved Bugs
 ___
-- The 'contact us' (```/index.html#contact```) selection, should make contact underline in nav bar when selected, even though it is on the same index.html page.
-  - Once I have progressed in the learning modules, I plan to use some form of JavaScript / JQuery to make relative nav bar section appear active on page id selection. This will likely involve the use of a element like : ```window.location.href```.
+- The 'contact us' (```/index.html#contact```) selection, should make the contact lettering in the menu become underline in nav bar when the section selected. As a majority of the navigation elements are designed to link to id's on the same page (ie function as a "single page site"), I have not yet solved this problem using just html or css. 
+
+  - __However__ - once I have progressed in the learning modules, I plan to use some form of JavaScript / JQuery to make relative nav bar section appear active on page id selection. This will likely involve the use of a element like : ```window.location.href```.
 
 ## 9. Validator Testing 
 ___
@@ -438,9 +441,7 @@ ___
 
 ## Deployment
 ---
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site has been deployed to GitHub pages. The steps to deploy are as follows: 
+The site has been deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, I navigated to the "settings" tab, that displays the general title.
   - On the left hand navigation menu, I selected the "pages" option midway down the menu.
   - At the top of the pages tab, the source section drop-down menu changed to select the branch: "main" with the folder selected as "/(root)"
@@ -452,7 +453,6 @@ This section should describe the process you went through to deploy the project 
 
 ## Credits 
 ---
-
 ### Content 
 
 - Primary and additional CSS and hmtl coding was studied and reworked from moduels provided through the Code Institute's [Diploma in Full Stack Software Devlopment](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/), [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background) and [GeeksforGeeks](https://www.geeksforgeeks.org/). These included reserch and implemataion of: 
