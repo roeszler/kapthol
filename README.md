@@ -412,6 +412,7 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 10. Add appropriate ```index.html#id's``` to sections on each of the html pages
 11. Correct about us alignment by including separate secion and chane ```id=""``` refrences to ```class=""```.
 12. Select element error in validation testing login.html needing a ```value=""``` to have content when using ```required``` feature. I would like to remove this into the future.
+13. Semantic order of headings h1, h2 present an error in validation with a non-sequential order. Suggested to change format of ```<section>``` to ```<div>```. It works, however to keep the semantic structure of the site, I have re-styled the h1, h2, h3 headings to display the formats we wish to see.
 
 ### Unsolved Bugs
 ___
