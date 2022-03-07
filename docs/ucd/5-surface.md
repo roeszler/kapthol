@@ -21,5 +21,38 @@ You develop a visual language that provides:
   - Progressive disclosure
 - Readability 
   - Patterns & contrast appropriate
+    - Here is the whole list of codes you can add to your existing color hex code : 
+    
+| % Opacity | HEX — A |
+| -: | :-: |
+| 100% | — FF
+| 95% | — F2
+| 90% | — E6
+| 85% | — D9
+| 80% | — CC
+| 75% | — BF
+| 70% | — B3
+| 65% | — A6
+| 60% | — 99
+| 55% | — 8C
+| 50% | — 80
+| 45% | — 73
+| 40% | — 66
+| 35% | — 59
+| 30% | — 4D
+| 25% | — 40
+| 20% | — 33
+| 15% | — 26
+| 10% | — 1A
+| 5% | — 0D
+| 0% | — 00
 
-
+| Primary Color Palette | Hexadecimal Value | RGBA Value  |
+  | - |:-:| -:|
+  | Sky Blue | #3AADFB | rgba(58,173,251, 1) |
+  | Sailor Blue | #232361 | rgba(35,35,97, 1) |
+  | Light Tan | #F2DDB2 | rgba(242,221,178,1) |
+  | Red | #FF0000 | rgba(253,0,0,1) |
+  | White | #FFFFFF | rgba(255,255,255,1) |
+  | Black | #000000 | rgba(0,0,0,1) |
+  | Gray | #3a3a3a | rgba(58,58,58,1) |
