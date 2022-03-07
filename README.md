@@ -549,9 +549,12 @@ __Alternatively, if you have already created the GitPod environment for your pro
 - In the browser’s address bar, prefix the entire URL with [gitpod.io/#](https://gitpod.io/#) or [gitpod.io/workspaces](https://gitpod.io/workspaces) and press Enter. This will take you to a list of workspaces that have been active within the past 14 days.
 - Search for the workspace you wish to work on and access the link to it that lies within the pathway https://gitpod.io/.
   - PLEASE NOTE: the difference between GitPod and the GitHub hyperlinks : 
-    - the GitPod workspace for this site is https://gitpod.io/start/#roeszler-kapthol-y3gyoqrxrk4
-    - the GitHub repository for this site is https://github.com/roeszler/kapthol
-- Sign in each time with one of the listed providers (like GitHub,  GitLab or BitBucket) and let the workspace start up.
+
+> the GitPod workspace for this site is https://gitpod.io/start/#roeszler-kapthol-y3gyoqrxrk4 that is restricted by account access to one of the providers like GitHub, GitLab, or BitBucket.
+    
+> The freely accessible GitHub repository for this site is https://github.com/roeszler/kapthol
+
+- Sign in to the workspace each time with [gitpod.io/#](https://gitpod.io/#) using one of the listed providers (GitHub / GitLab / BitBucket) and let the workspace start up.
 - On navigating to the workspace for the first time, it may take a little while longer than normal to intially install all it needs. Be patient.
 - It is recommend that you install the Gitpod browser extension to make this a one-click operation into the future.
 
