@@ -525,9 +525,9 @@ Testing to the defined features and subsequent tests derived from user stories, 
 
 ## Deployment
 
-### Display Environment
+### Display Environment (GitHub / GitLab / BitBucket)
 The site has been deployed to GitHub pages. The steps to deploy are as follows: 
-  - Create / open an exsisting repository for the project with the name of your choice on your GitHub, GitLab or Bitbucket account page
+  - Create / open an exsisting repository for the project with the name of your choice on your GitHub, GitLab or Bitbucket account page.
   - Navigate within the GitHub repository you chose, and then navigate to the "settings" tab, which displays the general title.
   - On the left hand navigation menu, I selected the "pages" option midway down the menu.
   - At the top of the pages tab, the source section drop-down menu changed to select the branch: "main" with the folder selected as "/(root)"
@@ -536,23 +536,25 @@ The site has been deployed to GitHub pages. The steps to deploy are as follows:
 
 > The live link can be found at - https://roeszler.github.io/kapthol/index.html
 
-### Development Environment
+
+### Development Environment (GitPod)
+
 The site has been deployed to GitPod pages. The steps to deploy are as follows:
-- In the GitHub, GitLab or Bitbucket account page where you created a repository for the project, when on the tab titled '<> Code', navigate to the button on the top right of the repositiry navigation pane titled 'Gitpod'.
+- In the GitHub, GitLab or Bitbucket account page where you created a repository for the project, navigate to the tab titled '<> Code'
+- From here, navigate to the button on the top right of the repositiry navigation pane titled 'Gitpod'.
 - If you press this it will create a new GitPod devlopment environment each time.
 
 __Alternatively, if you have already created the GitPod environment for your project__ : 
 
 - In the browser’s address bar, prefix the entire URL with [gitpod.io/#](https://gitpod.io/#) or [gitpod.io/workspaces](https://gitpod.io/workspaces) and press Enter. This will take you to a list of workspaces that have been active within the past 14 days.
-- Search for the workspace you wish to work on and access the link to it that lies within the https://gitpod.io/... pathway
-  - NOTE: the difference between GitPod hyperlink and the GitHub hyperlink. For example: 
+- Search for the workspace you wish to work on and access the link to it that lies within the pathway https://gitpod.io/.
+  - PLEASE NOTE: the difference between GitPod and the GitHub hyperlinks : 
     - the GitPod workspace for this site is https://gitpod.io/start/#roeszler-kapthol-y3gyoqrxrk4
     - the GitHub repository for this site is https://github.com/roeszler/kapthol
+- Sign in each time with one of the listed providers (like GitHub,  GitLab or BitBucket) and let the workspace start up.
+- On navigating to the workspace for the first time, it may take a little while longer than normal to intially install all it needs. Be patient.
+- It is recommend that you install the Gitpod browser extension to make this a one-click operation into the future.
 
-
-For example, gitpod.io/#https://github.com/gitpod-io/website
-We recommend you install the Gitpod browser extension to make this a one-click operation.
-Sign in with one of the listed providers and let the workspace start up.
 ## Credits 
 
 ### Content 
