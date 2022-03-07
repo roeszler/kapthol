@@ -51,10 +51,7 @@ header {
     float: left;
     font-size: 250%;
     margin-left: 20px;
-    /* color: rgba(35,35,97, 1); */
-    /* text-shadow: 2px 1px 2px rgba(0, 0, 0, 1); */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
-    /* color: rgba(58,173,251,1); */
 }
 
 /* general class to make element hidden */
@@ -62,10 +59,6 @@ header {
 .hide {
     display: none;
 }
-
-/* #hero-text h2 {
-    display: none;
-} */
 
 /* Navigation links */
 
@@ -279,29 +272,10 @@ header {
     width: 300px;
     height: 300px;
     padding: 30px;
-    /* border-style: solid; */
-    /* border-color: rgba(58,173,251,0.5); */
-    /* border-w?idth: 1px; */
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 200px;
 }
-/* 
-.circle-cover-background {
-    background: url(../images/kapthol-hero-image-300.webp);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%;
-    border-radius: 50%;
-    width: 300px; 
-    height: 300px;
-} */
-
-/* .circle-cover-background img {
-    width: 100%;
-    height: auto;
-    border: none;
-} */
 
 .circle-cover-background img:hover {
     opacity: 0.7;
@@ -359,21 +333,12 @@ header {
     line-height: 20px;
     clear: both;
     text-align: center;
-    /* width: 250px; 
-    height: 250px; 
-    border-radius: 50%; */
 }
 
 .right-about-client:hover {
     opacity: 0.7;
     transition: .5s ease;
 }
-
-/* #service-prof {
-    width: 250px; 
-    height: 250px; 
-    border-radius: 50%;
-} */
 
 .about-top img {
     width: 100%; 
@@ -404,31 +369,22 @@ header {
 /* testimonials */
 
 .testimonial {
-    /* background-color: rgba(58,173,251,0.1); */
     background-color: rgba(242,221,178,0.7);
-    /* background-color: rgba(242,221,178,1); */
     width: 100%;
-    /* height: 150px; */
     color: #232361;
     font-weight: 600;
     font-size: 150%;
     text-align: center;
     padding-top: 5%;
-    /* border-bottom: 75px solid #F2DDB2; */
 }
 
 .testiominal-beach {
     height: 33%;
     width: 100%;
-    /* background-color: #F2DDB2; */
-    /* background-color: rgba(58,173,251,.7); */
-    /* color: rgba(35,35,97, 0.7); */
-    /* bottom: 0px; */
 }
 
 .testator {
     font-style: italic;
-    /* color: rgba(82,56,44,1); */
     color: rgba(0,0,0,1);
     font-size: 18px;
     font-weight: bold;
@@ -451,7 +407,6 @@ header {
 }
 
 .grid-item {
-    /* border: 1px solid #3a3a3a30; */
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -503,12 +458,6 @@ header {
     padding: 10px 45px 30px 30px;
     border-radius: 5px;
 }
-
-/* .input-forms h2 {
-    font-family: 'Alegreya Sans', sans-serif;
-    text-transform: uppercase;
-    font-size: 22px;
-} */
 
 .input-forms h3 {
     color: rgba(255,255,255,0.6);
@@ -569,7 +518,6 @@ textarea {
 /* Map section  */
 
 #map iframe {
-    /* frameborder: 0; */
     width: 100%;
     height: 300px;
 }
@@ -589,7 +537,6 @@ footer p {
     padding-top: 30px;
     color: #F2DDB2;
     font-size: 90%;
-    /* position: absolute; */
 }
 
 .social {
@@ -622,19 +569,9 @@ footer p {
     color: rgba(58,173,251, 1);
 }
 
-/* footer p {
-    display: inline;
-    width: 50%;
-    float: right;
-    padding-top: 30px;
-    color: #F2DDB2;
-    font-size: 90%;
-} */
-
 .separator {
     color: rgba(255,255,255,0.3);
     font-size: 110%;
-    /* padding-left: 1px; */
 }
 
 #address {
@@ -650,8 +587,6 @@ footer p {
     width: 100%;
     margin: 0px auto;
     text-align: center;
-    /* background-color: blueviolet; */
-    /* display: inline; */
     font-size: 400%;
     color: rgba(58,58,58,1);
 }
@@ -680,7 +615,6 @@ footer p {
     text-align: center;
     background-image: url(../images/success.webp);
     background-size: cover;
-    /* background-position: center no-repeat; */
     border-radius: 50%;
 }
 
@@ -714,9 +648,6 @@ footer p {
     height: auto;
     float: left;
     text-align: center;
-    /* background-color: greenyellow; */
-    /* position: absolute; */
-    /* top: 0; */
 }
 
 .left-align-experience hr {
@@ -735,7 +666,6 @@ footer p {
     padding: 5px;
     border: 1px solid rgba(58,173,251,0.3);
     border-radius: 5px;
-    /* position: relative; */
 }
 
 .left-align-experience img:hover {
@@ -763,16 +693,10 @@ footer p {
     padding-bottom: 30px;
     width: 25%;
     height: auto;
-    /* margin: 0 auto; */
     float: right;
     text-align: center;
-    /* background-color: aquamarine; */
-
-    /* border-left: 1px solid rgba(58,58,58, 0.3); */
     position: relative;
-    /* margin-left: 75%; */
     top: 50%;
-    /* margin: 75px 0px 0px; */
 }
 
 .right-align-experience img {
@@ -793,16 +717,12 @@ footer p {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 25%;
-    /* margin: 0 auto; */
     text-align: center;
-    /* background-color: blueviolet; */
 
     /* Vertical line  */
-    /* border-left: 1px solid rgba(58,58,58, 0.3); */
     position: relative;
     margin-left: 50%;
     top: 50%;
-    /* margin: 75px 50% 0px; */
 }
 
 .center-align-experience img {
@@ -823,7 +743,6 @@ footer p {
     padding: 50px;
     width: 100%;
     height: auto;
-    /* background-color: #F2DDB2; */
 }
 
 /* Standard alignment pages - Wide Middle */
@@ -878,7 +797,6 @@ footer p {
     background-image: url(../images/login-penguin.webp);
     background-size: cover;
     background-attachment: fixed;
-    /* background-position: right; */
     height: 1500px;
 }
 
@@ -904,9 +822,6 @@ footer p {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .about-top {
-        /* width: 65%;
-        height: 1200px;
-        margin: 0 auto; */
         display: none;
     }
 
