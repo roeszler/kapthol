@@ -369,7 +369,7 @@ The themes and branding associated with Kaptain Holiday is aimed at associating 
   - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
   - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
     
-## Supported Screens and Browsers
+## 5. Supported Screens and Browsers
 Testing was performed on a mix of when the display element changed and the resolution of screen sizes currently popular in europe and the UK.
 ### Screen Sizes 
 - Desktops
@@ -378,84 +378,195 @@ Testing was performed on a mix of when the display element changed and the resol
   - . 
 - Tablets
   - .
-### Browsers 
-- Chrome devlopment environment
-- MS Edge 
-- Safari 
 
-A simple visualization of the layout and coloring intended for the site, it conveys the to the user as they experience the site. The feel and function of the site is intended to be light, summary with an air of simple effective service delivery. 
+The media sizes intended for the responsive transitions seen on the site, have been based on future popular sizes seen in the UK. This information has been sourced from reserach illustrated by [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
 
-The media sizes employed in the wireframes, that will eventually be intended for the responsive transitions seen on the site, have been based on future popular sizes seen in the UK. This information has been sourced from [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
+Additionally, Gbksoft indicates the typical use of media used to browse web pages is predominantly mobile, seen in the table below : 
 
-Gbksoft also indicates the typical use of media used to browse web pages is predominantly mobile, seen in the table below : 
-
-| Desktop vs. mobile vs tablet worldwide ||
-| - | -:|
-| Mobile | 55.73% |
-| Desktop | 41.46% |
-| Tablet | 2.81% |
+| Desktop vs. mobile vs tablet worldwide | | Predominant Screen Resolution (US) |
+| - | -:| :-: |
+| Mobile | 55.73% | 414×896 |
+| Desktop | 41.46% | 1920×1080 |
+| Tablet | 2.81% | 768×1024 |
 
 Acknowledging the scope of the project and beginner nature of my skills as a coder in html / css, I originally considered starting the design with a mobile interface and scaling it up with media queries to a desktop version.
 
 With my focus to learn the process of html / css design, and the innate relative simplicity of mobile sites, I found it easier to focus on a desktop version initially, then simplifying it into a mobile interface using media queries.
+### Wireframes 
+Contained in the Wirframes section of the [4-skeleton.md](docs/ucd/4-skeleton.md) documentation is a visualization of the layout and coloring intended for the site. 
 
-__The Landing Sections__ 
+The wireframes are intended to convey :
+- An indication of the varous elements and positions of these in relation to each other 
+- The actions / content that gets priority via it's location on the screen, actions, animations and embedded interactivity
+- What is encountered at diferent stages of the site 
+- Illustrate the more technical requirements in the site to achiveve an easy and intuitive navigation to the primary goals of the stakeholders in the site
+- Convey a sense of the user experience planned for the site as users navigate thorugh
 
-Desktop 
+The feel and function of the site is intended to be light, summary with an air of simple effective service delivery. 
+### Browsers 
+The kaptain holiday site has been created using google chome browser in conjunction with the chrome devlopment environment. 
 
-![1920 x 1080 Desktop - Home](docs/images/1920x1080-desktop-home.png)
-
-Tablet
-
-![1024 x 768 Tablet - Home](docs/images/1024x768-index.html-tablet.png)
-
-Mobile
-
-<img src="docs/images/414x896-index.html-mobile.png" alt="html-mobile" width="414"/>
-
-__What We Do (About Us)__
-
-
-Desktop
-![1920 x 1080 Desktop - About](docs/images/1920x1080-desktop-about.png)
-
-__Our Clients__
-![1920 x 1080 Desktop - Gallery](docs/images/1920x1080-desktop-gallery.png)
-
-__Contact Us__
-![1920 x 1080 Desktop - Contact](docs/images/1920x1080-desktop-contact.png)
-
-__Successful Submission__
-![1920 x 1080 Desktop - Success](docs/images/1920x1080-success-desktop.png)
-
-__Provider Stories__
-![1920 x 1080 Desktop - Experience](docs/images/1920x1080-exp.html-desktop.png)
-
-__Client Stories__
-![1920 x 1080 Desktop - Holiday](docs/images/1920x1080-hol.html-desktop.png)
-
-__Login / Register__
-![1920 x 1080 Desktop - Login](docs/images/1920x1080-login-desktop.png)
-
-_Please see attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH-wireframes.pdf](docs/images/KH_wireframes.pdf). The exchange process detailed in the KH-wireframes.pdf was reserved for future releases due to the scope of this as an initial project._
-
+It has been tested on each of the following popular browsers to check for maintained function and interactivity :
+- [Google Chrome](https://www.google.com/chrome/)
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge) 
+- [Apple Safari](https://www.apple.com/safari/)
+- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 ## 6. Technology
 
 The skillsets used in the creation and review of this project are based around a working knowledge of HTML5 and CSS with thier associated semantic structures. 
 
 The tools and the benefit of using each in the site development are : 
-- GitHub
-- GitPod
-- Google Fonts
-- Icon Generator
-- HTML5 
-- CSS
-- Google Maps 
-- Image Optimizers
-- Font Awesome
-- Balsamiq Wireframes
-- Gimp GNU Image Manipulator
+- [GitHub](https://github.com/)
+  - Allows a variety of benefits to create, document, store, showcase and share a project in devlopment.
+- [GitPod](https://www.gitpod.io/)
+  - Provides a relatively secure workspace to code and devlop software projects in a remotely accessible cloud based platform.   
+- [Google Fonts](https://fonts.google.com/)
+  - Is a free to use, reliable, remotely accssible database of web ready fonts endorsed by google that are familiar to most users.
+- [FavIcon Generator](https://favicon.io/)
+  - A simple, free to use image conversion tool to generate icon files ready for use in a variety of applications.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - The current agreed standard markup language, it is a free to use, established markup language reccomended by the World [Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) (W3C) for programming. It is easily read by humans and consistently understood by computers and associated devices.
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+  - A style sheet language that allows the separation of presentation variables (like layout, colors and fonts) from the content variables that has been defined in the markup languages (like HTML &/or JavaScript). The separation allows either local or sitewide changes to occur in the one place.
+- [Google Maps](https://console.cloud.google.com/getting-started) 
+  - Via the goolge cloud platform a secure access to a customisable map that can be embedded into projects backed with ongoing device, software and security devlopments used by google.   
+- [Image Optimizers](https://fixthephoto.com/best-image-optimizer.html)
+  - Able to reduce the filesize and format of images ready for rapid access, improving device performance, accessibility and user experience
+- [Font Awesome](https://fontawesome.com/)
+  - Is a limited free to use, remotely accssible database of fonts and icons helpful for projecting implied meaning through vector graphics.
+- [Balsamiq Wireframes](https://balsamiq.com/)
+  - A low-fidelity wireframing tool to visulaise and clarify features, interactions in the [skeleton plane](docs/ucd/4-skeleton.md) phase of UCD.
+- [Gimp GNU Image Manipulator](https://www.gimp.org/)
+  - Free to use dektop publisher that allows you to create or manipulate images for use in projects.
 ## 7. Testing
+### Test Cases
+
+- As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it
+    - Expand / contract width and height dimensionsins at each section to see which elements interact and record the dimensions at which these occur
+    - Employ google chrome developer tools using varities of device emulations to indicate responsivity and content alignment
+    - Correct display of all website images on the devices with different screen sizes.
+    - Appropriate alignment and positioning of text blocks and headers.
+    - The size of images, text and other website blocks should be proportionally changed in accordance with the screen sizes.
+    - The color of all site elements should be preserved, despite the extension and characteristics of the screen.
+    - When a user enters text, it should be displayed correctly with the size of pins, font, and tabs.
+    - Preservation of the correctness of the color reproduction when interacting with the interface - when the tab is on buttons and links, the hover, etc.
+    - The page should be scrolled without any problems and failures.
+    - The clickability of the appropriate zones on the pages of the site
+
+- As a viewer of the code I can see that each .html page uses a remotely accessed CSS format so I can confirm this section follows appropriate ease of styling and semantic code structuring practices.
+  - approriate ```<link rel="stylesheet" href="...style.css">``` command is contained in the ```<head>``` section of each .html file.
+  - Each ```<link rel="stylesheet" href="...style.css">``` command is functioning approriatey on each .html page with alteration of .css elements.
+  
+- As a site user I can see that every non-text element has alt text or aria-label so that the website can meet accessibility guidelines.
+  - In the upper right, open the Customize and control Google Chrome menu by clicking the three horizontal bars. Select Settings.
+  - Click the Show advanced settings... link, and then, under "Privacy", click Content settings....
+  - Under the "Images" heading, select Do not show any images.
+  - Click OK, and then close the Settings tab. If necessary, reopen Chrome to continue browsing.
+  - Test and record all elements that do not have appropriate ```alt=""``` text or ```aria-label=""``` content.
+
+- So that code viewers can confirm this section follows appropriate semantic code structuring practices, as a viewer of code: 
+  - I can see the index.html page has a ```<header>``` element with corresponding ```id="header"```
+  - I can see an image within the ```<header>``` element with a corresponding ```id="header-img"```
+  - I can see that within the ```<header>``` element there is a ```<nav>``` element with corresponding ```id="nav-bar"```.
+
+- As a site user I can see the layout of the ```<header>``` element is always at the top of the viewport so that navigation is easy and intuitive.
+  - Scroll down each .html page with the header and all its elements stick to the top section of the browser window and float without interaction of any undelying elements.
+
+- As a site user I can easily identify with the style and location of the home button in the nav bar or the left header text so as to intuitively navigate the sections and pages of the site.
+  - Home icon / text is loacted in the top left hand corner of the browser window
+  - Icon functions to return user to top of home page ```index.html```.
+  - Appropriate spacing to the left of the element to allow ease of access and page balance
+  - Element is not effected by the interaction with the format or style of any other element  
+
+- As a site user I can click any given .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html and/or login.html pages.
+  - Each subsequent navigation element is appropriately positioned in the top right corner of the viewing window
+  - Each subsequent navigation element is appropriately evenly spaced so as not to interact with each other
+  - Each subsequent navigation element links to it's appropriate navigation section and/or .html page.
+  - With interaction, each subsequent navigation element functions in the same respnsive style 
+
+- As a site user I can see that the hero text on the #home section is clearly presented, appropriately colored and contrasted so that the site is introduced intuitively in an easy to read manner.
+  - Lighthouse testing within chrome devlopment tools produces a accessibility contrast score of at least 90 or above for all elements
+  - Hero font slected is strong, clear and easy to read
+
+- As a site user I can identify with the hero image to relate to the core services of the business so that business value proposition can be reinforced during my time navigating the site.
+  - Hero image is in the same color and style that directly correlates to the rest of the site as detailes in the [strategy.md](docs/ucd/1-strategy.md) documentation.
+  - Hero image conveys the core business value proposition detailed in [strategy.md](docs/ucd/1-strategy.md).
+  - Hero image is light, friendly and associated with any of the travel, ocean, holiday themes assoicated to the business brand discussed in [strategy.md](docs/ucd/1-strategy.md). 
+
+- As an initial site user I can see the top of the subsequent page bleeding up at the bottom of the page so that I am enticed to investigate the site further.
+  - Height of subsequent about us section that immediately follows the hero section, occupies 25% or more of the base of the screen.
+
+- A user of the site I can view the experiences of past clients of the business so I can better understand the experience of using these services.
+  - Site links contained in the about us section to [success.html](success.html) and [experience.html](experience.html) link to appropriate relative pages
+
+- As a potential customer of the business I can further investigate the experience of other customers so I can decide if it will work with my situation and needs.
+  - Links to [contact us](https://roeszler.github.io/kapthol/index.html#contact) section take the user to the appropriate position on the contact us
+
+- As a business stakeholder I can present more detailed information to potential clients so I can convert them into long term paying customers.
+  - submission of contact us messages or login pages directs user to [success.html](https://roeszler.github.io/kapthol/success.html) indicating function to be included in further project updates.
+
+- As a viewer of the code I can see that the index.html page has a < form > element with a corresponding id="form" so I can confirm this section follows appropriate semantic code structuring practices.
+  - .
+  
+- As a viewer of the code I can see that within the form, there is an < input > field with id="email" so I can enter an email address.
+  - Check is the email field allows valid e-mail ids. For example; an id: tester@example.com should be accepted.
+  - Check is the warning or error message is displaying on entering the invalid e-mail ids. For example; inputs “tester@example”, “tester.example@com” should not be accepted.
+
+- As a viewer of the code I can see that the #email input field should have a label or placeholder text so that the user knows what the field is for.
+  - ```<label>``` Filed appropriately applied to email input field
+
+- As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
+  - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` are in the correct semantic order
+  - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` correctely refer to each element they relate toward.
+
+- As a viewer of the code I can see that within the form, there is a submit ```<input>``` with corresponding ```id="submit"``` to allow ease of CSS styling in the future.
+  - Submit button activates fields approriately filled in to success.html conformation page.
+  - Check is the spelling and position of the button are correct.
+  - Check is the button is clickable.
+  - Check on submitting a valid form, the value gets saved and the administrator receives the same.
+  - Check is the administrator receives the contact form at the email address which has been configured.
+
+- As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
+  - Submit button activates fields approriately filled in to success.html conformation page.
+
+- As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
+  - Map navigation works within site 
+  - Map section at a height of 25% at the base of the contact us section 
+  - Map controls visible and working
+  - View larger map links to apporpriate google maps location
+  - View larger map link opens in a new page
+
+- As a site user I can see a footer section containing links to our pages' popular social media sites so I can interact with friends and follow updates from the business page. 
+  - Facebook icon displayed in first positon on left of social media navigation row
+  - Twitter icon displayed in second positon from left of social media navigation row 
+  - Instagram icon displayed in third from left positon from left of social media navigation row 
+  - Linkedin icon displayed on the right position of social media navigation row 
+  - All social icons display using font awesome bold logo
+  - All social icons display with opacity 30% white (#FFFFFF4D) on normal status
+  - All social icons display with opacity 100% light blue (#3AADFB) on hover
+  - All social icon links open in a new tab
+  - All social icon links target the correct relative business social media page
+
+### Execution of Test Cases 
+Test cases used in this project intutitively reflect four types of test execution recognised in modern software design processes. It answers questions like :
+
+- Has the Business Analyst interpreted the requirements correctly?
+- Has the development team translated the business requirements to functional requirements and eventually to code correctly?
+- Has the data architect and DBAs designed the right back-end systems?
+
+A Summary of Test Case Types
+
+| Smoke Test | Sanity Test | Exploratory Test | Functional Test |
+| - | - | - | - |
+| Smoke Testing is not exhaustive testing but it is a group of tests that are executed to verify if the basic functionalities | Sanity Testing as a test execution which is done to touch each implementation and its impact but not thoroughly or in-depth | Exploring the system and encouraging real-time and practical thinking of a tester to challenge| Determines if a piece of software is acting in accordance with pre-determined functinoal requirements|
+| Example: Does the link https://roeszler.github.io/kapthol/index.html#contact open up without any issues after code deployment? | Example: Is the "Submit" button on the login.html page functional? | Visited the demo page from Google search results. For no reason it showed me the login page in Swedish language instead of English. When I refreshed the same page it showed me the login page in English.| Example : Error message on unsuccessful input of email format to contact us ```<form> <input>``` element |
+
+
+### Reported bugs from above Testing
+
+Due to the size of the team and scope of the project, testing has been in parrallel with coding each element and once again as a final testing phase. It is not intended to be exaustive, however __no bugs reported at time of project submission__.
+
+---
 
 Overall I am satisfied that the included features all work as intended, employing HTML / CSS coding only. The project provides an easy and intuitive path for users to achieve their goals (Holiday cover / Management Assistance / Sales of Services).
 
@@ -576,6 +687,7 @@ __Alternatively, if you have already created the GitPod environment for your pro
 - The text for the Home page was sourced from [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) by Juan Pablo del Peral, Huerta Tipográfica and [Nunito](https://fonts.google.com/specimen/Nunito) by Vernon Adams, Cyreal, Jacques Le Bailly imported via google fonts. 
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Test Case scenarios researched from [softwaretestingo.com](https://www.softwaretestingo.com/), [Software Testing Help](https://www.softwaretestinghelp.com/test-execution-software-testing-qa-training-on-a-live-project-day-5/) and [QA Test Lab](https://qatestlab.com/). 
 
 ### Media
 

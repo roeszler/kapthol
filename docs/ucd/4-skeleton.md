@@ -91,7 +91,7 @@ Very useful in conveying information
 
 #### Wireframes
 
-- To see how each screen fits into the whole site.
+- Are used to see how each screen fits into the whole site.
 - Determine what links and content is required to meet user needs
 - How balanced the elements are
 - How elements relate to each other
@@ -113,4 +113,45 @@ Revisit our strategy and goals.
 - Is this valuable?
 - Have we got this right?
 - If not, then what do we need to revise?
+
+### Kaptain Holiday Wireframes Mockup
+__The Landing Sections__ 
+
+Desktop 
+
+![1920 x 1080 Desktop - Home](../images/1920x1080-desktop-home.png)
+
+Tablet
+
+![1024 x 768 Tablet - Home](../images/1024x768-index.html-tablet.png)
+
+Mobile
+
+<img src="../images/414x896-index.html-mobile.png" alt="html-mobile" width="414"/>
+
+__What We Do (About Us)__
+
+
+__Desktop__
+![1920 x 1080 Desktop - About](../images/1920x1080-desktop-about.png)
+
+__Our Clients__
+![1920 x 1080 Desktop - Gallery](../images/1920x1080-desktop-gallery.png)
+
+__Contact Us__
+![1920 x 1080 Desktop - Contact](../images/1920x1080-desktop-contact.png)
+
+__Successful Submission__
+![1920 x 1080 Desktop - Success](../images/1920x1080-success-desktop.png)
+
+__Provider Stories__
+![1920 x 1080 Desktop - Experience](../images/1920x1080-exp.html-desktop.png)
+
+__Client Stories__
+![1920 x 1080 Desktop - Holiday](../images/1920x1080-hol.html-desktop.png)
+
+__Login / Register__
+![1920 x 1080 Desktop - Login](../images/1920x1080-login-desktop.png)
+
+_Please see attached link to view the entire proposed early layout of the site in a .pdf format document at : [KH-wireframes.pdf](../images/KH_wireframes.pdf). The exchange process detailed in the KH-wireframes.pdf was reserved for future releases due to the scope of this as an initial project._
 
