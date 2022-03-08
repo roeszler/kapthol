@@ -254,7 +254,7 @@ __Color Scheme__
   In a effort to maintain build consistency, I have converted all rgba values to thier equivalent HEXA values using the below conversion table :
 
 
-| Opacity % | RGB-A	| HEX-A Code |
+| Opacity % | RGB-A	| HEX-A Code | 
 | :-: | -: | :-: |
 | 100 | 1 | FF
 | 99	| 0.99 | FC
@@ -287,65 +287,65 @@ __Color Scheme__
 72 | 0.72	| B8
 71 | 0.71	| B5
 70 | 0.7 | B3
-69 | 	| B0
-68 | 	| AD
-67 | 	| AB
-66 |	| A8
-65 |	| A6
-64 |	| A3
-63 |	| A1
-62 |	| 9E
-61 |	| 9C
+69 | 0.69	| B0
+68 | 0.68	| AD
+67 | 0.67	| AB
+66 | 0.66	| A8
+65 | 0.65	| A6
+64 | 0.64	| A3
+63 | 0.63	| A1
+62 | 0.62 | 9E
+61 | 0.61	| 9C
 60 | 0.6 | 99
-59 |	| 96
-58 |	| 94
-57 |	| 91
-56 |	| 8F
-55 |	| 8C
-54 |	| 8A
-53 |	| 87
-52 |	| 85
-51 |	| 82
-50 | 0.5 | 80
-49 |	| 7D
-48 |	| 7A
-47 |	| 78
-46 |	| 75
-45 |	| 73
-44 |  | 70
-43 |	| 6E
-42 |	| 6B
-41 |	| 69
-40 | 0.4 | 66
-39 |	| 63
-38 |	| 61
-37 |	| 5E
-36 |	| 5C
-35 |	| 59
-34 |	| 57
-33 |	| 54
-32 |	| 52
-31 |	| 4F
-30 | 0.3 | 4D
+59 | 0.59	| 96
+58 | 0.58	| 94
+57 | 0.57	| 91
+56 | 0.56	| 8F
+55 | 0.55	| 8C
+54 | 0.54	| 8A
+53 | 0.53	| 87
+52 | 0.52	| 85
+51 | 0.51	| 82
+50 | 0.5  | 80
+49 | 0.49	| 7D
+48 | 0.48	| 7A
+47 | 0.47	| 78
+46 | 0.46	| 75
+45 | 0.45	| 73
+44 | 0.44 | 70
+43 | 0.43	| 6E
+42 | 0.42	| 6B
+41 | 0.41	| 69
+40 | 0.4  | 66
+39 | 0.39	| 63
+38 | 0.38	| 61
+37 | 0.37	| 5E
+36 | 0.36	| 5C
+35 | 0.35	| 59
+34 | 0.34	| 57
+33 | 0.33	| 54
+32 | 0.32	| 52
+31 | 0.31	| 4F
+30 | 0.3  | 4D
 29 | 0.29 | 4A
-28 |	| 47
-27 |	| 45
-26 |	| 42
-25 |	| 40
-24 |	| 3D
-23 |	| 3B
-22 |	| 38
-21 |	| 36
+28 | 0.28	| 47
+27 | 0.27	| 45
+26 | 0.26	| 42
+25 | 0.25	| 40
+24 | 0.24	| 3D
+23 | 0.23	| 3B
+22 | 0.22	| 38
+21 | 0.21	| 36
 20 | 0.2 | 33
-19 |	| 30
-18 |	| 2E
-17 |	| 2B
-16 |	| 29
-15 |	| 26
-14 |	| 24
-13 |	| 21
-12 |	| 1F
-11 |	| 1C
+19 | 0.19	| 30
+18 | 0.18	| 2E
+17 | 0.17	| 2B
+16 | 0.16	| 29
+15 | 0.15	| 26
+14 | 0.14	| 24
+13 | 0.13	| 21
+12 | 0.12	| 1F
+11 | 0.11	| 1C
 10 | 0.1 | 1A
 9  | 0.09 | 17
 8	 | 0.08 | 14
@@ -370,14 +370,37 @@ The themes and branding associated with Kaptain Holiday is aimed at associating 
   - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
     
 ## 5. Supported Screens and Browsers
-Testing was performed on a mix of when the display element changed and the resolution of screen sizes currently popular in europe and the UK.
-### Screen Sizes 
+Testing was performed on a mix of when the display element changed and the resolution of popular screen sizes currently seen in the marketplace :
+### Screen Size Useage Gloabally  
+*(January 2020 to January 2021)*
+
 - Desktops
-  - .
+  - 1366×768 - 22.6%
+  - 1920×1080 -	20.87%
+  - 1536×864 - 8.52%
+  - 1440×900 - 6.97%
+  - 1280×720 - 4.81%
+  - 1600×900 - 4.1%
+  - 1280×800 - 2.95%
+  - 1280×1024 - 2.65%
+  - 1024×768 - 2.59%
+  - 768×1024 - 2.47%
+
 - Mobiles
-  - . 
+  - 360×640 – 12.98%
+  - 414×896 – 7.82%
+  - 375×667 – 6.65%
+  - 360×780 – 6.02%
+  - 360×760 – 5.27% 
+  - 375×812 – 5.15%
+
 - Tablets
-  - .
+  - 768×1024 - 6.11%
+  - 1280×800 – 7.38%
+  - 800×1280 - 5.9%
+  - 601×962 – 5.15%
+  - 962×601 – 3.52%
+  - 810×1080 – 2.83%
 
 The media sizes intended for the responsive transitions seen on the site, have been based on future popular sizes seen in the UK. This information has been sourced from reserach illustrated by [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
 
@@ -557,43 +580,11 @@ Test cases used in this project intutitively reflect four types of test executio
 A Summary of Test Case Types
 
 | Smoke Test | Sanity Test | Exploratory Test | Functional Test |
-| - | - | - | - |
+| --- | --- | --- | --- |
 | Smoke Testing is not exhaustive testing but it is a group of tests that are executed to verify if the basic functionalities | Sanity Testing as a test execution which is done to touch each implementation and its impact but not thoroughly or in-depth | Exploring the system and encouraging real-time and practical thinking of a tester to challenge| Determines if a piece of software is acting in accordance with pre-determined functinoal requirements|
-| Example: Does the link https://roeszler.github.io/kapthol/index.html#contact open up without any issues after code deployment? | Example: Is the "Submit" button on the login.html page functional? | Visited the demo page from Google search results. For no reason it showed me the login page in Swedish language instead of English. When I refreshed the same page it showed me the login page in English.| Example : Error message on unsuccessful input of email format to contact us ```<form> <input>``` element |
+| Example: Does the [contact link](https://roeszler.github.io/kapthol/index.html#contact) open up without any issues after code deployment? | Example: Is the "Submit" button on the login.html page functional? | Visited the demo page from Google search results. For no reason it showed me the login page in Swedish language instead of English. When I refreshed the same page it showed me the login page in English.| Example : Error message on unsuccessful input of email format to contact us ```<form> <input>``` element |
 
-
-### Reported bugs from above Testing
-
-Due to the size of the team and scope of the project, testing has been in parrallel with coding each element and once again as a final testing phase. It is not intended to be exaustive, however __no bugs reported at time of project submission__.
-
----
-
-Overall I am satisfied that the included features all work as intended, employing HTML / CSS coding only. The project provides an easy and intuitive path for users to achieve their goals (Holiday cover / Management Assistance / Sales of Services).
-
-- I have tested that this page works in different browsers: Chrome, Firefox, Safari, Edge.
-- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar that accompanies the google chrome browser.
-- I confirmed that the navigation, header, about us, sign up and contact text are all readable and easy to understand.
-- I have confirmed that the form works: requires entries in every relevant field, will only accept email in the email field, and the submit button works.
-- I have set each form ([contact](https://roeszler.github.io/kapthol/index.html#contact) and [login / register](https://roeszler.github.io/kapthol/login.html)) to method="get" to allow the interaction of each to return a positive response to the [success.html](https://roeszler.github.io/kapthol/success.html) page as indication of a successful submission. This is for testing purposes, and the final site would interact with a database / CRM messaging system in a live scenario.
-- I have confirmed the navbar sticks to the top of the page with a 0.85 transparency that elicits content to be seen, however still allows the header text to be seen clearly.
-- Animation of the header penguin to slightly enlarge and rotate to portray a sense of activity, with the palm tree to enlarge at a slightly slower rate for user interest and visual effect.
-- White opaque overlay on mouse hover on images (and social links) that contain hyperlinks internal and external to the site. This has been included to create a subtle interactivity to the desktop user and promote links to further information or opportunity to connect with potential clients.
-- Hover of form fields changing to slight blue border
-- Centralized form sections on screen widths less than 1200 pixels
-- Map section created that inherits and integrates appropriately with google maps
-
-__Size / Responsivity Considerations__
-
-The site functions with the primary light blue, sailor blue, white and black/gray interactions on subsequent elements. 
-
-The mobile site has been designed to reduce the amount of information available and better direct the user to a message and/or contact us outcome. 
-
-It has been designed to reflect that mobile users are mobile when accessing the site and in so, look to satisfying an immediate need, such as researching directions in a new city or looking up a phone number or an address. 
-
-In contrast, people using a desktop (such as business users ready to commit) may be more likely to use the desktop format when they want to read several pages or conduct in-depth research.
-
-## 8. Bugs
-### Solved Bugs
+## Reported bugs from above Testing
 
 Most problems seem to revolve around formatting and alignment of ```<div>``` sections with each other and centralizing content within them. Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratios) has caused a few problems
 
@@ -612,9 +603,8 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 13. Semantic order of headings h1, h2 present an error in validation with a non-sequential order. Suggested to change the format of ```<section>``` to ```<div>```. It works, however to keep the semantic structure of the site, I have re-styled the h1, h2, h3 headings to display the formats we wish to see.
 
 ### Unsolved Bugs
-
-Testing to the defined features and subsequent tests derived from user stories, currently produces no bugs. 
-## 9. Validator Testing 
+Due to the size of the team and scope of the project, testing has been in parrallel with coding each element and once again as a final testing phase. It is not intended to be exaustive, however __no bugs reported at time of project submission__.
+## 8. Validator Testing 
 
 - HTML
   - index.html = No errors were returned when passing through the official W3C validator on each of the following pages :
@@ -634,7 +624,7 @@ Testing to the defined features and subsequent tests derived from user stories, 
 ![Accessibility Pic](docs/images/accessibillity-score-kapthol.webp)
 
 
-## Deployment
+## 9. Deployment
 
 ### Display Environment (GitHub / GitLab / BitBucket)
 The site has been deployed to GitHub pages. The steps to deploy are as follows: 
@@ -646,8 +636,6 @@ The site has been deployed to GitHub pages. The steps to deploy are as follows:
   - On refresh of the browser, the dedicated ribbon changed to the selected web address, indicating a successful deployment.
 
 > The live link can be found at - https://roeszler.github.io/kapthol/index.html
-
-
 ### Development Environment (GitPod)
 
 The site has been deployed to GitPod pages. The steps to deploy are as follows:
@@ -670,7 +658,6 @@ __Alternatively, if you have already created the GitPod environment for your pro
 - It is recommend that you install the Gitpod browser extension to make this a one-click operation into the future.
 
 ## Credits 
-
 ### Content 
 
 - Primary and additional CSS and html coding was studied and reworked from modules provided through the Code Institute's [Diploma in Full Stack Software Devlopment](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/), [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background) and [GeeksforGeeks](https://www.geeksforgeeks.org/). These included research and implementation of: 
@@ -690,7 +677,6 @@ __Alternatively, if you have already created the GitPod environment for your pro
 - Test Case scenarios researched from [softwaretestingo.com](https://www.softwaretestingo.com/), [Software Testing Help](https://www.softwaretestinghelp.com/test-execution-software-testing-qa-training-on-a-live-project-day-5/) and [QA Test Lab](https://qatestlab.com/). 
 
 ### Media
-
 - The photos, videos and vector graphics used on the home and sign up page are from [pixbay.com](https://pixabay.com/users/openclipart-vectors-30363/), upsplash and [freepik.com](https://www.freepik.com/home)
   - all penguin images - sourced from Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
   - palmtree.webp - sourced from [Palm tree icon vector created by brgfx - www.freepik.com](https://www.freepik.com/vectors/palm-tree-icon)
