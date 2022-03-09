@@ -24,9 +24,9 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 | 2. Management Experience | | Proxy Manager (holidays) .B|
 | 3. Service Trial | | Management Exchange (business swaps) .C|
 
-## Note : User Centered Design 
+## Note : User Centred Design 
 
-Considering the importance of user experience (UX) and user centered design (UCD) in all web / app developments, and to better develop my understanding, I have spent a portion of my time to include a mock-up of the research and information that may be gleaned from such a process. 
+Considering the importance of user experience (UX) and user centred design (UCD) in all web / app developments, and to better develop my understanding, I have spent a portion of my time to include a mock-up of the research and information that may be gleaned from such a process. 
 
 I gave attention to this process in the knowledge that this will be an invaluable tool as I progress in my studies and working life. 
 
@@ -35,7 +35,7 @@ Below are links to the markdown documents I have created to assist my understand
 The mockup documents will be referred to as required within the text and/or you can be accessed them all here:
 
 1. [Strategy Plane](docs/ucd/1-strategy.md) (working example)
-2. [Sope Plane](docs/ucd/2-scope.md) (framework only)
+2. [Scope Plane](docs/ucd/2-scope.md) (framework only)
 3. [Structure Plane](docs/ucd/3-structure.md) (framework only)
 4. [Skeleton Plane](docs/ucd/4-skeleton.md) (framework only)
 5. [Surface Plane](docs/ucd/5-surface.md) (framework only)
@@ -203,6 +203,8 @@ ___
 
   - Include a description of the exchange process in more visual detail
   - Hamburger icon for menu navigation on mobile devices
+  - Apply ```class=""``` coding in preference to ```id=""``` whenever possible to maintain consistency
+  - Use ```.em``` size ranges consistently throughout code in preference to ```.px``` or ```%``` to maintain consistency
   - Functional database, interaction and account page for logged-in users
   - Popup Q&A animations 
   - Automated connecting of current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
@@ -226,7 +228,7 @@ Typography was evaluated in line with the themes and brand aiming for a the non-
   
 Selection process :
   - Review of similar and complementary fonts from variety of internet based sources
-  - Selection of those that seem appropriate to the business profile summarized in the [strategy.md](docs/ucd/1-strategy.md) process.
+  - Selection of those that seem appropriate to the business profile summarised in the [strategy.md](docs/ucd/1-strategy.md) process.
     - Shortlist of fonts:
       - Anton / Roboto
       - Alfa Slab / Open Sans
@@ -251,112 +253,112 @@ __Color Scheme__
   | Black | #000000 | rgba(0,0,0,1) |
   | Gray | #3a3a3a | rgba(58,58,58,1) |
 
-  In a effort to maintain build consistency, I have converted all rgba values to thier equivalent HEXA values using the below conversion table :
+  In a effort to maintain build consistency, I have converted all rgba values to their equivalent HEXA values using the below conversion table :
 
 
-| Opacity % | RGB-A	| HEX-A Code | 
+| Opacity % | RGB-A | HEX-A Code | 
 | :-: | -: | :-: |
 | 100 | 1 | FF
-| 99	| 0.99 | FC
-| 98 | 0.98 |	FA
+| 99  | 0.99 | FC
+| 98 | 0.98 | FA
 | 97 | 0.97 | F7
-| 96 | 0.96 |	F5
-95 | 0.95	| F2
+| 96 | 0.96 | F5
+95 | 0.95 | F2
 94 | 0.94 | F0
-93 | 0.93	| ED
+93 | 0.93 | ED
 92 | 0.92 | EB
-91 | 0.91	| E8
-90 | 0.9	| E6
+91 | 0.91 | E8
+90 | 0.9  | E6
 89 | 0.89 | E3
-88 | 0.88	| E0
-87 | 0.87	| DE
-86 | 0.86	| DB
+88 | 0.88 | E0
+87 | 0.87 | DE
+86 | 0.86 | DB
 85 | 0.85 | D9
-84 | 0.84	| D6
-83 | 0.83	| D4
+84 | 0.84 | D6
+83 | 0.83 | D4
 82 | 0.82 | D1
-81 | 0.81	| CF
+81 | 0.81 | CF
 80 | 0.8  | CC
 79 | 0.79 | C9
-78 | 0.78	| C7
+78 | 0.78 | C7
 77 | 0.77 | C4
-76 | 0.76	| C2
+76 | 0.76 | C2
 75 | 0.75 | BF
-74 | 0.74	| BD
-73 | 0.73	| BA
-72 | 0.72	| B8
-71 | 0.71	| B5
+74 | 0.74 | BD
+73 | 0.73 | BA
+72 | 0.72 | B8
+71 | 0.71 | B5
 70 | 0.7 | B3
-69 | 0.69	| B0
-68 | 0.68	| AD
-67 | 0.67	| AB
-66 | 0.66	| A8
-65 | 0.65	| A6
-64 | 0.64	| A3
-63 | 0.63	| A1
+69 | 0.69 | B0
+68 | 0.68 | AD
+67 | 0.67 | AB
+66 | 0.66 | A8
+65 | 0.65 | A6
+64 | 0.64 | A3
+63 | 0.63 | A1
 62 | 0.62 | 9E
-61 | 0.61	| 9C
+61 | 0.61 | 9C
 60 | 0.6 | 99
-59 | 0.59	| 96
-58 | 0.58	| 94
-57 | 0.57	| 91
-56 | 0.56	| 8F
-55 | 0.55	| 8C
-54 | 0.54	| 8A
-53 | 0.53	| 87
-52 | 0.52	| 85
-51 | 0.51	| 82
+59 | 0.59 | 96
+58 | 0.58 | 94
+57 | 0.57 | 91
+56 | 0.56 | 8F
+55 | 0.55 | 8C
+54 | 0.54 | 8A
+53 | 0.53 | 87
+52 | 0.52 | 85
+51 | 0.51 | 82
 50 | 0.5  | 80
-49 | 0.49	| 7D
-48 | 0.48	| 7A
-47 | 0.47	| 78
-46 | 0.46	| 75
-45 | 0.45	| 73
+49 | 0.49 | 7D
+48 | 0.48 | 7A
+47 | 0.47 | 78
+46 | 0.46 | 75
+45 | 0.45 | 73
 44 | 0.44 | 70
-43 | 0.43	| 6E
-42 | 0.42	| 6B
-41 | 0.41	| 69
+43 | 0.43 | 6E
+42 | 0.42 | 6B
+41 | 0.41 | 69
 40 | 0.4  | 66
-39 | 0.39	| 63
-38 | 0.38	| 61
-37 | 0.37	| 5E
-36 | 0.36	| 5C
-35 | 0.35	| 59
-34 | 0.34	| 57
-33 | 0.33	| 54
-32 | 0.32	| 52
-31 | 0.31	| 4F
+39 | 0.39 | 63
+38 | 0.38 | 61
+37 | 0.37 | 5E
+36 | 0.36 | 5C
+35 | 0.35 | 59
+34 | 0.34 | 57
+33 | 0.33 | 54
+32 | 0.32 | 52
+31 | 0.31 | 4F
 30 | 0.3  | 4D
 29 | 0.29 | 4A
-28 | 0.28	| 47
-27 | 0.27	| 45
-26 | 0.26	| 42
-25 | 0.25	| 40
-24 | 0.24	| 3D
-23 | 0.23	| 3B
-22 | 0.22	| 38
-21 | 0.21	| 36
+28 | 0.28 | 47
+27 | 0.27 | 45
+26 | 0.26 | 42
+25 | 0.25 | 40
+24 | 0.24 | 3D
+23 | 0.23 | 3B
+22 | 0.22 | 38
+21 | 0.21 | 36
 20 | 0.2 | 33
-19 | 0.19	| 30
-18 | 0.18	| 2E
-17 | 0.17	| 2B
-16 | 0.16	| 29
-15 | 0.15	| 26
-14 | 0.14	| 24
-13 | 0.13	| 21
-12 | 0.12	| 1F
-11 | 0.11	| 1C
+19 | 0.19 | 30
+18 | 0.18 | 2E
+17 | 0.17 | 2B
+16 | 0.16 | 29
+15 | 0.15 | 26
+14 | 0.14 | 24
+13 | 0.13 | 21
+12 | 0.12 | 1F
+11 | 0.11 | 1C
 10 | 0.1 | 1A
 9  | 0.09 | 17
-8	 | 0.08 | 14
-7	 | 0.07 | 12
-6	 | 0.06 | 0F
-5	 | 0.05 | 0D
-4	 | 0.04 | 0A
-3	 | 0.03 | 08
-2	 | 0.02 | 05
-1	 | 0.01 | 03
-0	 | 0 | 00
+8  | 0.08 | 14
+7  | 0.07 | 12
+6  | 0.06 | 0F
+5  | 0.05 | 0D
+4  | 0.04 | 0A
+3  | 0.03 | 08
+2  | 0.02 | 05
+1  | 0.01 | 03
+0  | 0 | 00
 
 The above color combinations (and opacity variations) were chosen based partly on :
   - The summer feel sought for the site 
@@ -371,12 +373,12 @@ The themes and branding associated with Kaptain Holiday is aimed at associating 
     
 ## 5. Supported Screens and Browsers
 Testing was performed on a mix of when the display element changed and the resolution of popular screen sizes currently seen in the marketplace :
-### Screen Size Useage Gloabally  
+### Screen Size Usage Globally  
 *(January 2020 to January 2021)*
 
 - Desktops
   - 1366×768 - 22.6%
-  - 1920×1080 -	20.87%
+  - 1920×1080 - 20.87%
   - 1536×864 - 8.52%
   - 1440×900 - 6.97%
   - 1280×720 - 4.81%
@@ -402,7 +404,7 @@ Testing was performed on a mix of when the display element changed and the resol
   - 962×601 – 3.52%
   - 810×1080 – 2.83%
 
-The media sizes intended for the responsive transitions seen on the site, have been based on future popular sizes seen in the UK. This information has been sourced from reserach illustrated by [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
+The media sizes intended for the responsive transitions seen on the site, have been based on future popular sizes seen in the UK. This information has been sourced from research illustrated by [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
 
 Additionally, Gbksoft indicates the typical use of media used to browse web pages is predominantly mobile, seen in the table below : 
 
@@ -416,18 +418,18 @@ Acknowledging the scope of the project and beginner nature of my skills as a cod
 
 With my focus to learn the process of html / css design, and the innate relative simplicity of mobile sites, I found it easier to focus on a desktop version initially, then simplifying it into a mobile interface using media queries.
 ### Wireframes 
-Contained in the Wirframes section of the [4-skeleton.md](docs/ucd/4-skeleton.md) documentation is a visualization of the layout and coloring intended for the site. 
+Contained in the Wireframes section of the [4-skeleton.md](docs/ucd/4-skeleton.md) documentation is a visualisation of the layout and colouring intended for the site. 
 
 The wireframes are intended to convey :
-- An indication of the varous elements and positions of these in relation to each other 
+- An indication of the various elements and positions of these in relation to each other 
 - The actions / content that gets priority via it's location on the screen, actions, animations and embedded interactivity
-- What is encountered at diferent stages of the site 
-- Illustrate the more technical requirements in the site to achiveve an easy and intuitive navigation to the primary goals of the stakeholders in the site
-- Convey a sense of the user experience planned for the site as users navigate thorugh
+- What is encountered at different stages of the site 
+- Illustrate the more technical requirements in the site to achieve an easy and intuitive navigation to the primary goals of the stakeholders in the site
+- Convey a sense of the user experience planned for the site as users navigate through
 
 The feel and function of the site is intended to be light, summary with an air of simple effective service delivery. 
 ### Browsers 
-The kaptain holiday site has been created using google chome browser in conjunction with the chrome devlopment environment. 
+The kaptain holiday site has been created using google chrome browser in conjunction with the chrome development environment. 
 
 It has been tested on each of the following popular browsers to check for maintained function and interactivity :
 - [Google Chrome](https://www.google.com/chrome/)
@@ -436,37 +438,37 @@ It has been tested on each of the following popular browsers to check for mainta
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 ## 6. Technology
 
-The skillsets used in the creation and review of this project are based around a working knowledge of HTML5 and CSS with thier associated semantic structures. 
+The skillsets used in the creation and review of this project are based around a working knowledge of HTML5 and CSS with their associated semantic structures. 
 
 The tools and the benefit of using each in the site development are : 
 - [GitHub](https://github.com/)
-  - Allows a variety of benefits to create, document, store, showcase and share a project in devlopment.
+  - Allows a variety of benefits to create, document, store, showcase and share a project in development.
 - [GitPod](https://www.gitpod.io/)
-  - Provides a relatively secure workspace to code and devlop software projects in a remotely accessible cloud based platform.   
+  - Provides a relatively secure workspace to code and develop software projects in a remotely accessible cloud based platform.   
 - [Google Fonts](https://fonts.google.com/)
-  - Is a free to use, reliable, remotely accssible database of web ready fonts endorsed by google that are familiar to most users.
+  - Is a free to use, reliable, remotely accessible database of web ready fonts endorsed by google that are familiar to most users.
 - [FavIcon Generator](https://favicon.io/)
   - A simple, free to use image conversion tool to generate icon files ready for use in a variety of applications.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-  - The current agreed standard markup language, it is a free to use, established markup language reccomended by the World [Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) (W3C) for programming. It is easily read by humans and consistently understood by computers and associated devices.
+  - The current agreed standard markup language, it is a free to use, established markup language recommended by the World [Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) (W3C) for programming. It is easily read by humans and consistently understood by computers and associated devices.
 - [CSS](https://en.wikipedia.org/wiki/CSS)
-  - A style sheet language that allows the separation of presentation variables (like layout, colors and fonts) from the content variables that has been defined in the markup languages (like HTML &/or JavaScript). The separation allows either local or sitewide changes to occur in the one place.
+  - A style sheet language that allows the separation of presentation variables (like layout, colors and fonts) from the content variables that has been defined in the markup languages (like HTML &/or JavaScript). The separation allows either local or site wide changes to occur in the one place.
 - [Google Maps](https://console.cloud.google.com/getting-started) 
-  - Via the goolge cloud platform a secure access to a customisable map that can be embedded into projects backed with ongoing device, software and security devlopments used by google.   
-- [Image Optimizers](https://fixthephoto.com/best-image-optimizer.html)
-  - Able to reduce the filesize and format of images ready for rapid access, improving device performance, accessibility and user experience
+  - Via the google cloud platform a secure access to a customisable map that can be embedded into projects backed with ongoing device, software and security developments used by google.   
+- [Image Optimisers](https://fixthephoto.com/best-image-optimizer.html)
+  - Able to reduce the file size and format of images ready for rapid access, improving device performance, accessibility and user experience
 - [Font Awesome](https://fontawesome.com/)
-  - Is a limited free to use, remotely accssible database of fonts and icons helpful for projecting implied meaning through vector graphics.
+  - Is a limited free to use, remotely accessible database of fonts and icons helpful for projecting implied meaning through vector graphics.
 - [Balsamiq Wireframes](https://balsamiq.com/)
-  - A low-fidelity wireframing tool to visulaise and clarify features, interactions in the [skeleton plane](docs/ucd/4-skeleton.md) phase of UCD.
+  - A low-fidelity wire-framing tool to visualise and clarify features, interactions in the [skeleton plane](docs/ucd/4-skeleton.md) phase of UCD.
 - [Gimp GNU Image Manipulator](https://www.gimp.org/)
-  - Free to use dektop publisher that allows you to create or manipulate images for use in projects.
+  - Free to use desktop publisher that allows you to create or manipulate images for use in projects.
 ## 7. Testing
 ### Test Cases
 
 - As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it
-    - Expand / contract width and height dimensionsins at each section to see which elements interact and record the dimensions at which these occur
-    - Employ google chrome developer tools using varities of device emulations to indicate responsivity and content alignment
+    - Expand / contract width and height dimensions at each section to see which elements interact and record the dimensions at which these occur
+    - Employ google chrome developer tools using varieties of device emulations to indicate responsiveness and content alignment
     - Correct display of all website images on the devices with different screen sizes.
     - Appropriate alignment and positioning of text blocks and headers.
     - The size of images, text and other website blocks should be proportionally changed in accordance with the screen sizes.
@@ -474,14 +476,14 @@ The tools and the benefit of using each in the site development are :
     - When a user enters text, it should be displayed correctly with the size of pins, font, and tabs.
     - Preservation of the correctness of the color reproduction when interacting with the interface - when the tab is on buttons and links, the hover, etc.
     - The page should be scrolled without any problems and failures.
-    - The clickability of the appropriate zones on the pages of the site
+    - The click-ability of the appropriate zones on the pages of the site
 
 - As a viewer of the code I can see that each .html page uses a remotely accessed CSS format so I can confirm this section follows appropriate ease of styling and semantic code structuring practices.
-  - approriate ```<link rel="stylesheet" href="...style.css">``` command is contained in the ```<head>``` section of each .html file.
-  - Each ```<link rel="stylesheet" href="...style.css">``` command is functioning approriatey on each .html page with alteration of .css elements.
+  - Appropriate ```<link rel="stylesheet" href="...style.css">``` command is contained in the ```<head>``` section of each .html file.
+  - Each ```<link rel="stylesheet" href="...style.css">``` command is functioning on each .html page with alteration of .css elements.
   
 - As a site user I can see that every non-text element has alt text or aria-label so that the website can meet accessibility guidelines.
-  - In the upper right, open the Customize and control Google Chrome menu by clicking the three horizontal bars. Select Settings.
+  - In the upper right, open the Customise and control Google Chrome menu by clicking the three horizontal bars. Select Settings.
   - Click the Show advanced settings... link, and then, under "Privacy", click Content settings....
   - Under the "Images" heading, select Do not show any images.
   - Click OK, and then close the Settings tab. If necessary, reopen Chrome to continue browsing.
@@ -493,10 +495,10 @@ The tools and the benefit of using each in the site development are :
   - I can see that within the ```<header>``` element there is a ```<nav>``` element with corresponding ```id="nav-bar"```.
 
 - As a site user I can see the layout of the ```<header>``` element is always at the top of the viewport so that navigation is easy and intuitive.
-  - Scroll down each .html page with the header and all its elements stick to the top section of the browser window and float without interaction of any undelying elements.
+  - Scroll down each .html page with the header and all its elements stick to the top section of the browser window and float without interaction of any underlying elements.
 
 - As a site user I can easily identify with the style and location of the home button in the nav bar or the left header text so as to intuitively navigate the sections and pages of the site.
-  - Home icon / text is loacted in the top left hand corner of the browser window
+  - Home icon / text is located in the top left hand corner of the browser window
   - Icon functions to return user to top of home page ```index.html```.
   - Appropriate spacing to the left of the element to allow ease of access and page balance
   - Element is not effected by the interaction with the format or style of any other element  
@@ -505,16 +507,16 @@ The tools and the benefit of using each in the site development are :
   - Each subsequent navigation element is appropriately positioned in the top right corner of the viewing window
   - Each subsequent navigation element is appropriately evenly spaced so as not to interact with each other
   - Each subsequent navigation element links to it's appropriate navigation section and/or .html page.
-  - With interaction, each subsequent navigation element functions in the same respnsive style 
+  - With interaction, each subsequent navigation element functions in the same responsive style 
 
 - As a site user I can see that the hero text on the #home section is clearly presented, appropriately colored and contrasted so that the site is introduced intuitively in an easy to read manner.
-  - Lighthouse testing within chrome devlopment tools produces a accessibility contrast score of at least 90 or above for all elements
-  - Hero font slected is strong, clear and easy to read
+  - Lighthouse testing within chrome development tools produces a accessibility contrast score of at least 90 or above for all elements
+  - Hero font selected is strong, clear and easy to read
 
 - As a site user I can identify with the hero image to relate to the core services of the business so that business value proposition can be reinforced during my time navigating the site.
-  - Hero image is in the same color and style that directly correlates to the rest of the site as detailes in the [strategy.md](docs/ucd/1-strategy.md) documentation.
+  - Hero image is in the same color and style that directly correlates to the rest of the site as detailed in the [strategy.md](docs/ucd/1-strategy.md) documentation.
   - Hero image conveys the core business value proposition detailed in [strategy.md](docs/ucd/1-strategy.md).
-  - Hero image is light, friendly and associated with any of the travel, ocean, holiday themes assoicated to the business brand discussed in [strategy.md](docs/ucd/1-strategy.md). 
+  - Hero image is light, friendly and associated with any of the travel, ocean, holiday themes associated to the business brand discussed in [strategy.md](docs/ucd/1-strategy.md). 
 
 - As an initial site user I can see the top of the subsequent page bleeding up at the bottom of the page so that I am enticed to investigate the site further.
   - Height of subsequent about us section that immediately follows the hero section, occupies 25% or more of the base of the screen.
@@ -540,30 +542,30 @@ The tools and the benefit of using each in the site development are :
 
 - As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
   - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` are in the correct semantic order
-  - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` correctely refer to each element they relate toward.
+  - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` correctly refer to each element they relate toward.
 
 - As a viewer of the code I can see that within the form, there is a submit ```<input>``` with corresponding ```id="submit"``` to allow ease of CSS styling in the future.
-  - Submit button activates fields approriately filled in to success.html conformation page.
+  - Submit button activates fields appropriately filled in to success.html conformation page.
   - Check is the spelling and position of the button are correct.
   - Check is the button is clickable.
   - Check on submitting a valid form, the value gets saved and the administrator receives the same.
   - Check is the administrator receives the contact form at the email address which has been configured.
 
 - As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
-  - Submit button activates fields approriately filled in to success.html conformation page.
+  - Submit button activates fields appropriately filled in to success.html conformation page.
 
 - As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
   - Map navigation works within site 
   - Map section at a height of 25% at the base of the contact us section 
   - Map controls visible and working
-  - View larger map links to apporpriate google maps location
+  - View larger map links to appropriate google maps location
   - View larger map link opens in a new page
 
 - As a site user I can see a footer section containing links to our pages' popular social media sites so I can interact with friends and follow updates from the business page. 
-  - Facebook icon displayed in first positon on left of social media navigation row
-  - Twitter icon displayed in second positon from left of social media navigation row 
-  - Instagram icon displayed in third from left positon from left of social media navigation row 
-  - Linkedin icon displayed on the right position of social media navigation row 
+  - Facebook icon displayed in first position on left of social media navigation row
+  - Twitter icon displayed in second position from left of social media navigation row 
+  - Instagram icon displayed in third from left position from left of social media navigation row 
+  - LinkedIn icon displayed on the right position of social media navigation row 
   - All social icons display using font awesome bold logo
   - All social icons display with opacity 30% white (#FFFFFF4D) on normal status
   - All social icons display with opacity 100% light blue (#3AADFB) on hover
@@ -571,7 +573,7 @@ The tools and the benefit of using each in the site development are :
   - All social icon links target the correct relative business social media page
 
 ### Execution of Test Cases 
-Test cases used in this project intutitively reflect four types of test execution recognised in modern software design processes. It answers questions like :
+Test cases used in this project intuitively reflect four types of test execution recognised in modern software design processes. It answers questions like :
 
 - Has the Business Analyst interpreted the requirements correctly?
 - Has the development team translated the business requirements to functional requirements and eventually to code correctly?
@@ -581,12 +583,12 @@ A Summary of Test Case Types
 
 | Smoke Test | Sanity Test | Exploratory Test | Functional Test |
 | --- | --- | --- | --- |
-| Smoke Testing is not exhaustive testing but it is a group of tests that are executed to verify if the basic functionalities | Sanity Testing as a test execution which is done to touch each implementation and its impact but not thoroughly or in-depth | Exploring the system and encouraging real-time and practical thinking of a tester to challenge| Determines if a piece of software is acting in accordance with pre-determined functinoal requirements|
+| Smoke Testing is not exhaustive testing but it is a group of tests that are executed to verify if the basic functionalities | Sanity Testing as a test execution which is done to touch each implementation and its impact but not thoroughly or in-depth | Exploring the system and encouraging real-time and practical thinking of a tester to challenge| Determines if a piece of software is acting in accordance with pre-determined functional requirements|
 | Example: Does the [contact link](https://roeszler.github.io/kapthol/index.html#contact) open up without any issues after code deployment? | Example: Is the "Submit" button on the login.html page functional? | Visited the demo page from Google search results. For no reason it showed me the login page in Swedish language instead of English. When I refreshed the same page it showed me the login page in English.| Example : Error message on unsuccessful input of email format to contact us ```<form> <input>``` element |
 
 ## Reported bugs from above Testing
 
-Most problems seem to revolve around formatting and alignment of ```<div>``` sections with each other and centralizing content within them. Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratios) has caused a few problems
+Most problems seem to revolve around formatting and alignment of ```<div>``` sections with each other and centralising content within them. Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratios) has caused a few problems
 
 1. Content alignment and the use of elements as detailed above.
 2. About sections not lining up as desired with a single section. Included second section to correct issues.
@@ -603,7 +605,7 @@ Most problems seem to revolve around formatting and alignment of ```<div>``` sec
 13. Semantic order of headings h1, h2 present an error in validation with a non-sequential order. Suggested to change the format of ```<section>``` to ```<div>```. It works, however to keep the semantic structure of the site, I have re-styled the h1, h2, h3 headings to display the formats we wish to see.
 
 ### Unsolved Bugs
-Due to the size of the team and scope of the project, testing has been in parrallel with coding each element and once again as a final testing phase. It is not intended to be exaustive, however __no bugs reported at time of project submission__.
+Due to the size of the team and scope of the project, testing has been in parallel with coding each element and once again as a final testing phase. It is not intended to be exhaustive, however __no bugs reported at time of project submission__.
 ## 8. Validator Testing 
 
 - HTML
@@ -628,7 +630,7 @@ Due to the size of the team and scope of the project, testing has been in parral
 
 ### Display Environment (GitHub / GitLab / BitBucket)
 The site has been deployed to GitHub pages. The steps to deploy are as follows: 
-  - Create / open an exsisting repository for the project with the name of your choice on your GitHub, GitLab or Bitbucket account page.
+  - Create / open an existing repository for the project with the name of your choice on your GitHub, GitLab or Bitbucket account page.
   - Navigate within the GitHub repository you chose, and then navigate to the "settings" tab, which displays the general title.
   - On the left hand navigation menu, I selected the "pages" option midway down the menu.
   - At the top of the pages tab, the source section drop-down menu changed to select the branch: "main" with the folder selected as "/(root)"
@@ -640,8 +642,8 @@ The site has been deployed to GitHub pages. The steps to deploy are as follows:
 
 The site has been deployed to GitPod pages. The steps to deploy are as follows:
 - In the GitHub, GitLab or Bitbucket account page where you created a repository for the project, navigate to the tab titled '<> Code'
-- From here, navigate to the button on the top right of the repositiry navigation pane titled 'Gitpod'.
-- If you press this it will create a new GitPod devlopment environment each time.
+- From here, navigate to the button on the top right of the repository navigation pane titled 'Gitpod'.
+- If you press this it will create a new GitPod development environment each time.
 
 __Alternatively, if you have already created the GitPod environment for your project__ : 
 
@@ -660,7 +662,7 @@ __Alternatively, if you have already created the GitPod environment for your pro
 ## Credits 
 ### Content 
 
-- Primary and additional CSS and html coding was studied and reworked from modules provided through the Code Institute's [Diploma in Full Stack Software Devlopment](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/), [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background) and [GeeksforGeeks](https://www.geeksforgeeks.org/). These included research and implementation of: 
+- Primary and additional CSS and html coding was studied and reworked from modules provided through the Code Institute's [Diploma in Full Stack Software Development](https://codeinstitute.net/se/full-stack-software-development-diploma/), [W3 Schools](https://www.w3schools.com/), [Stack overflow](https://stackoverflow.com/), [mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/background) and [GeeksforGeeks](https://www.geeksforgeeks.org/). These included research and implementation of: 
   - position: sticky;
   - z-index: ;
   - opacity: ;
@@ -684,14 +686,10 @@ __Alternatively, if you have already created the GitPod environment for your pro
   - success.webp - sourced from [pixabay.com](https://pixabay.com/photos/children-win-success-video-game-593313/)
   - sally-provider.webp - sourced from [unsplash.com](https://unsplash.com/s/photos/owner)
   - all bus images were sourced from pexels user [@nubikini](https://www.pexels.com/@nubikini)
-  - Video by [Jess Loiterton](https://www.pexels.com/video/sea-waves-kissing-the-beach-shore-4782135/) from Pexels
+  - Video by [Jess Loiterton](https://www.pexels.com/video/sea-waves-kissing-the-beach-shore-4782135/) from pexels
 
 - The images used for the gallery page were taken from a pexels.com collection curated [here](https://www.pexels.com/collections/kapthol-wqxkprh/) and [here](https://www.pexels.com/search/cafe/).
 
 ---
 
  *__Please Note__ : Kaptain Holiday is a fictitious site used entirely for educational purposes at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
-
-
-
-
