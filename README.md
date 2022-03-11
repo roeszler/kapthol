@@ -4,15 +4,15 @@ Site link : https://roeszler.github.io/kapthol/index.html
 
 ## 1. Purpose of the Project
 
-Kaptain Holiday is a site that represents a theoretical business that facilitates holidays for small to medium businesses. The site is targeted at three main users looking to employ/provide services that allow them to take a break from the daily operations of their small business:
+Kaptain Holiday is a site that represents a theoretical business that facilitates holidays for small to medium businesses. The site is targeted at three main users:
 
 - __Business owner / managers__ looking for someone to take over the daily operations of their business for a short time (_The 'Clients'_).
 
-- __Business professionals__ with appropriate training, responsibility and availability to care-take operations within a small to medium business for a contract period of time (_The 'Providers'_).
+- __Business professionals__ with appropriate training, responsibility and availability to care-take operations of a small to medium business for short period of time (_The 'Providers'_).
 
 - __Business Students__ looking to gain small business management experience in an assistant manager role for a short period of time, across a variety of industries and global locations (_The 'Assistants'_).
 
-Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those looking for work flexibility, experiences, travel and/or comfortably coordinating their business operations while they take a break.
+Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those looking for work flexibility, experiences, travel and/or comfortably manage the day to day business operations while they take a break.
 
 ![aim-responsive](docs/images/aim-responsive-kapthol.png)
 
@@ -28,11 +28,11 @@ Based out of Stockholm, Sweden, __Kaptain Holiday__ will be useful for those loo
 
 Considering the importance of user experience (UX) and user centred design (UCD) in all web / app developments, and to better develop my understanding, I have spent a portion of my time to include a mock-up of the research and information that may be gleaned from such a process. 
 
-I gave attention to this process in the knowledge that this will be an invaluable tool as I progress in my studies and working life. 
+I gave attention to this process in the knowledge that this will be an invaluable tool as I progress in my studies and career. 
 
-Below are links to the markdown documents I have created to assist my understanding of the development design processes as it would relate to a live project. 
+Below are links to markdown documents I have used as a framework to develop, design and document the processes typically seen in a live project. 
 
-The mockup documents will be referred to as required within the text and/or you can be accessed them all here:
+The mockup documents will be referred to as required within the text. You can be accessed them here:
 
 1. [Strategy Plane](docs/ucd/1-strategy.md) (working example)
 2. [Scope Plane](docs/ucd/2-scope.md) (framework only)
@@ -42,7 +42,7 @@ The mockup documents will be referred to as required within the text and/or you 
 
 ## 2. User Stories
 
-A working document of sample user stories can be found [here](docs/ucd/stories.md). The following stories have been arranged in accordance to the sections they are seen in this project.
+A working document of sample user stories can be found [here](docs/ucd/stories.md). The following stories have been arranged as they are appear in this project.
 
 __Entire Site__
 - As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it.
@@ -51,11 +51,11 @@ __Entire Site__
 
 - Header
   - As a viewer of code: 
-    - I can see the index.html page has a < header > element with corresponding id="header"
-    - I can see an image within the header element with a corresponding id="header-img"
-    - I can see that within the < header > element there is a < nav > element with corresponding id="nav-bar"
-  - So that code viewers can confirm this section follows appropriate semantic code structuring practices.
-  - As a site user I can see the layout of the < header > element is always at the top of the viewport so that navigation is easy and intuitive.
+    - I can see the index.html page has a ```<header>``` element with corresponding ```id="header"```.
+    - I can see an image within the ```<header>``` there is a ```<nav>``` element with corresponding ```id="nav-bar"```.
+      - So that code viewers can confirm this section follows appropriate semantic code structuring practices.
+  
+  - As a site user I can see the layout of the ```<header>``` element is always at the top of the viewport so that navigation is easy and intuitive.
 
 - Home Button / Icon
   - As a site user I can easily identify with the style and location of the home button in the nav bar or the left header text so as to intuitively navigate the sections and pages of the site.
@@ -75,18 +75,18 @@ __Home Page__
   - As an initial site user I can see the top of the subsequent page bleeding up at the bottom of the page so that I am enticed to investigate the site further.
 
 __Gallery (Our Clients)__
-- Accessed through further investigation into the holiday service as a business owner, as a user of the site I can view the experiences of past clients of the business so I can better understand the experience of using these services.
+- As a user of the site I can view the experiences of past clients of the business so I can better understand the experience of using these services.
 - As a potential customer of the business I can further investigate the experience of other customers so I can decide if it will work with my situation and needs.
 - As a business stakeholder I can present more detailed information to potential clients so I can convert them into long term paying customers.
 
 __Contact Us__
-- Form
-  - As a viewer of the code I can see that the index.html page has a < form > element with a corresponding id="form" so I can confirm this section follows appropriate semantic code structuring practices.
-  - As a viewer of the code I can see that within the form, there is an < input > field with id="email" so I can enter an email address.
-  - As a viewer of the code I can see that the #email input field should have a label or placeholder text so that the user knows what the field is for.
-  - As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
-  - As a viewer of the code I can see that within the form, there is a submit < input > with corresponding id="submit" to allow ease of CSS styling in the future.
-  - As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
+- Contact Us Form
+  - As a viewer of the code I can see that the index.html page has a ```<form>``` element with a corresponding ```id="form"``` so I can confirm this section follows appropriate semantic code structuring practices.
+  - As a viewer of the code I can see that within the form, there is an ```<input>``` field with ```id="email"``` so I can enter an email address.
+  - As a viewer of the code I can see that the ```#email``` input field should have a label or placeholder text so that the user knows what the field is for.
+  - As a viewer of the code I can see that ```#email``` input field uses HTML5 validation so that we can confirm that the entered text is an email address.
+  - As a viewer of the code I can see that within the form, there is a submit ```<input>``` with corresponding ```id="submit"``` to allow ease of CSS styling in the future.
+  - As a site user I can click the ```#submit``` button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
 
 - Map 
   - As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
@@ -115,10 +115,10 @@ __Navigation Bar__
 
 ![header-nav-bar](docs/images/nav-bar-kaptain.png)
 
-  - Is featured identically on all pages in the top right hand corner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
-  - The full responsive navigation bar includes links to the home page, our services, customer stories, login / registration and contact us pages to allow easy intuitive navigation.
-  - The site is designed to be browsed easily as a single page site with additional 'deeper' pages used to delve into more detail as required by the B2B user.
-  - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - ```<nav>``` bar featured identically on all pages in the top right hand corner with a minimal design to create a clean simple style and allow easy intuitive navigation. 
+  - As a responsive navigation bar, it includes links to the home page, our services, customer stories, contact us and login / registration pages to allow easy intuitive navigation.
+  - The site is designed to be browsed easily as a single page site with additional deeper pages used to delve into more detail as required by the B2B user.
+  - The navigation bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browsers 'back' button.
 
 
 __The Landing Page & Image__
@@ -141,17 +141,17 @@ __About Us Section__
 ![about-us](docs/images/about-kaptain.png)
 ![about-us-2](docs/images/about-kaptain-2.png)
 
-  - Allow the user to see the typical process of the Kaptain Holiday product delivery in a visual format to better understand the services of the business.
-  - Allow the user to see the value of kaptain holiday to allow them to take a break. 
-  - Allow the user their first chance to select / investigate which product option that may suit their particular circumstances.
-  - Allow users to initiate a contact us call to action so they may start using kaptain holiday services. 
+  - Allows the user to see the typical process of the Kaptain Holiday product delivery in a visual format to better understand the services of the business.
+  - Allows the user to see the value of kaptain holiday to allow them to take a break. 
+  - Allows the user their first chance to select / investigate which product option that may suit their particular circumstances.
+  - Allows users to initiate a contact us call to action so they may start using kaptain holiday services. 
 
 __Gallery (our clients) section__
 
 ![clients section](docs/images/clients-kaptain.png)
 
   - This section allows the user to further explore the product range and experiences of model customers. It is aimed to encourage users to consider Kaptain holiday as part of their next planned break away from their business. 
-  - This section will be kept up to date as times and new initiatives become available to keep the user engaged with the business. 
+  
 
 __The Contact Us Section__
 
@@ -166,7 +166,7 @@ __The Footer__
   - The footer section includes links to the relevant social media sites for Kaptain Holiday. The links will open to a new tab to allow easy navigation for the user. 
   - The footer section includes information for the user on the legal format and registered office address of the Kaptain Holiday business. 
   - The footer is valuable to the user as it encourages them to keep connected via social media and share with people / businesses they may know that may use the kaptain holiday service(s).
-  - On the contact section of the index.html page only, there is a map immediately preceding the form to promote a sense of business location and permanency should users wish to investigate further.
+  - In the contact section (found on the index.html page only), there is a map immediately preceding the form to promote a sense of business location and permanency should users wish to investigate further.
 
 ![map-and-footer](docs/images/map-footer-aptain.png)
 
@@ -177,8 +177,8 @@ __Gallery / User Case Studies Pages__
 ![gallery.html](docs/images/gallery-kaptain.png)
 ![experiences](docs/images/user-kaptain.png)
 
-  - The experience and client pages are designed to be the base format of three main product options (business holidays, working flexibility and testing services with assistant managers)> The pages are designed to allow the user to investigate further which option is valuable to their situation. 
-  - This page provides the user with supporting images and information to see what types of professionals are available to manage their business while they are away. 
+  - The experience and client pages are designed to be the base format of three main product options (business holidays, working flexibility and testing services with assistant managers). The pages are designed to allow the user to investigate further which option is valuable to their situation. 
+  - This page provides the user with supporting images and information to see what types of business management experiences are available to work in while the business owners are away. 
   - These pages are valuable to the user as they will be able to relate to the requirements and types of businesses and professionals that Kaptain Holiday typically helps.
 
 __The Register / Login Page__
@@ -186,8 +186,8 @@ __The Register / Login Page__
 ![Register / Login Pic](docs/images/login-page.png)
 
   - This page will allow the user to either login or sign up to Kaptain Holiday to start planning their next holiday within the community. 
-  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange exchange programs, or applying to become a manager with us. 
-  - The user will be asked to submit their full name, email address and LinkedIn details. 
+  - The user will be able to specify if they would like to take part in hiring a manager, manager exchange program, or applying to become a manager with Kaptain Holiday. 
+  - The user will be asked to submit their full name and email address. 
 
 __Successful Submission Page__
 
@@ -198,25 +198,32 @@ __Successful Submission Page__
 
 ### 3.2 Future Features
 ___
-  - Underline in the nav header on active status on a single page. An example of this is the 'contact us' (```/index.html#contact```) selection. It should make the contact lettering in the menu become underlined in the nav bar when the 'contact us section' is being viewed. 
+  - Underline animation occurs in the nav header section on active status whilst still on the single index.html page. An example of this is the 'contact us' (```/index.html#contact```) selection. It should make the contact lettering in the menu become underlined in the nav bar when the 'contact us section' is being viewed. 
     - As a majority of the navigation elements are designed to link to id's on the same page (ie function as a "single page site"), a future feature is to use some form of JavaScript / JQuery to make the relative navbar section appear active on page id selection. This will likely involve the use of an element like : ```window.location.href```.
 
-  - Include a description of the exchange process in more visual detail
+  - Include an extra .html page of the exchange process to provide more details of this service as it becomes available
   - Hamburger icon for menu navigation on mobile devices
   - Apply ```class=""``` coding in preference to ```id=""``` whenever possible to maintain consistency
   - Use ```.em``` size ranges consistently throughout code in preference to ```.px``` or ```%``` to maintain consistency
   - Functional database, interaction and account page for logged-in users
   - Popup Q&A animations 
-  - Automated connecting of current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
+  - Automated matching of current registered [clients](ucd/1-strategy.md) and [providers](ucd/1-strategy.md)
   - Possible membership on a subscription model basis
   - API links into CRM and project management software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
-  - Intuitive tracking and cataloging of content
   - Further entry animation and smoothing
-  - Synergy with ongoing content from small-business education providers 
+  - Synergy with ongoing content from small-business education providers
+  - Intergrate gallery and new initiatives as they become available via a social media management strategy to keep users engaged with the business
 
 <br>
 
-## 4. Typography and color scheme
+## 4. Branding
+
+The branding associated with Kaptain Holiday is aimed at associating a :
+  - Light, happy, sunny, cloud free, blue skies, impact, fun, non-corporate nature of target business owner / managers.
+  - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
+  - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
+
+### Typography and color scheme
 
 __Typography__
 
@@ -226,10 +233,10 @@ Typography was evaluated in line with the themes and brand aiming for a the non-
   - Excellent contrast 
   - Adequately portray the light, summer holiday feel for the site
   
-Selection process :
+Typography selection process :
   - Review of similar and complementary fonts from variety of internet based sources
-  - Selection of those that seem appropriate to the business profile summarised in the [strategy.md](docs/ucd/1-strategy.md) process.
-    - Shortlist of fonts:
+  - Selection of those that seem appropriate to the business profile (summarised in the [strategy.md](docs/ucd/1-strategy.md) process)
+    - Shortlisted fonts :
       - Anton / Roboto
       - Alfa Slab / Open Sans
       - Alegreya Sans / Roboto
@@ -238,7 +245,7 @@ Selection process :
       - Nunito / Roboto
       - Oswald / Nunito 
   
-  On evaluation of the look, feel, and summer time feel sought for the project, a combination of [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) / [Nunito](https://fonts.google.com/specimen/Nunito) was chosen. 
+  Evaluation based on contrast, easy of reading, and shapes that compliment the summer time feel, the combination of [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) / [Nunito](https://fonts.google.com/specimen/Nunito) was chosen as the font combination most suitable. 
     
 
 __Color Scheme__ 
@@ -253,7 +260,7 @@ __Color Scheme__
   | Black | #000000 | rgba(0,0,0,1) |
   | Gray | #3a3a3a | rgba(58,58,58,1) |
 
-  In a effort to maintain build consistency, I have converted all rgba values to their equivalent HEXA values using the below conversion table :
+  In a effort to maintain build consistency, I have converted all RGB-A values to their equivalent HEX-A values using the below conversion table :
 
 
 | Opacity % | RGB-A | HEX-A Code | 
@@ -262,8 +269,8 @@ __Color Scheme__
 | 99  | 0.99 | FC
 | 98 | 0.98 | FA
 | 97 | 0.97 | F7
-| 96 | 0.96 | F5
-95 | 0.95 | F2
+| 96 | 0.96 | F5..
+<!-- 95 | 0.95 | F2
 94 | 0.94 | F0
 93 | 0.93 | ED
 92 | 0.92 | EB
@@ -358,27 +365,21 @@ __Color Scheme__
 3  | 0.03 | 08
 2  | 0.02 | 05
 1  | 0.01 | 03
-0  | 0 | 00
+0  | 0 | 00 -->
+... contunued in order to zero % opacity
 
-The above color combinations (and opacity variations) were chosen based partly on :
+The above color combinations (and opacity variations) were chosen as they relate to :
   - The summer feel sought for the site 
-  - Access to the hero image 'penguin' discovered at Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
+  - The hero image 'penguin' discovered at Pixbay user [OpenClipart-Vectors](https://pixabay.com/vectors/tux-anchor-animal-bird-boat-ferry-161379/).
 
-__Branding__
-
-The themes and branding associated with Kaptain Holiday is aimed at associating a :
-  - Light, happy, sunny, cloud free, blue skies, impact, fun - non-corporate nature of business owner / managers.
-  - Services and solutions aim to be subtly associated with a "day at the beach" or "a sunny holiday with a pool". 
-  - The demographic is aimed at the mid twenties (providers / assistants) to late forties (clients) age groups. 
-    
 ## 5. Supported Screens and Browsers
-Testing was performed on a mix of when the display element changed and the resolution of popular screen sizes currently seen in the marketplace :
-### Screen Size Usage Globally  
-*(January 2020 to January 2021)*
+Testing was performed on a mix of when the display element changed and the resolution of popular screen sizes currently seen in the marketplace.
+
+[GBK soft research](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) indicates the following proportions of screen useage globally (as at January 2020 to January 2021)* :
 
 - Desktops
-  - 1366×768 - 22.6%
-  - 1920×1080 - 20.87%
+  - __1366×768 - 22.6%__
+  - __1920×1080 - 20.87%__
   - 1536×864 - 8.52%
   - 1440×900 - 6.97%
   - 1280×720 - 4.81%
@@ -389,7 +390,7 @@ Testing was performed on a mix of when the display element changed and the resol
   - 768×1024 - 2.47%
 
 - Mobiles
-  - 360×640 – 12.98%
+  - __360×640 – 12.98%__
   - 414×896 – 7.82%
   - 375×667 – 6.65%
   - 360×780 – 6.02%
@@ -397,14 +398,14 @@ Testing was performed on a mix of when the display element changed and the resol
   - 375×812 – 5.15%
 
 - Tablets
-  - 768×1024 - 6.11%
-  - 1280×800 – 7.38%
+  - __768×1024 - 6.11%__
+  - __1280×800 – 7.38%__
   - 800×1280 - 5.9%
   - 601×962 – 5.15%
   - 962×601 – 3.52%
   - 810×1080 – 2.83%
 
-The media sizes intended for the responsive transitions seen on the site, have been based on future popular sizes seen in the UK. This information has been sourced from research illustrated by [https://gbksoft.com/](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/).
+The media sizes intended for the responsive transitions seen on the site, have been based on future popular sizes ([gbksoft](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/)).
 
 Additionally, Gbksoft indicates the typical use of media used to browse web pages is predominantly mobile, seen in the table below : 
 
@@ -416,9 +417,9 @@ Additionally, Gbksoft indicates the typical use of media used to browse web page
 
 Acknowledging the scope of the project and beginner nature of my skills as a coder in html / css, I originally considered starting the design with a mobile interface and scaling it up with media queries to a desktop version.
 
-With my focus to learn the process of html / css design, and the innate relative simplicity of mobile sites, I found it easier to focus on a desktop version initially, then simplifying it into a mobile interface using media queries.
+With my focus to learn the process of html / css design and the innate simplicity of mobile sites, I found it easier to focus on a desktop version, then simplifying it into a mobile interface using media queries.
 ### Wireframes 
-Contained in the Wireframes section of the [4-skeleton.md](docs/ucd/4-skeleton.md) documentation is a visualisation of the layout and colouring intended for the site. 
+Contained in the Wireframes section of the [skeleton.md](docs/ucd/4-skeleton.md) documentation is a visualisation of the layout and colouring intended for the site. 
 
 The wireframes are intended to convey :
 - An indication of the various elements and positions of these in relation to each other 
@@ -427,18 +428,18 @@ The wireframes are intended to convey :
 - Illustrate the more technical requirements in the site to achieve an easy and intuitive navigation to the primary goals of the stakeholders in the site
 - Convey a sense of the user experience planned for the site as users navigate through
 
-The feel and function of the site is intended to be light, summary with an air of simple effective service delivery. 
+The feel and function of the wireframes was the initial framework inteded to show stakeholders and potential clients early concepts before any coding started. 
 ### Browsers 
-The kaptain holiday site has been created using google chrome browser in conjunction with the chrome development environment. 
+The kaptain holiday site has been created using [GitPod](https://www.gitpod.io/) on a google chrome browser in conjunction with the chrome development environment. 
 
-It has been tested on each of the following popular browsers to check for maintained function and interactivity :
+The site has been tested on each of the following popular browsers to check for maintained function and interactivity :
 - [Google Chrome](https://www.google.com/chrome/)
 - [Microsoft Edge](https://www.microsoft.com/en-us/edge) 
 - [Apple Safari](https://www.apple.com/safari/)
 - [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 ## 6. Technology
 
-The skillsets used in the creation and review of this project are based around a working knowledge of HTML5 and CSS with their associated semantic structures. 
+The skillsets used in the creation and review of this project are based around a working knowledge of HTML5 and CSS plus their associated semantic structures. 
 
 The tools and the benefit of using each in the site development are : 
 - [GitHub](https://github.com/)
@@ -450,23 +451,23 @@ The tools and the benefit of using each in the site development are :
 - [FavIcon Generator](https://favicon.io/)
   - A simple, free to use image conversion tool to generate icon files ready for use in a variety of applications.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
-  - The current agreed standard markup language, it is a free to use, established markup language recommended by the World [Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) (W3C) for programming. It is easily read by humans and consistently understood by computers and associated devices.
+  - The current agreed standard, HTML5 is a free to use, well established markup language recommended by the World [Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) (W3C) for programming. It is easily read by humans and consistently understood by computers and associated devices.
 - [CSS](https://en.wikipedia.org/wiki/CSS)
   - A style sheet language that allows the separation of presentation variables (like layout, colors and fonts) from the content variables that has been defined in the markup languages (like HTML &/or JavaScript). The separation allows either local or site wide changes to occur in the one place.
 - [Google Maps](https://console.cloud.google.com/getting-started) 
   - Via the google cloud platform a secure access to a customisable map that can be embedded into projects backed with ongoing device, software and security developments used by google.   
-- [Image Optimisers](https://fixthephoto.com/best-image-optimizer.html)
+- [Various Image Optimisers](https://fixthephoto.com/best-image-optimizer.html)
   - Able to reduce the file size and format of images ready for rapid access, improving device performance, accessibility and user experience
 - [Font Awesome](https://fontawesome.com/)
-  - Is a limited free to use, remotely accessible database of fonts and icons helpful for projecting implied meaning through vector graphics.
+  - Is a partly free to use, remotely accessible database of fonts and icons helpful for projecting implied meaning through vector graphics.
 - [Balsamiq Wireframes](https://balsamiq.com/)
   - A low-fidelity wire-framing tool to visualise and clarify features, interactions in the [skeleton plane](docs/ucd/4-skeleton.md) phase of UCD.
 - [Gimp GNU Image Manipulator](https://www.gimp.org/)
-  - Free to use desktop publisher that allows you to create or manipulate images for use in projects.
+  - Free to use desktop publisher that allows you to create &/or manipulate images for use in projects.
 ## 7. Testing
 ### Test Cases
 
-- As a site user I can see that all pages are responsive to different devices being used so I can have a responsive experience across devices used to view it
+- As a site user I can see that all pages are responsive to different devices being used so I can have an unhindered experience across devices used to view it
     - Expand / contract width and height dimensions at each section to see which elements interact and record the dimensions at which these occur
     - Employ google chrome developer tools using varieties of device emulations to indicate responsiveness and content alignment
     - Correct display of all website images on the devices with different screen sizes.
@@ -483,7 +484,7 @@ The tools and the benefit of using each in the site development are :
   - Each ```<link rel="stylesheet" href="...style.css">``` command is functioning on each .html page with alteration of .css elements.
   
 - As a site user I can see that every non-text element has alt text or aria-label so that the website can meet accessibility guidelines.
-  - In the upper right, open the Customise and control Google Chrome menu by clicking the three horizontal bars. Select Settings.
+  - In the upper right, open the customise and control Google Chrome menu by clicking the three horizontal bars. Select Settings.
   - Click the Show advanced settings... link, and then, under "Privacy", click Content settings....
   - Under the "Images" heading, select Do not show any images.
   - Click OK, and then close the Settings tab. If necessary, reopen Chrome to continue browsing.
@@ -503,13 +504,13 @@ The tools and the benefit of using each in the site development are :
   - Appropriate spacing to the left of the element to allow ease of access and page balance
   - Element is not effected by the interaction with the format or style of any other element  
 
-- As a site user I can click any given .nav-link button in the nav bar so that I am taken to the corresponding section of the index.html and/or login.html pages.
+- As a site user I can click any given ```<nav>``` link button in the nav bar so that I am taken to the corresponding section of the ```index.html``` and/or ```login.html``` pages.
   - Each subsequent navigation element is appropriately positioned in the top right corner of the viewing window
   - Each subsequent navigation element is appropriately evenly spaced so as not to interact with each other
   - Each subsequent navigation element links to it's appropriate navigation section and/or .html page.
   - With interaction, each subsequent navigation element functions in the same responsive style 
 
-- As a site user I can see that the hero text on the #home section is clearly presented, appropriately colored and contrasted so that the site is introduced intuitively in an easy to read manner.
+- As a site user I can see that the hero text on the ```#home``` section is clearly presented, appropriately colored and contrasted so that the site is introduced intuitively in an easy to read manner.
   - Lighthouse testing within chrome development tools produces a accessibility contrast score of at least 90 or above for all elements
   - Hero font selected is strong, clear and easy to read
 
@@ -519,7 +520,7 @@ The tools and the benefit of using each in the site development are :
   - Hero image is light, friendly and associated with any of the travel, ocean, holiday themes associated to the business brand discussed in [strategy.md](docs/ucd/1-strategy.md). 
 
 - As an initial site user I can see the top of the subsequent page bleeding up at the bottom of the page so that I am enticed to investigate the site further.
-  - Height of subsequent about us section that immediately follows the hero section, occupies 25% or more of the base of the screen.
+  - Height of subsequent about us section that immediately follows the hero section, occupies 25% of the base of the screen.
 
 - A user of the site I can view the experiences of past clients of the business so I can better understand the experience of using these services.
   - Site links contained in the about us section to [success.html](success.html) and [experience.html](experience.html) link to appropriate relative pages
@@ -528,35 +529,37 @@ The tools and the benefit of using each in the site development are :
   - Links to [contact us](https://roeszler.github.io/kapthol/index.html#contact) section take the user to the appropriate position on the contact us
 
 - As a business stakeholder I can present more detailed information to potential clients so I can convert them into long term paying customers.
-  - submission of contact us messages or login pages directs user to [success.html](https://roeszler.github.io/kapthol/success.html) indicating function to be included in further project updates.
+  - Submission of contact us messages or login pages directs user to [success.html](https://roeszler.github.io/kapthol/success.html) indicating function to be included in further project updates.
 
-- As a viewer of the code I can see that the index.html page has a < form > element with a corresponding id="form" so I can confirm this section follows appropriate semantic code structuring practices.
-  - .
+- As a viewer of the code I can see that the index.html page has a ```<form>``` element with a corresponding ```id="form"``` so I can confirm this section follows appropriate semantic code structuring practices.
+  - ```index.html``` has appropriate semantic structure seen in ```<form>```, ```<label>```, ```<input>```
+  - Appropriate id="form" label at ```<form>``` sections
+  - ```<form>``` connected to database appropriately (future feature)
   
-- As a viewer of the code I can see that within the form, there is an < input > field with id="email" so I can enter an email address.
-  - Check is the email field allows valid e-mail ids. For example; an id: tester@example.com should be accepted.
+- As a viewer of the code I can see that within the form, there is an ```<input>``` field with ```id="email"``` so I can enter an email address.
+  - Check is the email field allows valid e-mail ids. For example; an ```id: tester@example.com``` should be accepted.
   - Check is the warning or error message is displaying on entering the invalid e-mail ids. For example; inputs “tester@example”, “tester.example@com” should not be accepted.
 
-- As a viewer of the code I can see that the #email input field should have a label or placeholder text so that the user knows what the field is for.
+- As a viewer of the code I can see that the ```#email``` input field should have a label or placeholder text so that the user knows what the field is for.
   - ```<label>``` Filed appropriately applied to email input field
 
-- As a viewer of the code I can see that #email input field uses HTML5 validation so that we can confirm that the entered text is an email address.
+- As a viewer of the code I can see that ```#email``` input field uses HTML5 validation so that we can confirm that the entered text is an email address.
   - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` are in the correct semantic order
   - ```<filedset>```, ```<div>```, ```<label>``` and ```<input>``` correctly refer to each element they relate toward.
 
 - As a viewer of the code I can see that within the form, there is a submit ```<input>``` with corresponding ```id="submit"``` to allow ease of CSS styling in the future.
-  - Submit button activates fields appropriately filled in to success.html conformation page.
+  - Submit button activates fields appropriately filled in to ```success.html``` conformation page.
   - Check is the spelling and position of the button are correct.
   - Check is the button is clickable.
-  - Check on submitting a valid form, the value gets saved and the administrator receives the same.
-  - Check is the administrator receives the contact form at the email address which has been configured.
+  - Check on submitting a valid form, the value gets saved and the administrator receives the same (future feature)
+  - Check is the administrator receives the contact form at the email address which has been configured (future feature)
 
-- As a site user I can click the #submit button so that the email is submitted to a static thank-you for submission page (success.html) that confirms the email address was entered (and that it posted successfully).
-  - Submit button activates fields appropriately filled in to success.html conformation page.
+- As a site user I can click the ```#submit``` button so that the email is submitted to a static thank-you for submission page (```success.html```) that confirms the email address was entered (and that it posted successfully).
+  - Submit button activates fields appropriately filled in to ```success.html``` conformation page.
 
 - As a site user I can see an embedded google map of our head office at the immediate end of the contact us section to convey a sense of permanency in the business operations.
   - Map navigation works within site 
-  - Map section at a height of 25% at the base of the contact us section 
+  - Map section takes up a height of 25% at the base of the contact us section 
   - Map controls visible and working
   - View larger map links to appropriate google maps location
   - View larger map link opens in a new page
@@ -567,45 +570,51 @@ The tools and the benefit of using each in the site development are :
   - Instagram icon displayed in third from left position from left of social media navigation row 
   - LinkedIn icon displayed on the right position of social media navigation row 
   - All social icons display using font awesome bold logo
-  - All social icons display with opacity 30% white (#FFFFFF4D) on normal status
-  - All social icons display with opacity 100% light blue (#3AADFB) on hover
+  - All social icons display with opacity 30% white (```#FFFFFF4D```) on normal status
+  - All social icons display with opacity 100% light blue (```#3AADFB```) on hover
   - All social icon links open in a new tab
   - All social icon links target the correct relative business social media page
 
 ### Execution of Test Cases 
 Test cases used in this project intuitively reflect four types of test execution recognised in modern software design processes. It answers questions like :
 
-- Has the Business Analyst interpreted the requirements correctly?
-- Has the development team translated the business requirements to functional requirements and eventually to code correctly?
-- Has the data architect and DBAs designed the right back-end systems?
+- Has the __Business Analyst__ interpreted the requirements correctly?
+- Has the __Development Team__ translated the business requirements to functional requirements and eventually to code correctly?
+- Have the __Data Architect__ and __Database Administrators__ (DBAs) designed the appropriate back-end systems?
 
 A Summary of Test Case Types
 
 | Smoke Test | Sanity Test | Exploratory Test | Functional Test |
 | --- | --- | --- | --- |
 | Smoke Testing is not exhaustive testing but it is a group of tests that are executed to verify if the basic functionalities | Sanity Testing as a test execution which is done to touch each implementation and its impact but not thoroughly or in-depth | Exploring the system and encouraging real-time and practical thinking of a tester to challenge| Determines if a piece of software is acting in accordance with pre-determined functional requirements|
-| Example: Does the [contact link](https://roeszler.github.io/kapthol/index.html#contact) open up without any issues after code deployment? | Example: Is the "Submit" button on the login.html page functional? | Visited the demo page from Google search results. For no reason it showed me the login page in Swedish language instead of English. When I refreshed the same page it showed me the login page in English.| Example : Error message on unsuccessful input of email format to contact us ```<form> <input>``` element |
+| Example: Does the [contact link](https://roeszler.github.io/kapthol/index.html#contact) open up without any issues after code deployment? | Example: Is the "Submit" button on the login.html page functional? | Example: Visited the demo page from Google search results. For no reason it showed me the login page in Swedish language instead of English. When I refreshed the same page it showed me the login page in English.| Example : Error message on unsuccessful input of email format to contact us ```<form> <input>``` element |
 
 ## Reported bugs from above Testing
 
-Most problems seem to revolve around formatting and alignment of ```<div>``` sections with each other and centralising content within them. Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratios) has caused a few problems
+Most problems solved during the build surrounded the formatting and alignment of ```<div>``` sections : 
+1. In relation to each other and 
+2. Centralising content within them. 
 
-1. Content alignment and the use of elements as detailed above.
-2. About sections not lining up as desired with a single section. Included second section to correct issues.
-3. Centralisation of [kapthol-hero-image-400.webp](assets/images/kapthol-hero-image-400.webp) to the central Kaptain Holiday text in the "what we do" section while changing screen sizes.
-4. Image hover on the mobile section was influenced by the ```<div>``` containing the ```class="center-align-experience"``` class. It seemed to override the height of the entire content. Fixed with toggling the ```position:;``` element between the two in mobile width screen formats
-5. Padding on the right side of ```class="input-forms"``` does not seem to be evenly spaced. Included ```padding-right: 45px;``` in the ```.input-forms``` css to adapt.
-6. Fix gray styling to ```<hr>``` on experience.html and holiday.html
-7. Remove unwanted border around hero image in about us section
-8. Remove inline-block command conflict in the footer p styling
-9. Alignment of footer section interrupted by height not equalling auto
-10. Add appropriate ```index.html#id's``` to sections on each of the html pages
-11. Correct about us alignment by including a separate section and change ```id=""``` references to ```class=""```.
-12. Select element error in validation testing login.html needing a ```value=""``` to have content when using ```required``` feature. I would like to remove this in the future.
-13. Semantic order of headings h1, h2 present an error in validation with a non-sequential order. Suggested to change the format of ```<section>``` to ```<div>```. It works, however to keep the semantic structure of the site, I have re-styled the h1, h2, h3 headings to display the formats we wish to see.
+Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratios) conflicted at times. 
+
+Solving this required slight rethinking &/or alteratons to type and combination of code to produce the desired outcome.  
+
+1. About sections not lining up as desired with a single section. Included second section to correct issues.
+2. Centralisation of [kapthol-hero-image-400.webp](assets/images/kapthol-hero-image-400.webp) to the central Kaptain Holiday text in the "what we do" section while changing screen sizes.
+3. Image hover on the mobile section was influenced by the ```<div>``` containing the ```class="center-align-experience"``` class. It seemed to override the height of the entire content. Fixed with toggling the ```position:;``` element between the two in mobile width screen formats
+4. Padding on the right side of ```class="input-forms"``` did not seem to be evenly spaced. Included ```padding-right: 45px;``` in the ```.input-forms``` css to adapt.
+5. Fix gray styling to ```<hr>``` on ```experience.html``` and ```holiday.html```
+6. Remove unwanted border around hero image in about us section
+7. Remove inline-block command conflict in the ```.footer p``` style class
+8. Alignment of ```<footer>``` section interrupted by ```height``` not equalling ```auto```
+9. Add appropriate ```index.html#id's``` to sections on each of the html pages
+10. Correct about us alignment by including a separate section and change ```id=""``` references to ```class=""```.
+11. Select element error in validation testing ```login.html``` needing a ```value=""``` to have content when using ```required``` feature. __I would like to remove this in the future__.
+12. Semantic order of headings ```h1```, ```h2``` present an error in validation with a non-sequential order. Suggested to change the format of ```<section>``` to ```<div>```. It works, however I wish to keep the semantic structure of the site, so I have re-styled each of the ```h1```, ```h2```, ```h3``` headings to display the exact formats I wish to see at the times I wish to see them.
 
 ### Unsolved Bugs
-Due to the size of the team and scope of the project, testing has been in parallel with coding each element and once again as a final testing phase. It is not intended to be exhaustive, however __no bugs reported at time of project submission__.
+
+Due to the single person size of the team and scope of the project, testing has been in parallel with coding each element, and once again as a final testing phase. It is not intended to be exhaustive, however __no bugs are reported at time of project submission__.
 ## 8. Validator Testing 
 
 - HTML
@@ -649,7 +658,8 @@ __Alternatively, if you have already created the GitPod environment for your pro
 
 - In the browser’s address bar, prefix the entire URL with [gitpod.io/#](https://gitpod.io/#) or [gitpod.io/workspaces](https://gitpod.io/workspaces) and press Enter. This will take you to a list of workspaces that have been active within the past 14 days.
 - Search for the workspace you wish to work on and access the link to it that lies within the pathway https://gitpod.io/.
-  - PLEASE NOTE: the difference between GitPod and the GitHub hyperlinks : 
+
+PLEASE NOTE: the difference between GitPod and the GitHub hyperlinks : 
 
 > the GitPod workspace for this site is https://gitpod.io/start/#roeszler-kapthol-y3gyoqrxrk4 that is restricted by account access to one of the providers like GitHub, GitLab, or BitBucket.
     
@@ -657,7 +667,7 @@ __Alternatively, if you have already created the GitPod environment for your pro
 
 - Sign in to the workspace each time with [gitpod.io/#](https://gitpod.io/#) using one of the listed providers (GitHub / GitLab / BitBucket) and let the workspace start up.
 - On navigating to the workspace for the first time, it may take a little while longer than normal to intially install all it needs. Be patient.
-- It is recommend that you install the Gitpod browser extension to make this a one-click operation into the future.
+- It is recommend that you install the GitPod browser extension to make this a one-click operation into the future.
 
 ## Credits 
 ### Content 
@@ -670,11 +680,10 @@ __Alternatively, if you have already created the GitPod environment for your pro
   - background-image: linear-gradient();
   - embed a map in iframes using [google cloud console](https://developers.google.com/maps/documentation/embed/cloud-setup)
 
-- The screen size for mockups and responsiveness testing was sampled from [GBK Soft](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) and based current resolutions typically found in the UK marketplace
+- The screen size for mockups and responsiveness testing was sampled from [GBK Soft](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) and based current resolutions typically found globally
 - Country codes for dropdown list in contact us section - [html-code-generator.com](https://www.html-code-generator.com/html/drop-down/country-names)
 
 - The text for the Home page was sourced from [Alegreya Sans](https://fonts.google.com/specimen/Alegreya+Sans) by Juan Pablo del Peral, Huerta Tipográfica and [Nunito](https://fonts.google.com/specimen/Nunito) by Vernon Adams, Cyreal, Jacques Le Bailly imported via google fonts. 
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Test Case scenarios researched from [softwaretestingo.com](https://www.softwaretestingo.com/), [Software Testing Help](https://www.softwaretestinghelp.com/test-execution-software-testing-qa-training-on-a-live-project-day-5/) and [QA Test Lab](https://qatestlab.com/). 
 
@@ -692,4 +701,4 @@ __Alternatively, if you have already created the GitPod environment for your pro
 
 ---
 
- *__Please Note__ : Kaptain Holiday is a fictitious site used entirely for educational purposes at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested investors into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
+ *__Please Note__ : Kaptain Holiday is a fictitious site used entirely for educational purposes at the time of coding. Notwithstanding its theoretical nature, it has been written as a proof of concept and invitation to treat for possible interested parties into the future. All copyright for ideas, concepts and materials lies with Stuart Roeszler © 2022.*
