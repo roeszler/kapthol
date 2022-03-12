@@ -212,7 +212,7 @@ ___
   - API links into CRM and project management software (like [jira](https://www.atlassian.com/software/jira), [trello](https://trello.com/), [hubspot](https://www.hubspot.com/) and/or [slack](https://slack.com/))
   - Further entry animation and smoothing
   - Synergy with ongoing content from small-business education providers
-  - Intergrate gallery and new initiatives as they become available via a social media management strategy to keep users engaged with the business
+  - Integrate gallery and new initiatives as they become available via a social media management strategy to keep users engaged with the business
 
 <br>
 
@@ -270,7 +270,7 @@ __Color Scheme__
 | 98 | 0.98 | FA
 | 97 | 0.97 | F7
 | 96 | 0.96 | F5..
-... contunued in order to zero % opacity
+... continued in order to zero % opacity
 
 The above color combinations (and opacity variations) were chosen as they relate to :
   - The summer feel sought for the site 
@@ -279,7 +279,7 @@ The above color combinations (and opacity variations) were chosen as they relate
 ## 5. Supported Screens and Browsers
 Testing was performed on a mix of when the display element changed and the resolution of popular screen sizes currently seen in the marketplace.
 
-[GBK soft research](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) indicates the following proportions of screen useage globally (as at January 2020 to January 2021)* :
+[GBK soft research](https://gbksoft.com/blog/common-screen-sizes-for-responsive-web-design/) indicates the following proportions of screen usage globally (as at January 2020 to January 2021)* :
 
 - Desktops
   - __1366×768 - 22.6%__
@@ -332,7 +332,7 @@ The wireframes are intended to convey :
 - Illustrate the more technical requirements in the site to achieve an easy and intuitive navigation to the primary goals of the stakeholders in the site
 - Convey a sense of the user experience planned for the site as users navigate through
 
-The feel and function of the wireframes was the initial framework inteded to show stakeholders and potential clients early concepts before any coding started. 
+The feel and function of the wireframes was the initial framework intended to show stakeholders and potential clients early concepts before any coding started. 
 ### Browsers 
 The kaptain holiday site has been created using [GitPod](https://www.gitpod.io/) on a google chrome browser in conjunction with the chrome development environment. 
 
@@ -501,7 +501,7 @@ Most problems solved during the build surrounded the formatting and alignment of
 
 Elements like ``` width:; padding:; margin:;``` have been used to align content, however some interaction between these (like when looking to adjust the screen ratios) conflicted at times. 
 
-Solving this required slight rethinking &/or alteratons to type and combination of code to produce the desired outcome.  
+Solving this required slight rethinking &/or alterations to type and combination of code to produce the desired outcome.  
 
 1. About sections not lining up as desired with a single section. Included second section to correct issues.
 2. Centralisation of [kapthol-hero-image-400.webp](assets/images/kapthol-hero-image-400.webp) to the central Kaptain Holiday text in the "what we do" section while changing screen sizes.
@@ -570,7 +570,7 @@ PLEASE NOTE: the difference between GitPod and the GitHub hyperlinks :
 > The freely accessible GitHub repository for this site is https://github.com/roeszler/kapthol
 
 - Sign in to the workspace each time with [gitpod.io/#](https://gitpod.io/#) using one of the listed providers (GitHub / GitLab / BitBucket) and let the workspace start up.
-- On navigating to the workspace for the first time, it may take a little while longer than normal to intially install all it needs. Be patient.
+- On navigating to the workspace for the first time, it may take a little while longer than normal to initially install all it needs. Be patient.
 - It is recommend that you install the GitPod browser extension to make this a one-click operation into the future.
 
 ## Credits 
